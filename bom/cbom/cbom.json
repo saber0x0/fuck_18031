@@ -1,0 +1,227 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:dffa1c02-43c6-42eb-9a97-1cbb4fbcd0e6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-04T07:35:16.839573Z",
+    "component": {
+      "type": "application",
+      "name": "default-crypto-app"
+    }
+  },
+  "components": [
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/protocol/tls@1.2",
+      "name": "TLSv1.2",
+      "cryptoProperties": {
+        "assetType": "protocol",
+        "protocolProperties": {
+          "type": "tls",
+          "version": "1.2",
+          "cipherSuites": [
+            {
+              "name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "algorithms": [
+                "crypto/algorithm/ecdh-curve25519@1.3.132.1.12",
+                "crypto/algorithm/rsa-2048@1.2.840.113549.1.1.1",
+                "crypto/algorithm/aes-256-gcm@2.16.840.1.101.3.4.1.46",
+                "crypto/algorithm/sha-384@2.16.840.1.101.3.4.2.9"
+              ],
+              "identifiers": [
+                "0xC0",
+                "0x30"
+              ]
+            }
+          ],
+          "cryptoRefArray": [
+            "crypto/certificate/google.com@sha256:1e15e0fbd3ce95bde5945633ae96add551341b11e5bae7bba12e98ad84a5beb4"
+          ]
+        },
+        "oid": "1.3.18.0.2.32.104"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/algorithm/ecdh@1.3.132.1.12",
+      "name": "ECDH",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "primitive": null,
+          "parameterSetIdentifier": null,
+          "mode": null,
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "keygen"
+          ],
+          "classicalSecurityLevel": null,
+          "nistQuantumSecurityLevel": null
+        },
+        "oid": "1.3.132.1.12"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/algorithm/rsa-2048@1.2.840.113549.1.1.1",
+      "name": "RSA-2048",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "primitive": null,
+          "parameterSetIdentifier": "2048",
+          "mode": null,
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "encapsulate",
+            "decapsulate"
+          ],
+          "classicalSecurityLevel": null,
+          "nistQuantumSecurityLevel": null
+        },
+        "oid": "1.2.840.113549.1.1.1"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/algorithm/aes-256-gcm@2.16.840.1.101.3.4.1.46",
+      "name": "AES-256-GCM",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "primitive": "ae",
+          "parameterSetIdentifier": "256",
+          "mode": "gcm",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "encrypt",
+            "decrypt"
+          ],
+          "classicalSecurityLevel": 256,
+          "nistQuantumSecurityLevel": 1
+        },
+        "oid": "2.16.840.1.101.3.4.1.46"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/algorithm/sha384@2.16.840.1.101.3.4.2.9",
+      "name": "SHA384",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "primitive": null,
+          "parameterSetIdentifier": "384",
+          "mode": null,
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "digest"
+          ],
+          "classicalSecurityLevel": null,
+          "nistQuantumSecurityLevel": 2
+        },
+        "oid": "2.16.840.1.101.3.4.2.9"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/algorithm/sha512withrsa@1.2.840.113549.1.1.13",
+      "name": "SHA512withRSA",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "primitive": null,
+          "parameterSetIdentifier": "512",
+          "mode": null,
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "digest"
+          ],
+          "classicalSecurityLevel": null,
+          "nistQuantumSecurityLevel": 0
+        },
+        "oid": "1.2.840.113549.1.1.13"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/key/rsa-2048@1.2.840.113549.1.1.1",
+      "name": "RSA-2048",
+      "cryptoProperties": {
+        "assetType": "related-crypto-material",
+        "relatedCryptoMaterialProperties": {
+          "type": "public-key",
+          "id": "665f21b6-2ab3-46e2-b9ba-95ab2dcbf19b",
+          "state": "active",
+          "size": 2048,
+          "algorithmRef": "crypto/algorithm/rsa-2048@1.2.840.113549.1.1.1",
+          "securedBy": {
+            "mechanism": "Software",
+            "algorithmRef": "crypto/algorithm/aes-256-gcm@2.16.840.1.101.3.4.1.46"
+          },
+          "creationDate": "2016-11-21T08:00:00Z",
+          "activationDate": "2016-11-21T08:20:00Z"
+        },
+        "oid": "1.2.840.113549.1.1.1"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/certificate/google.com@sha256:735ed3020f13421eb8f69361ed0f8ade",
+      "name": "google.com",
+      "cryptoProperties": {
+        "assetType": "certificate",
+        "certificateProperties": {
+          "subjectName": "CN = www.google.com",
+          "issuerName": "C = US, O = Google Trust Services LLC, CN = GTS CA 1C3",
+          "notValidBefore": "2016-11-21T08:00:00Z",
+          "notValidAfter": "2017-11-22T07:59:59Z",
+          "signatureAlgorithmRef": "crypto/algorithm/sha-512-rsa@1.2.840.113549.1.1.13",
+          "subjectPublicKeyRef": "crypto/key/rsa-2048@1.2.840.113549.1.1.1",
+          "certificateFormat": "X.509",
+          "certificateExtension": "crt"
+        }
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "crypto/certificate/google.com@sha256:a2388e224f504f879f0b7f70f41482f3",
+      "name": "google.com",
+      "cryptoProperties": {
+        "assetType": "certificate",
+        "certificateProperties": {
+          "subjectName": "CN = www.google.com",
+          "issuerName": "C = US, O = Google Trust Services LLC, CN = GTS CA 1C3",
+          "notValidBefore": "2016-11-21T08:00:00Z",
+          "notValidAfter": "2017-11-22T07:59:59Z",
+          "signatureAlgorithmRef": "crypto/algorithm/sha-512-rsa@1.2.840.113549.1.1.13",
+          "subjectPublicKeyRef": "crypto/key/rsa-2048@1.2.840.113549.1.1.1",
+          "certificateFormat": "X.509",
+          "certificateExtension": "crt"
+        }
+      }
+    }
+  ],
+  "dependencies": []
+}
