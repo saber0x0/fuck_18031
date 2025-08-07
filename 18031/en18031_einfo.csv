@@ -1,0 +1,3303 @@
+﻿part,clause,page,lineno,field,value
+1,,15,41,E.Info,evidence.information
+1,,20,39,E.Info.ACM-1.SecurityAsset],"Description of each security asset that is accessible by entities, including:"
+1,,20,40,E.Info.ACM-1.SecurityAsset.Access],possible entities’ accesses to the security asset on the
+1,,21,4,E.Info.ACM-1.SecurityAsset.PublicAccess],Description
+1,,21,9,E.Info.ACM-1.SecurityAsset.Environment],Description of:
+1,,21,14,E.Info.ACM,-
+1,,21,19,E.Info.ACM-1.SecurityAsset.ACM],Description of each access control mechanism that
+1,,21,22,E.Info.ACM-1.NetworkAsset],"Description of each network asset that is accessible by entities, including:"
+1,,21,23,E.Info.ACM-1.NetworkAsset.Access],possible entities’ accesses to the network asset on the
+1,,21,30,E.Info.ACM-1.NetworkAsset.PublicAccess],
+1,,21,35,E.Info.ACM-1.NetworkAsset.Environment],Description of:
+1,,21,40,E.Info.ACM,-
+1,,21,45,E.Info.ACM-1.NetworkAsset.ACM],Description of each access control mechanism that
+1,,22,3,E.Info.DT.ACM-1],Description of the selected path through the decision tree in Figure 1 for each security
+1,,22,4,E.Info.ACM-1.SecurityAsset],and [E.Info.ACM-1.NetworkAsset]
+1,,22,7,"E.Info.DT.ACM-1],",with the following properties:
+1,,22,9,E.Info.ACM-1.SecurityAsset.PublicAccess],or
+1,,22,10,E.Info.ACM-1.NetworkAsset.PublicAccess];,and
+1,,22,12,E.Info.ACM-1.SecurityAsset.Environment],or
+1,,22,13,E.Info.ACM-1.NetworkAsset.Environment];,and
+1,,22,15,E.Info.ACM-1.SecurityAsset.Legal],or [E.Info.ACM-
+1,,22,26,E.Info.ACM,-
+1,,22,27,E.Info.ACM-1.NetworkAsset.ACM].,
+1,,23,3,E.Info.ACM-1.SecurityAsset],and each network asset documented
+1,,23,4,"E.Info.ACM-1.NetworkAsset],",check whether the path through the decision tree documented in
+1,,23,5,E.Info.DT.ACM-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,23,6,"E.Info.DT.ACM-1],",examine its justification
+1,,23,10,E.Info.DT.ACM-1],ends with
+1,,23,12,E.Info.DT.ACM-1],ends with “FAIL”; and
+1,,23,14,E.Info.DT.ACM-1].,
+1,,23,16,E.Info.DT.ACM-1],ends with “FAIL”; or
+1,,23,18,E.Info.DT.ACM-1].,
+1,,23,23,E.Info.ACM-1.NetworkAsset],or [E.Info.ACM-
+1,,23,29,E.Info.ACM-1.SecurityAsset],"and whether there are network assets, that"
+1,,23,30,"E.Info.ACM-1.NetworkAsset],",
+1,,23,35,E.Info.ACM-1.SecurityAsset],and all network assets found are documented in [E.Info.ACM-
+1,,23,38,E.Info.ACM-1.SecurityAsset],or a network asset is found which is not documented in [E.Info.ACM-
+1,,24,11,E.Info.ACM-1.SecurityAsset],and each network asset documented
+1,,24,12,E.Info.ACM-1.NetworkAsset],functionally confirm the existence of access control mechanisms
+1,,24,13,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.NetworkAsset.ACM] by accessing the
+1,,24,14,E.Info.ACM-1.NetworkAsset.Access],and [E.Info.ACM-1.SecurityAsset.Access].
+1,,24,17,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.NetworkAsset.ACM] is
+1,,24,20,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.NetworkAsset.ACM] is not
+1,,26,8,E.Info.ACM-2.SecurityAsset],Description of each security asset for which ACM-1 requires access control
+1,,26,10,E.Info.ACM-2.SecurityAsset.ACM],Description of each access control mechanism required
+1,,26,14,E.Info.ACM-2.NetworkAsset],Description of each network asset for which ACM-1 requires access
+1,,26,16,E.Info.ACM-2.NetworkAsset.ACM],Description of each access control mechanism required
+1,,26,20,E.Info.DT.ACM-2],Description of the selected path through the decision tree in Figure 2 for each security
+1,,26,21,E.Info.ACM-2.SecurityAsset],and network asset documented in [E.Info.ACM-
+1,,26,24,"E.Info.DT.ACM-2],",with the following property:
+1,,26,34,E.Info.ACM,-
+1,,26,35,E.Info.ACM-2.SecurityAsset.ACM],.
+1,,27,6,E.Info.ACM-2.SecurityAsset],and each network asset documented
+1,,27,7,"E.Info.ACM-2.NetworkAsset],",check whether the path through the decision tree documented in
+1,,27,8,E.Info.DT.ACM-2],ends with “PASS”.
+1,,27,9,"E.Info.DT.ACM-2],",examine its justification
+1,,27,13,E.Info.DT.ACM-2],end with “PASS”; and
+1,,27,15,E.Info.DT.ACM-2].,
+1,,27,17,E.Info.DT.ACM-2],ends with “FAIL”; or
+1,,27,19,E.Info.DT.ACM-2].,
+1,,28,4,E.Info.ACM-2.SecurityAsset],and network asset documented in
+1,,28,5,E.Info.ACM-2.NetworkAsset],
+1,,28,6,E.Info.ACM-2.SecurityAsset.ACM],or
+1,,28,7,E.Info.ACM-2.NetworkAsset.ACM],"belong to [IC.ACM-2.RBAC], functionally confirm that:"
+1,,28,13,E.Info.ACM-2.SecurityAsset.ACM],or
+1,,28,14,E.Info.ACM-2.NetworkAsset.ACM],"belong to  [IC.ACM-2.DAC], functionally confirm that:"
+1,,28,20,E.Info.ACM-2.SecurityAsset.ACM],or
+1,,28,21,E.Info.ACM-2.NetworkAsset.ACM],"belong to  [IC.ACM-2.MAC], functionally confirm that:"
+1,,28,28,E.Info.ACM-2.SecurityAsset.ACM],
+1,,28,29,E.Info.ACM-2.NetworkAsset.ACM],"belong to  [IC.ACM-2.Generic], functionally confirm that:"
+1,,28,35,E.Info.ACM,-
+1,,28,36,E.Info.ACM-2.NetworkAsset],the confirmations in the
+1,,29,3,E.Info.ACM,-
+1,,29,4,E.Info.ACM-2.NetworkAsset],a confirmation in the
+1,,31,4,E.Info.AUM-1-1.ACM],Description of each access control mechanism required per ACM-1 for managing
+1,,31,8,E.Info.AUM-1-1.ACM.NetworkInterface],Description of the network interfaces for the
+1,,31,10,E.Info.AUM-1-1.ACM.ManagedAccessNetworkAsset],Description of the managed access to
+1,,31,12,E.Info.AUM-1-1.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+1,,31,16,E.Info.AUM-1-1.ACM.IntendedFunctionality],Description of
+1,,31,30,E.Info.AUM-1-1.ACM.AuthorizedEntity],Description of the networks and the
+1,,31,39,E.Info.AUM-1,-
+1,,31,47,E.Info.DT.AUM-1-1],Description of the selected path through the decision tree in Figure 3 for each access
+1,,31,48,E.Info.AUM-1-1.ACM].,
+1,,31,50,E.Info.DT.AUM-1-1],with the following properties:
+1,,31,52,E.Info.AUM-1-1.ACM.IntendedFunctionality];,and
+1,,31,54,E.Info.AUM-1-1.ACM.AuthorizedEntity];,and
+1,,31,55,E.Info.AUM-1-1.ACM].,
+1,,32,12,"E.Info.AUM-1-1.ACM],",check whether the path
+1,,32,13,E.Info.DT.AUM-1-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,32,14,"E.Info.DT.AUM-1-1],",examine its justification
+1,,32,18,E.Info.DT.AUM-1-1],ends with
+1,,32,20,E.Info.DT.AUM-1-1],ends with “FAIL”; and
+1,,33,4,E.Info.DT.AUM-1-1].,
+1,,33,6,E.Info.DT.AUM-1-1],ends with “FAIL”; or
+1,,33,8,E.Info.DT.AUM-1-1].,
+1,,33,16,E.Info.AUM-1-1.ACM].,
+1,,33,24,E.Info.AUM-1-1.ACM].,
+1,,33,30,E.Info.AUM-1-1.ACM].,
+1,,33,35,E.Info.AUM-1-1.ACM].,
+1,,34,6,"E.Info.AUM-1-1.ACM],",each managed access via
+1,,34,14,E.Info.AUM-1,-
+1,,34,16,"E.Info.AUM-1-1.ACM.ManagedAccessSecurityAsset],",access the corresponding security
+1,,34,20,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+1,,34,22,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+1,,34,31,E.Info.AUM-1-2.ACM],Description of each access control mechanism required per ACM-1 for managing
+1,,34,35,E.Info.AUM-1-2.ACM.UserInterfaces],A description of the user interfaces for the managed
+1,,34,37,E.Info.AUM-1-2.ACM.ManagedAccessNetworkAsset],Description of the managed access to
+1,,34,39,E.Info.AUM-1-2.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+1,,34,42,E.Info.AUM-1-2.ACM.IntendedEnvironment],Description of
+1,,34,50,E.Info.AUM-1,-
+1,,35,5,E.Info.AUM-1-2.ACM.ReadOnlyFunctionality],Description of the
+1,,35,10,E.Info.AUM-1-2.ACM.ReadOnlyLegal],References to all corresponding paragraph(s) or
+1,,35,13,E.Info.DT.AUM-1-2],Description of the selected path through the decision tree in Figure 4 for each access
+1,,35,14,E.Info.AUM-1-2.ACM].,
+1,,35,15,E.Info.DT.AUM,-
+1,,35,18,E.Info.AUM-1-2.ACM.IntendedEnvironment];,and
+1,,35,20,E.Info.AUM-1-2.ACM.ReadOnlyFunctionality];,and
+1,,35,22,E.Info.AUM-1-2.ACM.ReadOnlyLegal];,and
+1,,35,23,E.Info.AUM-1-2.ACM].,
+1,,36,6,"E.Info.AUM-1-2.ACM],",check whether the path
+1,,36,7,E.Info.DT.AUM-1-2],ends with “NOT APPLICABLE” or “PASS”.
+1,,36,8,"E.Info.DT.AUM-1-2],",examine its justification
+1,,36,12,E.Info.DT.AUM-1-2],ends with
+1,,36,14,E.Info.DT.AUM-1-2],ends with “FAIL”; and
+1,,36,16,E.Info.DT.AUM-1-2].,
+1,,36,18,E.Info.DT.AUM-1-2],ends with “FAIL”; or
+1,,37,4,E.Info.DT.AUM-1-2].,
+1,,37,12,E.Info.AUM-1-2.ACM].,
+1,,37,20,E.Info.AUM-1-2.ACM].,
+1,,37,26,E.Info.AUM-1-2.ACM].,
+1,,37,31,E.Info.AUM-1-2.ACM].,
+1,,38,4,"E.Info.AUM-1-2.ACM],",each managed access via user
+1,,38,5,E.Info.AUM-1-2.ACM.ManagedAccessNetworkAsset],and
+1,,38,6,E.Info.AUM-1,-
+1,,38,11,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+1,,38,13,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+1,,39,27,E.Info.AUM-2.AuthenticationMechanism],Description of each authentication mechanism required per
+1,,39,29,E.Info.AUM-2.AuthenticationMechanism.AuthFactor],Description of the authenticator.
+1,,39,30,E.Info.DT.AUM-2],Description of the selected path through the decision tree in Figure 5 for each
+1,,39,31,E.Info.AUM-2.AuthenticationMechanism].,
+1,,39,33,E.Info.DT.AUM-2],with the following property:
+1,,39,43,E.Info.AUM,-
+1,,40,7,"E.Info.AUM-2.AuthenticationMechanism],",check whether the path through the
+1,,40,8,E.Info.DT.AUM-2],ends with “PASS”.
+1,,40,9,"E.Info.DT.AUM-2],",examine its justification
+1,,40,13,E.Info.DT.AUM-2],end with “PASS”; and
+1,,40,15,E.Info.DT.AUM-2].,
+1,,40,17,E.Info.DT.AUM-2],ends with “FAIL”; or
+1,,40,19,E.Info.DT.AUM-2].,
+1,,41,12,E.Info.AUM-2.AuthenticationMechanism],perform an authentication and
+1,,41,16,E.Info.AUM-2.AuthenticationMechanism].,
+1,,41,18,E.Info.AUM-2.AuthenticationMechanism].,
+1,,42,22,E.Info.AUM-3.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+1,,42,24,E.Info.AUM-3.AUM.AuthVal],Description how the validation of the authenticator is
+1,,42,26,E.Info.AUM-3.AUM.AuthEnv],Description of the available information about the
+1,,42,28,E.Info.DT.AUM-3],Description of the selected path through the decision tree in Figure 6 for each
+1,,42,29,E.Info.AUM-3.AUM].,
+1,,42,31,E.Info.DT.AUM-3],with the following property:
+1,,42,32,E.Info.AUM-3.AUM.AuthVal],
+1,,42,33,E.Info.AUM-3.AUM.AuthEnv].,
+1,,42,37,E.Info.AUM-3.AUM].,
+1,,43,6,"E.Info.AUM-3.AUM],",check whether the path through
+1,,43,7,E.Info.DT.AUM-3],ends with “PASS”.
+1,,43,8,"E.Info.DT.AUM-3],",examine its justification
+1,,43,12,E.Info.DT.AUM-3],end with “PASS”; and
+1,,43,14,E.Info.DT.AUM-3].,
+1,,43,16,E.Info.DT.AUM-3],ends with “FAIL”; or
+1,,43,18,E.Info.DT.AUM-3].,
+1,,44,6,E.Info.AUM-3.AUM],
+1,,44,8,E.Info.AUM-3.AUM.AuthVal],by
+1,,44,19,E.Info.AUM-3.AUM.AuthVal],by examining whether:
+1,,44,33,E.Info.AUM-3.AUM.AuthVal],by
+1,,45,5,E.Info.AUM-3.AUM],the confirmations in the implementation category dependent assessment unit are
+1,,45,8,E.Info.AUM-3.AUM],a confirmation in the implementation category dependent assessment unit is not
+1,,46,10,E.Info.AUM-4.AUM],Description of each authentication mechanism required by AUM-1-1 (network
+1,,46,12,E.Info.AUM-4.AUM.ConfSecGoals],
+1,,46,14,E.Info.AUM-4.AUM.AuthChange],Description for
+1,,46,15,E.Info.AUM-4.AUM],how the change of the
+1,,46,17,E.Info.DT.AUM-4],Description of the selected path through the decision tree in Figure 7 for each
+1,,46,18,E.Info.AUM-4.AUM.AuthChange].,
+1,,46,20,E.Info.DT.AUM-4],with the following properties:
+1,,46,30,E.Info.AUM,-
+1,,46,41,E.Info.AUM,-
+1,,46,46,E.Info.AUM-4.AUM],can be changed.
+1,,47,6,"E.Info.AUM-4.AUM],",check whether the path
+1,,47,7,E.Info.DT.AUM-4],ends with “NOT APPLICABLE” or “PASS”.
+1,,47,8,"E.Info.DT.AUM-4],",examine its justification
+1,,47,12,E.Info.DT.AUM-4],ends with
+1,,47,14,E.Info.DT.AUM-4],ends with “FAIL”; and
+1,,47,16,E.Info.DT.AUM-4].,
+1,,47,18,E.Info.DT.AUM-4],ends with “FAIL”; or
+1,,47,20,E.Info.DT.AUM-4].,
+1,,48,7,E.Info.AUM-4.AUM.AuthChange].,
+1,,48,12,"E.Info.AUM-4.AUM],",functionally confirm the ability to change authenticator
+1,,48,13,E.Info.AUM-4.AUM.AuthChange],by
+1,,48,21,E.Info.AUM-4.AUM.AuthChange].,
+1,,48,23,E.Info.AUM-4.AUM.AuthChange].,
+1,,50,9,E.Info.AUM-5-1.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+1,,50,11,E.Info.AUM-5-1.AUM.PwdProperty],Description for each authentication mechanism’s
+1,,50,18,E.Info.DT.AUM-5-1],Description of the selected path through the decision tree in Figure 8 for each
+1,,50,19,E.Info.AUM-5-1.AUM].,
+1,,50,21,E.Info.DT.AUM-5-1],with the following properties:
+1,,50,23,E.Info.AUM-5-1.AUM.PwdProperty].,
+1,,51,6,"E.Info.AUM-5-1.AUM],",check whether the path
+1,,51,7,E.Info.DT.AUM-5-1],ends with “PASS”.
+1,,51,8,"E.Info.DT.AUM-5-1],",examine its justification
+1,,51,12,E.Info.DT.AUM-5-1],end with “PASS”; and
+1,,51,14,E.Info.DT.AUM-5-1].,
+1,,51,16,E.Info.DT.AUM-5-1],ends with “FAIL”; or
+1,,51,18,E.Info.DT.AUM-5-1].,
+1,,52,9,E.Info.AUM-5-1.AUM.PwdProperty],belongs to [IC.AUM-5-
+1,,52,12,E.Info.AUM-5-1.AUM],
+1,,52,19,E.Info.AUM-5-1.AUM.PwdProperty],
+1,,52,24,E.Info.AUM-5-1.AUM.PwdProperty],by:
+1,,52,26,E.Info.AUM-5-1.AUM.PwdProperty];,and
+1,,52,35,E.Info.AUM-5-1.AUM.PwdProperty],
+1,,52,40,E.Info.AUM-5-1.AUM.PwdProperty],by:
+1,,52,52,E.Info.AUM-5,-
+1,,52,62,E.Info.AUM-5,-
+1,,53,12,E.Info.AUM-5-2.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+1,,53,14,E.Info.AUM-5-2.AUM.PwdProperty],Description for each authentication mechanism’s non-
+1,,53,28,E.Info.DT.AUM-5-2],Description of the selected path through the decision tree in Figure 9 for each
+1,,53,29,E.Info.AUM-5-2.AUM].,
+1,,53,31,E.Info.DT.AUM-5-2],with the following property:
+1,,53,33,E.Info.AUM-5-2.AUM.PwdProperty].,
+1,,54,6,"E.Info.AUM-5-2.AUM],",check whether the path
+1,,54,7,E.Info.DT.AUM-5-2],ends with “PASS”.
+1,,54,8,"E.Info.DT.AUM-5-2],",examine its justification
+1,,54,9,E.Info.DT.AUM-5-2].,
+1,,54,12,E.Info.DT.AUM-5-2],end with “PASS”; and
+1,,54,14,E.Info.DT.AUM-5-2].,
+1,,54,16,E.Info.DT.AUM-5-2],ends with “FAIL”; or
+1,,54,18,E.Info.DT.AUM-5-2].,
+1,,55,10,E.Info.AUM-5-2.AUM],
+1,,55,11,E.Info.AUM-5-2.AUM.PwdProperty],belongs
+1,,55,13,E.Info.AUM-5-2.AUM.PwdProperty],by:
+1,,55,17,E.Info.AUM-5-2.AUM.PwdProperty],
+1,,55,19,E.Info.AUM-5-2.AUM.PwdProperty],by:
+1,,55,27,E.Info.AUM-5-2.AUM.PwdProperty],
+1,,55,29,E.Info.AUM-5-2.AUM.PwdProperty],by:
+1,,56,4,E.Info.AUM-5-2.AUM.PwdProperty].,
+1,,56,14,E.Info.AUM-5,-
+1,,56,24,E.Info.AUM-5,-
+1,,57,19,E.Info.AUM-6.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+1,,57,21,E.Info.AUM-6.AUM.BFProtection],Description how the resilience against brute force attacks
+1,,57,23,E.Info.DT.AUM-6],Description of the selected path through the decision tree in Figure 10 for each
+1,,57,24,E.Info.AUM-6.AUM].,
+1,,57,26,E.Info.DT.AUM-6],with the following properties:
+1,,57,36,E.Info.AUM,-
+1,,58,6,"E.Info.AUM-6.AUM],",check whether the path through
+1,,58,7,E.Info.DT.AUM-6],ends with “PASS”.
+1,,58,8,"E.Info.DT.AUM-6],",examine its justification
+1,,58,12,E.Info.DT.AUM-6],end with “PASS”; and
+1,,58,14,E.Info.DT.AUM-6].,
+1,,58,16,E.Info.DT.AUM-6],ends with “FAIL”; or
+1,,58,18,E.Info.DT.AUM-6].,
+1,,59,6,E.Info.AUM-6.AUM],
+1,,59,7,E.Info.AUM-6.AUM.BFProtection],belongs to
+1,,59,9,E.Info.AUM-6.AUM.BFProtection],by:
+1,,59,12,E.Info.AUM-6.AUM.BFProtection],belongs to
+1,,59,14,E.Info.AUM-6.AUM.BFProtection],by:
+1,,59,18,E.Info.AUM-6.AUM.BFProtection],
+1,,59,20,E.Info.AUM-6.AUM.BFProtection],by:
+1,,59,22,E.Info.AUM-6.AUM.BFProtection];,and
+1,,59,24,E.Info.AUM-6.AUM.BFProtection],belongs to [IC.AUM-
+1,,59,25,E.Info.AUM,-
+1,,59,30,E.Info.AUM-6.AUM],the confirmations in the implementation category dependent assessment unit are
+1,,59,33,E.Info.AUM-6.AUM],a confirmation in the implementation category dependent assessment unit is not
+1,,61,10,E.Info.SUM-1.PartOfSoftw],Description of each parts of the software affecting the security assets and/or
+1,,61,12,E.Info.SUM,-
+1,,61,16,E.Info.SUM,-
+1,,61,19,E.Info.SUM,-
+1,,61,26,E.Info.SUM-1.PartOfSoftw.SUM],Description of the
+1,,61,32,E.Info.DT.SUM-1],Description of the selected path through the decision tree in Figure 11 for each part
+1,,61,33,E.Info.SUM-1.PartOfSoftw].,
+1,,61,35,E.Info.DT.SUM-1],with the following properties:
+1,,61,37,E.Info.SUM-1.PartOfSoftw.FuncSaftyImp];,and
+1,,61,39,E.Info.SUM-1.PartOfSoftw.Immutable];,and
+1,,62,4,E.Info.SUM-1.PartOfSoftw.AltMeasures].,
+1,,62,14,"E.Info.SUM-1.PartOfSoftw],",check whether the path through
+1,,62,15,E.Info.DT.SUM-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,62,16,"E.Info.DT.SUM-1],",check that its justification
+1,,62,21,E.Info.DT.SUM-1],ends with
+1,,62,23,E.Info.DT.SUM-1],ends with “FAIL”; and
+1,,62,25,E.Info.DT.SUM-1].,
+1,,63,4,E.Info.DT.SUM-1],ends with “FAIL”; or
+1,,63,6,E.Info.DT.SUM-1].,
+1,,63,14,E.Info.SUM-1.PartOfSoftw.SUM].,
+1,,63,17,"E.Info.SUM-1.PartOfSoftw.SUM],",the manufacturer provides
+1,,63,21,E.Info.SUM-1.PartOfSoftw.SUM],which ends with a PASS
+1,,63,25,E.Info.SUM-1.PartOfSoftw.SUM].,
+1,,63,27,E.Info.SUM-1.PartOfSoftw.SUM].,
+1,,64,41,E.Info.SUM-2.SUM],Description of each update mechanism that can update a part of the software
+1,,64,42,"E.Info.SUM-1.PartOfSoftw],",including:
+1,,64,43,E.Info.SUM-2.SUM.Sign],
+1,,64,45,E.Info.CRY-1.Assets.Cryptography];,and
+1,,64,46,E.Info.SUM,-
+1,,64,48,E.Info.SCM-1.SCM],with a description of the underlying best practice cryptography as per
+1,,64,49,E.Info.CRY-1.Assets.Cryptography];,and
+1,,65,3,E.Info.SUM,-
+1,,65,4,E.Info.ACM,-
+1,,65,13,E.Info.CRY,-
+1,,65,22,E.Info.SUM,-
+1,,65,25,E.Info.DT.SUM-2],Description of the selected path through the decision tree in Figure 12 for each update
+1,,65,26,E.Info.SUM-2.SUM].,
+1,,65,28,E.Info.DT.SUM-2],with the following properties:
+1,,65,30,E.Info.SUM-2.SUM.Sign];,and
+1,,65,32,E.Info.SUM-2.SUM.SecChan];,and
+1,,65,34,E.Info.SUM-2.SUM.AccContMech];,and
+1,,65,36,E.Info.SUM-2.SUM.Generic].,
+1,,66,7,"E.Info.SUM-2.SUM],",check whether the path through the
+1,,66,9,"E.Info.DT.SUM-2],",check that its justification
+1,,66,10,"E.Info.SUM-2.SUM.Generic],",the
+1,,66,14,E.Info.DT.SUM-2],end with “PASS”; and
+1,,66,16,E.Info.DT.SUM-2].,
+1,,66,18,E.Info.DT.SUM-2],ends with “FAIL”; or
+1,,66,20,E.Info.DT.SUM-2].,
+1,,67,7,E.Info.SUM-2.SUM.Generic].,
+1,,67,12,E.Info.SUM-2.SUM],
+1,,68,9,E.Info.SUM-2.SUM],the confirmations in the implementation category dependent assessment unit are
+1,,68,12,E.Info.SUM-2.SUM],a confirmation in the implementation category dependent assessment unit is not
+1,,70,10,E.Info.SUM-3.SUM],"Description of each update mechanism required per SUM-1, including:"
+1,,70,11,E.Info.SUM-3.SUM.Automation],Description of the means to automate the update
+1,,70,13,E.Info.DT.SUM-3],Description of the selected path through the decision tree in Figure 13 for each update
+1,,70,14,E.Info.SUM-3.SUM].,
+1,,70,16,E.Info.DT.SUM-3],with the following properties:
+1,,70,18,E.Info.SUM-3.SUM.Automation].,
+1,,70,22,E.Info.SUM-3.SUM.Automation],as required per SUM-3.
+1,,71,4,E.Info.DT.SUM-3],ends with “PASS” or “FAIL”.
+1,,71,5,"E.Info.DT.SUM-3],",examine its justification
+1,,71,9,E.Info.DT.SUM-3],end with “PASS”; and
+1,,71,11,E.Info.DT.SUM-3].,
+1,,71,13,E.Info.DT.SUM-3],ends with “FAIL”; or
+1,,71,15,E.Info.DT.SUM-3].,
+1,,71,25,E.Info.SUM-3.SUM.Automation].,
+1,,71,30,E.Info.SUM-3.SUM],functionally assess whether the
+1,,71,31,E.Info.SUM-3.SUM.Automation],by:
+1,,72,9,E.Info.SUM-3.SUM].,
+1,,72,11,E.Info.SUM-3.SUM].,
+1,,73,19,E.Info.SSM-1.SecurityAsset],"Description of each security asset persistently stored on the equipment,"
+1,,73,31,E.Info.SSM,-
+1,,73,37,E.Info.SSM,-
+1,,73,39,E.Info.SSM-1.NetworkAsset],"Description of each network asset persistently stored on the equipment,"
+1,,73,51,E.Info.SSM,-
+1,,74,4,E.Info.SSM-1.NetworkAsset.SSM],Description of the secure storage mechanism.
+1,,74,5,E.Info.DT.SSM-1],Description of the selected path through the decision tree in Figure 14 for each
+1,,74,6,E.Info.SSM-1.SecurityAsset],and [E.Info.SSM-
+1,,74,9,E.Info.DT.SSM-1],with the following properties:
+1,,74,11,E.Info.SSM-1.SecurityAsset.Environment],or
+1,,74,12,E.Info.SSM-1.NetworkAsset.Environment];,and
+1,,74,22,E.Info.SSM,-
+1,,74,23,E.Info.SSM-1.NetworkAsset.SSM].,
+1,,75,3,E.Info.SSM-1.SecurityAsset],and for each network asset
+1,,75,4,"E.Info.SSM-1.NetworkAsset],",check whether the path through the decision tree
+1,,75,5,E.Info.DT.SSM-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,75,6,"E.Info.DT.SSM-1],",examine its justification
+1,,75,10,E.Info.DT.SSM-1],ends with
+1,,75,12,E.Info.DT.SSM-1],ends with “FAIL”; and
+1,,75,14,E.Info.DT.SSM-1].,
+1,,75,16,E.Info.DT.SSM-1],ends with “FAIL”; or
+1,,75,18,E.Info.DT.SSM-1].,
+1,,75,23,E.Info.SSM-1.SecurityAsset],and network assets documented in [E.Info.SSM-1.NetworkAsset] are
+1,,75,29,E.Info.SSM-1.SecurityAsset].,
+1,,75,31,E.Info.SSM-1.NetworkAsset].,
+1,,75,34,E.Info.SSM-1.SecurityAsset],and all network assets persistently stored found are
+1,,75,35,E.Info.SSM-1.NetworkAsset].,
+1,,75,37,E.Info.SSM-1.SecurityAsset],or a persistently stored network asset is found which
+1,,75,38,E.Info.SSM-1.NetworkAsset].,
+1,,76,11,"E.Info.SSM-1.SecurityAsset],",functionally confirm it is persistently
+1,,76,12,E.Info.SSM-1.SecurityAsset.SSM].,
+1,,76,13,"E.Info.SSM-1.NetworkAsset],",functionally confirm it is
+1,,76,23,E.Info.SSM,-
+1,,76,28,E.Info.SSM-1.SecurityAsset.SSM];,and
+1,,76,30,E.Info.SSM-1.NetworkAsset.SSM].,
+1,,76,33,E.Info.SSM-1.SecurityAsset.SSM];,or
+1,,76,35,E.Info.SSM-1.NetworkAsset.SSM].,
+1,,77,29,E.Info.SSM-2.SSM],"Description of each secure storage mechanism, including"
+1,,77,31,E.Info.SSM,-
+1,,77,38,E.Info.SSM,-
+1,,78,5,E.Info.SSM,-
+1,,78,10,E.Info.SSM,-
+1,,78,15,E.Info.SSM-2.SSM.Generic],
+1,,78,26,E.Info.DT.SSM-2],Description of the selected path through the decision tree in Figure 15 for each secure
+1,,78,27,E.Info.SSM-2.SSM].,
+1,,78,29,E.Info.DT.SSM-2],with the following properties:
+1,,78,31,E.Info.SSM-2.SSM.DigitalSignature];,and
+1,,78,33,E.Info.SSM-2.SSM.AccessControl];,and
+1,,78,35,E.Info.SSM-2.SSM.OTProgrammable];,and
+1,,78,37,E.Info.SSM-2.SSM.HardwareProtection];,and
+1,,78,39,E.Info.SSM-2.SSM.Generic].,
+1,,79,12,E.Info.SSM-2.SSM],check whether the path through the decision
+1,,79,13,E.Info.DT.SSM-2],ends with “PASS”.
+1,,79,14,"E.Info.DT.SSM-2],",examine its justification
+1,,79,18,E.Info.DT.SSM-2],end with “PASS”; and
+1,,79,20,E.Info.DT.SSM-2].,
+1,,79,22,E.Info.DT.SSM-2],ends with “FAIL”; or
+1,,79,24,E.Info.DT.SSM-2].,
+1,,80,14,E.Info.SSM-2.SSM],
+1,,80,17,E.Info.SSM-2.SSM.DigitalSignature];,and
+1,,80,24,E.Info.SSM-2.SSM.AccessControl];,and
+1,,80,28,E.Info.SSM-2.SSM.OTProgrammable];,and
+1,,80,32,E.Info.SSM-2.SSM.HardwareProtection];,and
+1,,81,3,E.Info.SSM-2.SSM.Generic];,and
+1,,81,8,E.Info.SSM-2.SSM],the confirmations in the implementation category dependent assessments units
+1,,81,11,E.Info.SSM-2.SSM],a confirmation in the implementation category dependent assessment units is not
+1,,82,10,E.Info.SSM-3.SSM],Description of each secure storage mechanism that persistently stores confidential
+1,,82,12,E.Info.SSM-3.SSM.Asset],List of all confidential security parameter and confidential network
+1,,82,22,E.Info.SSM,-
+1,,82,28,E.Info.SSM,-
+1,,82,34,E.Info.SSM,-
+1,,82,39,E.Info.SSM-3.SSM.Generic],
+1,,82,51,E.Info.DT.SSM-3],Description of the selected path through the decision tree in Figure 16 for each secure
+1,,82,52,E.Info.SSM-3.SSM].,
+1,,83,4,E.Info.DT.SSM-3],with the following properties:
+1,,83,6,E.Info.SSM-3.SSM.Encryption];,and
+1,,83,8,E.Info.SSM-3.SSM.AccessControl];,and
+1,,83,10,E.Info.SSM-3.SSM.HardwareProtection];,and
+1,,83,12,E.Info.SSM-3.SSM.Generic].,
+1,,83,23,E.Info.SSM-3.SSM],check whether the path through the decision
+1,,83,24,E.Info.DT.SSM-3],ends with “PASS”.
+1,,84,3,"E.Info.DT.SSM-3],",examine its justification
+1,,84,7,E.Info.DT.SSM-3],end with “PASS”; and
+1,,84,9,E.Info.DT.SSM-3].,
+1,,84,11,E.Info.DT.SSM-3],ends with “FAIL”; or
+1,,84,13,E.Info.DT.SSM-3].,
+1,,84,18,E.Info.SSM-3.SSM.Asset],are complete.
+1,,84,23,E.Info.SSM-3.SSM.Asset].,
+1,,84,27,E.Info.SSM-3.SSM.Asset].,
+1,,84,30,E.Info.SSM-3.SSM.Asset].,
+1,,85,6,E.Info.SSM-3.SSM],
+1,,85,9,E.Info.SSM-3.SSM.Encryption];,and
+1,,85,16,E.Info.SSM-3.SSM.AccessControl];,and
+1,,85,21,E.Info.SSM-3.SSM.HardwareProtection];,and
+1,,85,29,E.Info.SSM-3.SSM.Generic];,and
+1,,85,34,E.Info.SSM-3.SSM],the confirmations in the implementation category dependent assessment units are
+1,,85,37,E.Info.SSM-3.SSM],a confirmation in the implementation category dependent assessment units is not
+1,,87,12,E.Info.SCM-1.NetworkInterface],Description of each network interface including:
+1,,87,14,E.Info.SCM-1.NetworkInterface.Radio],Technology
+1,,87,17,E.Info.SCM-1.NetworkInterface.Wired],Electrical
+1,,87,20,E.Info.SCM-1.NetworkInterface.Optical],Optical
+1,,87,23,E.Info.SCM-1.NetworkInterface.Acoustic],Acoustic
+1,,87,27,E.Info.SCM-1.NetworkInterface.Protocol],
+1,,87,39,E.Info.SCM,-
+1,,87,41,"E.Info.SCM-1.NetworkInterface.Wired],",
+1,,87,42,E.Info.SCM,-
+1,,87,43,E.Info.SCM-1.NetworkInterface.Acoustic],and the
+1,,87,49,E.Info.SCM-1.SecurityAsset],Description of each stored security asset that is communicated over
+1,,87,50,E.Info.SCM-1.NetworkInterface],"and for which confidentiality,"
+1,,87,52,E.Info.SCM-1.SecurityAsset.Class],
+1,,88,5,E.Info.SCM-1.SecurityAsset.Com],Description of the use case where the asset is
+1,,88,7,E.Info.SCM-1.NetworkInterface];,and
+1,,88,8,E.Info.SCM-1.SecurityAsset.NetworkInterface],Network interface used for communication
+1,,88,9,E.Info.SCM-1.NetworkInterface]);,and
+1,,88,11,E.Info.SCM-1.SecurityAsset.Environment],Description of the physical or logical measures in
+1,,88,14,E.Info.SCM,-
+1,,88,17,E.Info.SCM-1.NetworkAsset],Description of each network asset that is communicated over network
+1,,88,18,E.Info.SCM-1.NetworkInterface],"and for which confidentiality, integrity or"
+1,,88,20,E.Info.SCM-1.NetworkAsset.Class],
+1,,88,24,E.Info.SCM-1.NetworkAsset.Com],Description of the use case where the asset is
+1,,88,26,E.Info.SCM-1.NetworkInterface];,and
+1,,88,27,E.Info.SCM-1.NetworkAsset.NetInterface],Network interface used for communication of the
+1,,88,28,E.Info.SCM-1.NetworkInterface]);,and
+1,,88,30,E.Info.SCM-1.NetworkAsset.Environment],Description of the physical or logical measures in
+1,,88,33,E.Info.SCM,-
+1,,88,36,E.Info.SCM-1.SCM],Description of each secure communication mechanism that is used to communicate
+1,,88,37,E.Info.SCM-1.SecurityAsset],and network assets documented in
+1,,88,38,E.Info.SCM-1.NetworkAsset],
+1,,88,45,E.Info.SCM,-
+1,,88,47,E.Info.SCM-1.SCM.Protocol],Communication protocols where the mechanism is applied
+1,,88,48,E.Info.SCM-1.NetworkInterface.Protocol]);,and
+1,,88,49,E.Info.SCM-1.SCM.States],Equipment states where the communication of security assets
+1,,88,50,E.Info.SCM-1.SecurityAsset],and network assets documented in [E.Info.SCM-
+1,,89,3,E.Info.SCM-1.SCM.SecObjectives],Security objectives considering the intended functionality
+1,,89,6,E.Info.SCM,-
+1,,89,8,E.Info.DT.SCM-1],Description of the selected path through the decision tree in Figure 17 for each of the
+1,,89,9,E.Info.SCM-1.NetworkInterface].,
+1,,89,12,E.Info.SCM-1.SCM.States].,
+1,,89,14,E.Info.DT.SCM-1],with the following properties:
+1,,89,16,E.Info.SCM-1.SecurityAsset.Environment],and
+1,,89,17,E.Info.SCM-1.NetworkAsset.Environment];,and
+1,,89,19,E.Info.SCM-1.SecurityAsset.AddMeasures],and
+1,,89,20,E.Info.SCM-1.NetworkAssets.AddMeasures].,
+1,,89,25,E.Info.SCM-1.SecurityAsset],or network assets documented in [E.Info.SCM-1.NetworkAsset] when
+1,,90,6,"E.Info.SCM-1.NetworkInterface],",check whether the path
+1,,90,7,E.Info.DT.SCM-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,90,8,"E.Info.DT.SCM-1],",examine its justification
+1,,90,12,E.Info.DT.SCM-1],ends with
+1,,90,14,E.Info.DT.SCM-1],ends with “FAIL”; and
+1,,90,16,E.Info.DT.SCM-1].,
+1,,90,18,E.Info.DT.SCM-1],ends with “FAIL”; or
+1,,90,20,E.Info.DT.SCM-1].,
+1,,91,10,E.Info.SCM-1.SecurityAsset].,
+1,,91,12,E.Info.SCM-1.NetworkAsset].,
+1,,91,15,E.Info.SCM-1.SecurityAsset],and all network assets found are documented in
+1,,91,16,E.Info.SCM-1.NetworkAsset].,
+1,,91,18,E.Info.SCM-1.SecurityAsset],or a network asset is found which is not documented in
+1,,91,19,E.Info.SCM-1.NetworkAsset].,
+1,,91,28,E.Info.SCM-1.SecurityAsset],and for each network asset
+1,,91,29,"E.Info.SCM-1.NetworkAsset],","functionally confirm, using up-to-date evaluation methods,"
+1,,91,30,E.Info.SCM-1.SCM],considering the
+1,,91,34,E.Info.SCM-1.SCM],is not implemented.
+1,,91,36,E.Info.SCM-1.SCM],is not implemented.
+1,,93,38,E.Info.SCM-2.SecurityAsset],Description of each  stored security asset that is communicated over
+1,,93,39,E.Info.SCM-2.NetworkInterface],and for which integrity or
+1,,93,41,E.Info.SCM-2.SecurityAsset.Com],Description of the use case where the asset is
+1,,93,43,E.Info.SCM-2.NetworkInterface].,
+1,,93,45,E.Info.SCM-2.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+1,,94,3,E.Info.SCM-2.NetworkAsset],Description of each network asset that is  communicated over network
+1,,94,4,E.Info.SCM-2.NetworkInterface],and for which integrity or authenticity
+1,,94,6,E.Info.SCM-2.NetworkAsset.Com],Description of the use case where the asset is
+1,,94,8,E.Info.SCM-2.NetworkInterface].,
+1,,94,10,E.Info.SCM-2.NetworkAsset],is a subset of [E.Info.SCM-1.NetworkAsset].
+1,,94,11,E.Info.SCM-2.NetworkInterface],"Description of all network interfaces of the equipment, including"
+1,,94,12,E.Info.SCM-2.NetworkInterface.Protocol],All communication protocols implemented and
+1,,94,15,E.Info.SCM-2.SCM],Description of each secure communication mechanism that is required per SCM-1
+1,,94,17,E.Info.SCM-2.NetworkAsset],"or security assets documented in [E.Info.SCM-2.SecurityAsset], including"
+1,,94,18,E.Info.SCM-2.SCM.Capabilities],Description of the security mechanisms and cryptographic
+1,,94,21,E.Info.SCM-2.SecurityAsset],
+1,,94,27,E.Info.SCM,-
+1,,94,37,E.Info.SCM,-
+1,,94,39,E.Info.SCM,-
+1,,94,41,E.Info.SCM,-
+1,,94,44,E.Info.SCM-2.NetworkInterface.Protocol];,and
+1,,94,45,E.Info.SCM-2.SCM.PKI-based],
+1,,94,47,E.Info.SCM,-
+1,,94,49,E.Info.SCM,-
+1,,94,60,E.Info.SCM,-
+1,,94,62,E.Info.SCM-2.SCM.Generic],
+1,,94,64,E.Info.SCM-2.NetworkInterface.Protocol];,and
+1,,94,65,E.Info.SCM-2.SCM.ImplDetail],Refer to versioned standards or specifications
+1,,95,3,E.Info.SCM-2.SCM.CCK],The description of the properties of the confidential cryptographic
+1,,95,5,E.Info.SCM-2.SCM.ThreatProtection],The description on how the mechanism protects
+1,,95,9,E.Info.DT.SCM-2],Description of the selected path through the decision tree in Figure 18 for each secure
+1,,95,10,E.Info.SCM-2.SCM].,
+1,,95,13,E.Info.SCM-2.SCM].,
+1,,95,15,E.Info.DT.SCM-2],with the following property:
+1,,95,16,E.Info.SCM,-
+1,,95,17,"E.Info.SCM-2.NetworkAsset.Com],",[E.Info.SCM-2.SCM.ThreatProtection]
+1,,95,18,E.Info.SCM-2.SCM.Capabilities];,and
+1,,95,20,"E.Info.SCM-2.SecurityAsset.Com],",[E.Info.SCM-
+1,,95,21,E.Info.SCM-2.SCM.Capabilities].,
+1,,96,6,"E.Info.SCM-2.SCM],",and for each equipment state
+1,,96,7,E.Info.DT.SCM-2],ends
+1,,96,9,"E.Info.DT.SCM-2],",examine its justification
+1,,96,13,E.Info.DT.SCM-2],ends with
+1,,96,15,E.Info.DT.SCM-2],ends with “FAIL”; and
+1,,96,17,E.Info.DT.SCM-2].,
+1,,96,19,E.Info.DT.SCM-2],ends with “FAIL”; or
+1,,96,21,E.Info.DT.SCM-2].,
+1,,97,14,E.Info.SCM-2.SecurityAsset],and network asset documented in
+1,,97,15,"E.Info.SCM-2.NetworkAsset],","functionally confirm, using up-to-date evaluation methods, that integrity"
+1,,97,16,E.Info.SCM,-
+1,,97,20,"E.Info.SCM-2.SCM.ManufSecret],",that:
+1,,97,27,"E.Info.SCM-2.SCM.SecChanExchange],",that:
+1,,97,32,E.Info.SCM,-
+1,,98,5,"E.Info.SCM-2.SCM.ThirdPartyTrust],",that:
+1,,98,10,E.Info.SCM,-
+1,,98,19,E.Info.SCM-2.SCM],the confirmations in the implementation category dependent
+1,,98,22,E.Info.SCM-2.SCM],a confirmation in the implementation category dependent
+1,,99,45,E.Info.SCM-3.SecurityAsset],Description of each stored security asset that is communicated over
+1,,99,46,E.Info.SCM-3.NetworkInterface],and for which confidentiality is
+1,,100,3,E.Info.SCM-3.SecurityAsset.Com],Description of the use case where the asset is
+1,,100,5,E.Info.SCM-3.NetworkInterface].,
+1,,100,7,E.Info.SCM-3.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+1,,100,8,E.Info.SCM-3.NetworkAsset],Description of all network assets that are communicated over network
+1,,100,10,E.Info.SCM-3.NetworkAsset.Com],Description of the use case where the asset is
+1,,100,12,E.Info.SCM-3.NetworkInterface].,
+1,,100,14,E.Info.SCM-3.NetworkAsset],is a subset of [E.Info.SCM-1.NetworkAsset].
+1,,100,15,E.Info.SCM-3.NetworkInterface],"Description of all network interfaces of the equipment, including"
+1,,100,16,E.Info.SCM-3.NetworkInterface.Protocol],All communication protocols implemented and
+1,,100,19,E.Info.SCM-3.SCM],Description of each secure communication mechanism that is required per SCM-1
+1,,100,20,E.Info.SCM-3.NetworkAsset],or security
+1,,100,21,"E.Info.SCM-3.SecurityAsset],",including:
+1,,100,22,E.Info.SCM-3.SCM.Capabilities],Description of the security mechanisms and cryptographic
+1,,100,24,E.Info.SCM-3.SecurityAsset],or network assets documented in [E.Info.SCM-3.NetworkAsset]
+1,,100,26,E.Info.SCM-3.MessageEnc],
+1,,100,28,E.Info.SCM,-
+1,,100,30,E.Info.SCM-3.ChannelEnc],
+1,,100,41,E.Info.SCM,-
+1,,100,43,E.Info.SCM-3.Generic],
+1,,100,45,E.Info.SCM-3.NetworkInterface.Protocol];,and
+1,,100,46,E.Info.SCM-3.SCM.ImplDetail],Refer to versioned standards or specifications
+1,,100,49,E.Info.SCM-3.SCM.CCK],The properties of the confidential cryptographic keys used for
+1,,100,51,E.Info.SCM-3.SCM.ThreatProtection],How the mechanism at least protects against the
+1,,101,4,E.Info.DT.SCM-3],Description of the selected path through the decision tree in Figure 19 for each secure
+1,,101,5,E.Info.SCM-3.SCM].,
+1,,101,8,E.Info.SCM-3.SCM].,
+1,,101,10,E.Info.DT.SCM-3],with the following properties:
+1,,101,11,E.Info.SCM,-
+1,,101,12,"E.Info.SCM-3.NetworkAsset.Com],",[E.Info.SCM-3.SCM.ThreatProtection]
+1,,101,13,E.Info.SCM-3.SCM.Capabilities];,and
+1,,101,15,"E.Info.SCM-3.SecurityAsset.Com],",[E.Info.SCM-
+1,,101,16,E.Info.SCM-3.SCM.Capabilities].,
+1,,101,21,E.Info.SCM-3.NetworkAsset]),and security assets (documented in [E.Info.SCM-3.SecurityAsset]) while
+1,,102,3,"E.Info.SCM-3.SCM],",and for each equipment
+1,,102,4,E.Info.DT.SCM-3],
+1,,102,6,"E.Info.DT.SCM-3],",examine its justification
+1,,102,10,E.Info.DT.SCM-3],ends with
+1,,102,12,E.Info.DT.SCM-3],ends with “FAIL”; and
+1,,102,14,E.Info.DT.SCM-3].,
+1,,102,16,E.Info.DT.SCM-3],ends with “FAIL”; or
+1,,102,18,E.Info.DT.SCM-3].,
+1,,102,31,E.Info.SCM-3.SecurityAsset],
+1,,102,32,"E.Info.SCM-3.NetworkAsset],",between the equipment and an
+1,,102,34,E.Info.SCM-3.SCM],
+1,,102,37,"E.Info.SCM-3.MessageEnc],",that:
+1,,103,4,E.Info.SCM,-
+1,,103,9,E.Info.SCM,-
+1,,103,15,E.Info.SCM-3.SCM],the confirmations in the implementation category dependent
+1,,103,18,E.Info.SCM-3.SCM],a confirmation in the implementation category dependent
+1,,104,45,E.Info.SCM-4.SecurityAsset],Description of each stored security asset that is communicated over
+1,,104,46,E.Info.SCM-4.NetworkInterface],and for which replay protection is
+1,,105,3,E.Info.SCM-4.SecurityAsset.Com],Description of the use case where the asset is
+1,,105,5,E.Info.SCM-4.NetworkInterface].,
+1,,105,7,E.Info.SCM-4.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+1,,105,8,E.Info.SCM-4.NetworkAsset],Description of each network asset that is communicated over network
+1,,105,9,E.Info.SCM-4.NetworkInterface],"and for which replay protection is needed,"
+1,,105,11,E.Info.SCM-4.NetworkAsset.Com],Description of the use case where the asset is
+1,,105,13,E.Info.SCM-4.NetworkInterface].,
+1,,105,15,E.Info.SCM-4.NetworkAsset],is a subset of [E.Info.SCM-1.NetworkAsset].
+1,,105,16,E.Info.SCM-4.NetworkInterface],"Description of each network interface of the equipment, including:"
+1,,105,17,E.Info.SCM-4.NetworkInterface.Protocol],All communication protocols implemented and
+1,,105,20,E.Info.SCM-4.SCM],Description of each secure communication mechanism that is required per SCM-1
+1,,105,21,E.Info.SCM-4.NetworkAsset],or security assets
+1,,105,22,"E.Info.SCM-4.SecurityAsset],",including:
+1,,105,23,E.Info.SCM-4.SCM.Capabilities],Description of the security mechanisms and cryptographic
+1,,105,25,E.Info.SCM-4.SecurityAsset],or network assets documented in [E.Info.SCM-
+1,,105,27,E.Info.SCM-4.SCM.SeqNumb],
+1,,105,30,E.Info.SCM-4.NetworkInterface.Protocol];,and
+1,,105,39,E.Info.SCM,-
+1,,105,42,E.Info.SCM-4.NetworkInterface.Protocol];,and
+1,,105,43,E.Info.SCM,-
+1,,105,46,E.Info.SCM-4.NetworkInterface.Protocol];,and
+1,,105,47,E.Info.SCM-4.SCM.Generic],
+1,,105,48,E.Info.SCM,-
+1,,105,51,E.Info.SCM-4.SCM.ImplDetail],Reference to versioned standards or specifications
+1,,106,3,E.Info.SCM-4.SCM.Repudiation],Description of how the mechanism at least protects against
+1,,106,5,E.Info.DT.SCM-4],Description of the selected path through the decision tree in Figure 20 for each secure
+1,,106,6,E.Info.SCM-4.SCM].,
+1,,106,9,E.Info.SCM-4.SCM].,
+1,,106,11,E.Info.DT.SCM-4],with the following properties:
+1,,106,13,"E.Info.SCM-4.SecurityAsset.Com],",[E.Info.SCM-
+1,,106,14,E.Info.SCM-4.SCM.Capabilities],and [E.Info.SCM-4.SCM.Repudiation]; and
+1,,106,16,"E.Info.SCM-4.SecurityAsset.Com],",[E.Info.SCM-
+1,,106,17,E.Info.SCM-4.SCM.Capabilities].,
+1,,107,6,"E.Info.SCM-4.SCM],",and for each equipment state
+1,,107,7,E.Info.DT.SCM-4],ends
+1,,107,9,"E.Info.DT.SCM-4],",examine its justification
+1,,107,13,E.Info.DT.SCM-4],ends with
+1,,107,15,E.Info.DT.SCM-4],ends with “FAIL”; and
+1,,107,17,E.Info.DT.SCM-4].,
+1,,107,19,E.Info.DT.SCM-4],ends with “FAIL”; or
+1,,107,21,E.Info.DT.SCM-4].,
+1,,108,14,E.Info.SCM-4.SecurityAsset],
+1,,108,15,"E.Info.SCM-4.NetworkAsset],",between the equipment and an
+1,,108,18,E.Info.SCM-4.SCM],"considering the equipment states documented, applying"
+1,,108,20,E.Info.SCM,-
+1,,108,24,E.Info.SCM,-
+1,,108,29,"E.Info.SCM-4.SCM.OneTimeEncKey],",that:
+1,,108,33,E.Info.SCM,-
+1,,108,39,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+1,,109,6,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+1,,110,15,E.Info.RLM,-
+1,,110,18,E.Info.RLM-1.RLM],Description of each resilience mechanism used for mitigating
+1,,110,21,E.Info.DT.RLM-1],Description of the selected path through the decision tree in Figure 21 for each
+1,,110,22,E.Info.RLM-1.NetworkInterface].,
+1,,110,24,E.Info.DT.RLM-1],"including justifications for the decisions [DT.RLM-1.DN-1], [DT.RLM-1.DN-2] and"
+1,,110,25,E.Info.RLM-1.NetworkInterface],and [E.Info.RLM-1.RLM].
+1,,111,6,"E.Info.RLM-1.NetworkInterface],",check whether the path
+1,,111,7,E.Info.DT.RLM-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,111,8,"E.Info.DT.RLM-1],",examine its justification
+1,,111,12,E.Info.DT.RLM-1],ends with
+1,,111,14,E.Info.DT.RLM-1],ends with “FAIL”; and
+1,,111,16,E.Info.DT.RLM-1].,
+1,,111,18,E.Info.DT.RLM-1],ends with “FAIL”; or
+1,,111,20,E.Info.DT.RLM-1].,
+1,,112,10,E.Info.RLM,-
+1,,112,13,E.Info.RLM-1.RLM],"are used, documentation is provided that specifies information on what to"
+1,,112,16,E.Info.RLM,-
+1,,112,18,E.Info.RLM,-
+1,,112,22,E.Info.RLM-1.NetworkInterface],and all resilience mechanisms found are documented in [E.Info.RLM-
+1,,112,25,E.Info.RLM-1.NetworkInterface],or a resilience mechanism is found which is not
+1,,112,26,E.Info.RLM-1.RLM].,
+1,,112,33,E.Info.RLM-1.NetworkInterface],is either enabled or
+1,,112,35,E.Info.RLM-1.RLM],are used the information on what to configure to be able to test the
+1,,112,38,E.Info.RLM-1.RLM],and used in
+1,,113,17,E.Info.RLM-1.RLM],is not implemented.
+1,,113,19,E.Info.RLM-1.RLM],is not implemented.
+1,,114,38,E.Info.NMM-1.NMM],Description of the implemented monitoring mechanism(s) to monitor
+1,,114,41,E.Info.NMM,-
+1,,114,45,E.Info.NMM,-
+1,,114,49,E.Info.NMM-1.NMM.NetworkEquipment],"Documented analysis, rationale and"
+1,,115,5,E.Info.DT.NMM-1],Description of the selected path through the decision tree in Figure 22Figure 22 for
+1,,115,6,E.Info.NMM-1.NMM].,This document needs to
+1,,115,7,E.Info.NMM,-
+1,,115,10,E.Info.DT.NMM-1],with the following properties:
+1,,115,12,E.Info.NMM-1.NMM.NetworkEquipment].,
+1,,115,13,E.Info.NMM-1.NMM].,
+1,,115,23,E.Info.DT.NMM-1],examine its justification
+1,,115,25,E.Info.DT.NMM-1],ends with “NOT
+1,,115,29,E.Info.DT.NMM-1],ends with
+1,,116,3,E.Info.DT.NMM-1],ends with “FAIL”; and
+1,,116,5,E.Info.DT.NMM-1].,
+1,,116,7,E.Info.DT.NMM-1],ends with “FAIL”; or
+1,,116,9,E.Info.DT.NMM-1].,
+1,,116,17,E.Info.NMM-1.NMM].,The assessment verifies whether the traffic
+1,,116,20,E.Info.NMM-1.NMM.NetworkEquipment].,
+1,,116,26,E.Info.NMM-1.NMM],
+1,,117,7,E.Info.NMM,-
+1,,117,18,E.Info.NMM,-
+1,,117,21,E.Info.NMM-1.NMM],"described conditions to trigger the related monitoring e.g., via"
+1,,117,22,E.Info.NMM,-
+1,,117,24,E.Info.NMM-1.NMM],"described behaviour or output is generated as documented, use"
+1,,117,28,E.Info.NMM-1.NMM],the confirmations in the implementation category dependent
+1,,117,31,E.Info.NMM-1.NMM],a confirmation in the implementation category dependent assessment unit is not
+1,,118,35,E.Info.TCM-1.TCM],Description of each traffic control mechanism implemented by the network
+1,,118,37,E.Info.TCM,-
+1,,118,40,E.Info.TCM,-
+1,,118,43,E.Info.TCM-1.TCM.NetworkEquipment],"Documented analysis, rationale and justification"
+1,,118,49,E.Info.DT.TCM-1],Description of the selected the path through the decision tree in Figure 23 for each
+1,,118,50,E.Info.TCM-1.TCM].,This document needs to explain why the
+1,,118,51,E.Info.TCM-1.TCM.NetworkEquipment].,
+1,,118,53,E.Info.DT.TCM-1],with the following properties:
+1,,119,4,"E.Info.TCM-1.TCM.NetworkEquipment],",
+1,,119,5,E.Info.TCM-1.TCM].,
+1,,119,15,E.Info.DT.TCM-1],examine its justification
+1,,119,17,E.Info.DT.TCM-1],ends with “NOT
+1,,119,21,E.Info.DT.TCM-1],ends with
+1,,119,23,E.Info.DT.TCM-1],ends with “FAIL”; and
+1,,119,25,E.Info.DT.TCM-1].,
+1,,119,27,E.Info.DT.TCM-1],ends with “FAIL”; or
+1,,120,4,E.Info.DT.TCM-1].,
+1,,120,12,E.Info.TCM-1.TCM].,The assessment verifies whether the traffic
+1,,120,20,E.Info.TCM-1.TCM],
+1,,120,34,E.Info.TCM-1.TCM].,
+1,,120,37,E.Info.TCM-1.TCM],the confirmations in the implementation category dependent assessment unit are
+1,,121,4,E.Info.TCM-1.TCM],a confirmation in the implementation category dependent assessment unit is not
+1,,122,28,E.Info.CCK-1.CCK],For each confidential cryptographic key (whether preinstalled or generated by the
+1,,122,34,E.Info.CCK-1.CCK.Deviation],Reference to the corresponding justification and to the
+1,,122,36,E.Info.CCK-1.CCK.SecurityStrength],The  security strength and the reference of the lookup tables
+1,,122,41,E.Info.DT.CCK-1],Description of the selected path through the decision tree in Figure 24 for each
+1,,122,42,E.Info.CCK-1.CCK].,
+1,,122,44,E.Info.DT.CCK-1],with the following properties:
+1,,123,4,E.Info.CCK-1.CCK.Deviation];,and
+1,,123,5,E.Info.CCK-1.CCK],and [E.Info.CCK-
+1,,123,16,"E.Info.CCK-1.CCK],",check whether the path
+1,,123,17,E.Info.DT.CCK-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,123,19,"E.Info.DT.CCK-1],",examine its justification
+1,,123,23,E.Info.DT.CCK-1],ends with
+1,,123,25,E.Info.DT.CCK-1],ends with “FAIL”; and
+1,,123,27,E.Info.DT.CCK-1].,
+1,,124,4,E.Info.DT.CCK-1],ends with “FAIL”; or
+1,,124,6,E.Info.DT.CCK-1].,
+1,,124,16,E.Info.CCK-1.CCK].,
+1,,124,18,E.Info.CCK,-
+1,,124,21,E.Info.CCK-1.CCK].,
+1,,124,26,E.Info.CCK-1.CCK],are implemented as documented.
+1,,124,33,E.Info.CCK-1.CCK],functionally assess whether
+1,,124,34,E.Info.CCK-1.CCK],is implemented in accordance with [E.Info.CCK-
+1,,125,5,E.Info.CCK-1.CCK],deviates from their documentation.
+1,,125,7,E.Info.CCK-1.CCK],deviates from the documentation.
+1,,126,10,E.Info.CCK-2.Generation],Description of each generation mechanism for confidential cryptographic
+1,,126,12,E.Info.CCK-2.Generation.CCK],Specification of the confidential cryptographic keys the
+1,,126,17,E.Info.CCK-2.Generation.RNSource],
+1,,126,26,E.Info.CCK-2.Generation.RNG],
+1,,126,37,E.Info.CCK-2.Generation.Implementation],
+1,,127,8,E.Info.CCK,-
+1,,127,15,E.Info.DT.CCK-2],Description of the selected path through the decision tree in Figure 25 for each
+1,,127,16,E.Info.CCK-2.Generation].,
+1,,127,18,E.Info.DT.CCK-2],with the following properties:
+1,,127,20,E.Info.CCK-2.Generation.Deviation];,and
+1,,127,21,E.Info.CCK-2.Generation].,
+1,,127,25,E.Info.CCK-2.Generation],are as required per CCK-2.
+1,,128,7,"E.Info.CCK-2.Generation],",check whether the path through the decision tree documented in
+1,,128,8,E.Info.DT.CCK-2],ends with “NOT APPLICABLE” or “PASS”.
+1,,128,9,"E.Info.DT.CCK-2],",examine its justification
+1,,128,13,E.Info.DT.CCK-2],ends with
+1,,128,15,E.Info.DT.CCK-2],ends with “FAIL”; and
+1,,128,17,E.Info.DT.CCK-2].,
+1,,128,21,E.Info.DT.CCK-2].,
+1,,129,6,E.Info.CCK-2.Generation].,
+1,,129,11,E.Info.CCK-2.Generation],through a consistency check with
+1,,129,12,E.Info.CCK-1.CCK].,
+1,,129,15,E.Info.CCK-2.Generation].,
+1,,129,17,E.Info.CCK-2.Generation].,
+1,,130,23,E.Info.CCK-3.CCK],"Description of each preinstalled confidential cryptographic key on the equipment,"
+1,,130,27,E.Info.CCK-3.CCK.Controlled],Description of:
+1,,130,33,E.Info.CCK-3.CCK.Shared],Description of the equipment’s functionalities that require the
+1,,130,35,E.Info.CCK-3.CCK.Unique],
+1,,130,37,E.Info.DT.CCK-3],Description of the selected path through the decision tree shown in Figure 26 for each
+1,,130,38,E.Info.CCK-3.CCK].,
+1,,130,40,E.Info.DT.CCK-3],with the following properties:
+1,,130,42,E.Info.CCK-3.CCK.Controlled];,and
+1,,131,4,E.Info.CCK-3.CCK.Shared];,and
+1,,131,5,E.Info.CCK-3.CCK.Unique].,
+1,,131,15,"E.Info.CCK-3.CCK],",check whether the path
+1,,131,16,E.Info.DT.CCK-3],ends with “NOT APPLICABLE” or “PASS”.
+1,,131,17,"E.Info.DT.CCK-3],",examine its justification
+1,,131,21,E.Info.DT.CCK-3],ends with
+1,,132,3,E.Info.DT.CCK-3],ends with “FAIL”; and
+1,,132,5,E.Info.DT.CCK-3].,
+1,,132,7,E.Info.DT.CCK-3],ends with “FAIL”; or
+1,,132,9,E.Info.DT.CCK-3].,
+1,,132,19,E.Info.CCK-3.CCK].,
+1,,132,22,E.Info.CCK-3.CCK].,
+1,,132,24,E.Info.CCK-3.CCK].,
+1,,132,33,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK
+1,,133,13,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+1,,133,16,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+1,,134,26,E.Info.GEC-1.SecurityAsset],Description of each security asset.
+1,,134,27,E.Info.GEC-1.NetworkAsset],Description of each network asset.
+1,,134,28,E.Info.GEC-1.SoftwareDocumentation],"Description of the software of the equipment, including their"
+1,,134,29,E.Info.GEC,-
+1,,134,30,E.Info.GEC-1.NetworkAsset].,
+1,,134,31,E.Info.GEC-1.HardwareDocumentation],Description of the hardware of the equipment that affect the
+1,,134,32,E.Info.GEC-1.SecurityAsset],and [E.Info.GEC-
+1,,134,34,E.Info.GEC-1.ListOfVulnerabilities],Description of all publicly known exploitable vulnerabilities in the
+1,,134,35,E.Info.GEC,-
+1,,134,36,E.Info.GEC-1.NetworkAsset].,The document includes also the source of the
+1,,134,40,E.Info.GEC-1.ListOfVulnerabilities.Remediated],The
+1,,134,43,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition],The description of specific conditions
+1,,135,3,E.Info.GEC-1.ListOfVulnerabilities.Mitgated],The
+1,,135,5,E.Info.GEC-1.ListOfVulnerabilities.Accepted],The
+1,,135,7,E.Info.DT.GEC-1],Description of the selected path through the decision tree in Figure 27 for each
+1,,135,8,E.Info.GEC-1.SoftwareDocumentation],and [E.Info.GEC-
+1,,135,11,E.Info.DT.GEC-1],with the following properties:
+1,,135,21,E.Info.GEC,-
+1,,135,24,E.Info.GEC-1.ListOfVulnerabilities],and [E.Info.GEC-
+1,,135,27,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition];,
+1,,135,29,E.Info.GEC-1.ListOfVulnerabilities.Mitgated];,and
+1,,135,39,E.Info.GEC,-
+1,,136,6,E.Info.GEC-1.SoftwareDocumentation],and hardware documented in [E.Info.GEC-
+1,,136,8,E.Info.DT.GEC-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,136,9,"E.Info.DT.GEC-1],",examine its justification
+1,,136,13,E.Info.DT.GEC-1],ends with “PASS”;
+1,,136,15,E.Info.DT.GEC-1],ends with “FAIL”; and
+1,,136,17,E.Info.DT.GEC-1].,
+1,,136,19,E.Info.DT.GEC-1],ends with “FAIL”; or
+1,,136,21,E.Info.DT.GEC-1].,
+1,,137,7,E.Info.GEC-1.ListOfVulnerabilities].,
+1,,137,14,E.Info.GEC,-
+1,,137,17,E.Info.GEC,-
+1,,137,24,E.Info.GEC,-
+1,,137,27,E.Info.GEC,-
+1,,137,33,E.Info.GEC-1.ListOfVulnerabilities],are not able to affect security assets or
+1,,138,4,E.Info.GEC-1.ListOfVulnerabilities],are
+1,,138,5,E.Info.GEC,-
+1,,138,13,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions
+1,,138,14,E.Info.GEC-1.ListOfVulnerabilities].,
+1,,138,17,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions for the exploitability defined
+1,,138,18,E.Info.GEC-1.ListOfVulnerabilities].,
+1,,139,32,E.Info.GEC-2.NetworkInterface.Exposure],Description of each network interface and exposed service
+1,,139,35,E.Info.GEC-2.Setup],Documentation how to setup the
+1,,139,37,E.Info.GEC-2.SecurityAsset],Documentation of each security asset that is accessible via network
+1,,140,3,E.Info.GEC-2.NetworkAsset],Documentation of each network asset that is accessible via network
+1,,140,5,E.Info.DT.GEC-2],Description of the selected path through the decision tree in Figure 28 for each
+1,,140,6,E.Info.GEC,-
+1,,140,9,E.Info.DT.GEC-2],with the following properties:
+1,,140,11,E.Info.GEC-2.NetworkInterface.Exposure];,and
+1,,140,13,E.Info.GEC-2.SecurityAsset],and [E.Info.GEC-
+1,,140,24,E.Info.GEC,-
+1,,140,30,E.Info.GEC-2.NetworkInterface.Exposure],is restricted to the ones
+1,,141,3,E.Info.GEC,-
+1,,141,5,E.Info.DT.GEC-2],ends with “NOT APPLICABLE” or “PASS”.
+1,,141,6,"E.Info.DT.GEC-2],",examine its justification
+1,,141,10,E.Info.DT.GEC-2],ends with
+1,,141,12,E.Info.DT.GEC-2],ends with “FAIL”; and
+1,,141,14,E.Info.DT.GEC-2].,
+1,,141,16,E.Info.DT.GEC-2],ends with “FAIL”; or
+1,,141,18,E.Info.DT.GEC-2].,
+1,,141,31,E.Info.GEC-2.NetworkInterface.Exposure],or
+1,,141,32,E.Info.GEC-2.Setup],or to operate the equipment in basic
+1,,142,5,E.Info.GEC-2.NetworkInterface.Exposure],and is required for
+1,,142,6,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+1,,142,8,E.Info.GEC-2.NetworkInterface.Exposure],or not required
+1,,142,9,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+1,,142,31,E.Info.GEC-3.NetworkInterface.Exposure],Description of each network interface and exposed service
+1,,142,34,E.Info.GEC-3.SecurityAsset],Documentation of each security asset that is accessible via network
+1,,142,36,E.Info.GEC-3.NetworkAsset],Documentation of each network asset that is accessible via network
+1,,143,3,E.Info.DT.GEC-3],Description of the selected path through the decision tree in Figure 29 for each
+1,,143,4,E.Info.GEC,-
+1,,143,7,E.Info.DT.GEC-3],with the following properties:
+1,,143,9,E.Info.GEC-3.SecurityAsset],and [E.Info.GEC-
+1,,143,20,E.Info.GEC,-
+1,,143,34,E.Info.GEC-3.NetworkInterface.Exposure],that is part of the factory default state check whether the
+1,,143,35,E.Info.DT.GEC-3],ends with “NOT APPLICABLE” or “PASS”.
+1,,143,36,"E.Info.DT.GEC-3],",examine its justification
+1,,144,5,E.Info.DT.GEC-3],ends with
+1,,144,7,E.Info.DT.GEC-3],ends with “FAIL”; and
+1,,144,9,E.Info.DT.GEC-3].,
+1,,144,11,E.Info.DT.GEC-3],ends with “FAIL”; or
+1,,144,13,E.Info.DT.GEC-3].,
+1,,144,27,E.Info.GEC-3.NetworkInterface.Exposure].,
+1,,144,30,E.Info.GEC,-
+1,,144,43,E.Info.GEC,-
+1,,145,17,E.Info.GEC-3.NetworkInterface.Exposure],are configurable; and
+1,,145,23,E.Info.GEC-3.NetworkInterface.Exposure],is only possible
+1,,145,30,E.Info.GEC-3.NetworkInterface.Exposure].,
+1,,145,35,E.Info.GEC-3.NetworkInterface.Exposure].,
+1,,146,22,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure],User documentation of each exposed network
+1,,146,24,E.Info.GEC-4.NetworkInterface.Exposure],Description of each exposed network interface and exposed
+1,,146,26,E.Info.DT.GEC-4],Description of the selected path through the decision tree in Figure 30 for each
+1,,146,27,E.Info.GEC,-
+1,,146,30,E.Info.DT.GEC-4],with the following properties:
+1,,146,32,E.Info.GEC-4.NetworkInterface.Exposure];,and
+1,,146,42,E.Info.GEC,-
+1,,147,8,E.Info.GEC,-
+1,,147,10,E.Info.DT.GEC-4],ends with “NOT APPLICABLE” or “PASS”.
+1,,147,11,"E.Info.DT.GEC-4],",examine its justification
+1,,147,15,E.Info.DT.GEC-4],ends with
+1,,147,17,E.Info.DT.GEC-4],ends with “FAIL”; and
+1,,147,19,E.Info.DT.GEC-4].,
+1,,147,21,E.Info.DT.GEC-4],ends with “FAIL”; or
+1,,147,23,E.Info.DT.GEC-4].,
+1,,148,24,E.Info.GEC,-
+1,,148,27,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure].,
+1,,148,43,E.Info.GEC,-
+1,,148,46,E.Info.GEC,-
+1,,149,17,E.Info.GEC-5.PhysicalExternalInterface],Description of each physical external interface including:
+1,,149,18,E.Info.GEC-5.PhysicalExternalInterface.Purpose],The purpose of the interface; and
+1,,149,19,E.Info.GEC-5.PhysicalExternalInterface.Type],Description of the interface type (e.g. USB-C).
+1,,149,20,E.Info.GEC-5.IntFunc],Description of the intended functionality of the equipment.
+1,,149,21,E.Info.DT.GEC-5],Description of the selected path through the decision tree in Figure 31 for each
+1,,149,22,E.Info.GEC-5.PhysicalExternalInterface].,
+1,,149,24,"E.Info.DT.GEC-5],",with the following property:
+1,,149,34,E.Info.GEC,-
+1,,150,6,E.Info.GEC-5.PhysicalExternalInterface],check
+1,,150,7,E.Info.DT.GEC-5],ends with “PASS”.
+1,,150,8,"E.Info.DT.GEC-5],",examine its justification
+1,,150,12,E.Info.DT.GEC-5],end with “PASS”; and
+1,,150,14,E.Info.DT.GEC-5].,
+1,,150,16,E.Info.DT.GEC-5],ends with “FAIL”; or
+1,,150,18,E.Info.DT.GEC-5].,
+1,,150,23,E.Info.GEC,-
+1,,151,5,E.Info.GEC-5.PhysicalExternalInterface],
+1,,151,11,E.Info.GEC-5.PhysicalExternalInterface].,
+1,,151,14,E.Info.GEC-5.PhysicalExternalInterface].,
+1,,151,16,E.Info.GEC-5.PhysicalExternalInterface].,
+1,,153,6,E.Info.GEC-6.ExternalInterface],Description of each external interface including:
+1,,153,7,E.Info.GEC-6.ExternalInterface.Capabilities],"Description of any used APIs, protocols, input"
+1,,153,9,E.Info.GEC-6.ExternalInterface.Validation],Description how the input for instance via
+1,,153,11,E.Info.GEC-6.SecurityAsset],Description of each security asset that is potentially impacted via external
+1,,153,13,E.Info.GEC-6.NetworkAsset],Description of each network asset that is potentially impacted via external
+1,,153,15,E.Info.DT.GEC-6],Description of the selected path through the decision tree in Figure 32 for each of the
+1,,153,16,E.Info.GEC-6.ExternalInterface].,
+1,,153,18,E.Info.DT.GEC-6],with the following properties:
+1,,153,20,E.Info.GEC-6.ExternalInterface],and [E.Info.GEC-
+1,,153,22,E.Info.GEC,-
+1,,153,24,E.Info.GEC-6.ExternalInterface.Validation],
+1,,153,26,E.Info.GEC,-
+1,,154,6,"E.Info.GEC-6.ExternalInterface],",check whether the path
+1,,154,7,E.Info.DT.GEC-6],ends with “PASS” or “NOT APPLICABLE”.
+1,,154,8,"E.Info.DT.GEC-6],",examine its justification
+1,,154,12,E.Info.DT.GEC-6],ends with “PASS”;
+1,,154,14,E.Info.DT.GEC-6],ends with “FAIL”; and
+1,,154,16,E.Info.DT.GEC-6].,
+1,,154,18,E.Info.DT.GEC-6],ends with “FAIL”; or
+1,,154,20,E.Info.DT.GEC-6].,
+1,,155,14,E.Info.GEC,-
+1,,155,17,E.Info.GEC-6.ExternalInterface],as a guidance; and
+1,,155,20,E.Info.GEC-6.ExternalInterface.Capabilities],to trigger the
+1,,155,25,E.Info.GEC-6.ExternalInterface].,
+1,,155,27,E.Info.GEC-6.ExternalInterface].,
+1,,156,6,E.Info.GEC-6.ExternalInterface],as guidance to test the related
+1,,156,9,E.Info.GEC-6.SecurityAsset],and network assets described in
+1,,156,10,E.Info.GEC-6.NetworkAsset],by executing specific attacks related to the input mechanisms
+1,,156,21,E.Info.GEC,-
+1,,156,26,E.Info.GEC,-
+1,,156,27,E.Info.GEC-6.NetworkAsset].,
+1,,156,29,E.Info.GEC,-
+1,,156,30,E.Info.GEC-6.NetworkAsset].,
+1,,158,9,E.Info.CRY-1.Assets],List of all security assets and network assets on the equipment protected by
+1,,158,11,E.Info.CRY-1.Assets.Cryptography],Description of the cryptography used for cryptographic
+1,,158,18,E.Info.CRY-1.Assets.Deviation],Reference to the corresponding justification
+1,,158,30,E.Info.DT.CRY-1],Description of the selected path through the decision tree in Figure 33 for each security
+1,,158,31,E.Info.CRY-1.Assets].,
+1,,158,33,E.Info.DT.CRY-1],with the following properties:
+1,,158,35,E.Info.CRY-1.Assets.Deviation];,and
+1,,158,45,E.Info.CRY,-
+1,,159,8,"E.Info.CRY-1.Assets],",check whether the path
+1,,159,9,E.Info.DT.CRY-1],ends with “NOT APPLICABLE” or “PASS”.
+1,,159,10,"E.Info.DT.CRY-1],",examine its justifications
+1,,159,15,E.Info.DT.CRY-1],ends with “PASS”;
+1,,159,18,E.Info.DT.CRY-1],ends with “FAIL”; and
+1,,159,21,E.Info.DT.CRY-1].,
+1,,159,24,E.Info.DT.CRY-1],ends with “FAIL”; or
+1,,159,27,E.Info.DT.CRY-1].,
+1,,160,6,E.Info.CRY-1.Assets.Cryptography],is complete.
+1,,160,11,E.Info.CRY-1.Assets.Cryptography].,
+1,,160,17,E.Info.CRY-1.Assets.Cryptography].,
+1,,160,19,E.Info.CRY-1.Assets.Cryptography].,
+1,,160,24,E.Info.CRY-1.Assets.Cryptography],is implemented as it is documented.
+1,,160,28,E.Info.CRY-1.Assets.Cryptography],check whether
+1,,160,35,E.Info.CRY-1.Assets.Cryptography],is found.
+1,,160,37,E.Info.CRY-1.Assets.Cryptography],is found.
+1,,167,18,E.Info.xxxxx],where
+1,,167,19,E.Info.ACM-1.ACM],is the
+1,,167,21,E.Info.AUM-1-1.ACM.NetworkInterface],includes a description of network
+1,,168,3,E.Info.DT.xxxxxx],and
+2,,17,3,E.Info,evidence.information
+2,,21,32,E.Info.ACM-1.SecurityAsset],"Description of each security asset that is accessible by entities, including:"
+2,,21,33,E.Info.ACM-1.SecurityAsset.Access],possible entities’ accesses to the security asset on the
+2,,21,36,E.Info.ACM-1.SecurityAsset.PublicAccess],Description
+2,,21,41,E.Info.ACM-1.SecurityAsset.Environment],Description of:
+2,,22,7,E.Info.ACM,-
+2,,22,12,E.Info.ACM-1.SecurityAsset.ACM],Description of each access control mechanism that
+2,,22,14,E.Info.ACM-1.PrivacyAsset],"Description of each privacy asset that is accessible by entities, including:"
+2,,22,15,E.Info.ACM-1.PrivacyAsset.Access],possible entities’ accesses to the privacy asset on the
+2,,22,18,E.Info.ACM-1.PrivacyAsset.PublicAccess],Description
+2,,22,23,E.Info.ACM-1.PrivacyAsset.Environment],Description of:
+2,,22,28,E.Info.ACM,-
+2,,22,33,E.Info.ACM-1.PrivacyAsset.ACM],Description of each access control mechanism that
+2,,22,35,E.Info.DT.ACM-1],Description of the selected path through the decision tree in Figure 1 for each security
+2,,22,36,E.Info.ACM-1.SecurityAsset],"and [E.Info.ACM-1.PrivacyAsset],"
+2,,22,39,"E.Info.DT.ACM-1],",with the following properties:
+2,,22,41,E.Info.ACM-1.SecurityAsset.PublicAccess],or
+2,,22,42,E.Info.ACM-1.PrivacyAsset.PublicAccess];,and
+2,,23,4,E.Info.ACM-1.SecurityAsset.Environment],or
+2,,23,5,E.Info.ACM-1.PrivacyAsset.Environment];,and
+2,,23,7,E.Info.ACM-1.SecurityAsset.Legal],or [E.Info.ACM-
+2,,23,18,E.Info.ACM,-
+2,,23,19,E.Info.ACM-1.PrivacyAsset.ACM].,
+2,,23,29,E.Info.ACM-1.SecurityAsset],and each privacy asset documented
+2,,23,30,"E.Info.ACM-1.PrivacyAsset],",check whether the path through the decision tree documented in
+2,,23,31,E.Info.DT.ACM-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,23,32,"E.Info.DT.ACM-1],",examine its justification
+2,,24,6,E.Info.DT.ACM-1],ends with “PASS”;
+2,,24,9,E.Info.DT.ACM-1],ends with “FAIL”; and
+2,,24,12,E.Info.DT.ACM-1].,
+2,,24,15,E.Info.DT.ACM-1],ends with “FAIL”; or
+2,,24,18,E.Info.DT.ACM-1].,
+2,,24,23,E.Info.ACM-1.PrivacyAsset],or [E.Info.ACM-
+2,,24,29,E.Info.ACM-1.SecurityAsset],"and whether there are network assets, that"
+2,,24,30,"E.Info.ACM-1.PrivacyAsset],",
+2,,24,35,E.Info.ACM-1.SecurityAsset],and all privacy assets found are documented in [E.Info.ACM-
+2,,24,38,E.Info.ACM-1.SecurityAsset],or a privacy asset is found which is not documented in
+2,,24,39,E.Info.ACM-1.PrivacyAsset].,
+2,,25,10,E.Info.ACM-1.SecurityAsset],and each network asset documented
+2,,25,11,E.Info.ACM-1.PrivacyAsset],functionally confirm the existence of access control mechanisms
+2,,25,12,E.Info.ACM-1.SecurityAsset.ACM],and [E.Info.ACM-1.PrivacyAsset.ACM] by accessing the
+2,,25,15,E.Info.ACM-1.PrivacyAsset.PublicAccess],
+2,,25,17,E.Info.ACM,-
+2,,25,21,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.PrivacyAsset.ACM] is not
+2,,25,26,E.Info.ACM-1.SecurityAsset.ACM],
+2,,25,28,E.Info.ACM-1.PrivacyAsset.ACM],
+2,,27,13,E.Info.ACM-2.SecurityAsset],Description of each security asset for which ACM-1 requires access control
+2,,27,15,E.Info.ACM-2.SecurityAsset.ACM],Description of the access control mechanisms required
+2,,27,19,E.Info.ACM-2.PrivacyAsset],Description of each privacy asset for which ACM-1 requires access control
+2,,27,21,E.Info.ACM-2.PrivacyAsset.ACM],Description of the access control mechanisms required per
+2,,27,25,E.Info.DT.ACM-2],Description of the selected path through the decision tree in Figure 2 for each security
+2,,27,26,E.Info.ACM-2.SecurityAsset],and privacy asset documented in [E.Info.ACM-
+2,,27,29,"E.Info.DT.ACM-2],",with the following property:
+2,,27,39,E.Info.ACM,-
+2,,27,40,E.Info.ACM-2.SecurityAsset.ACM].,
+2,,28,6,E.Info.ACM-2.SecurityAsset],and each privacy asset documented
+2,,28,7,"E.Info.ACM-2.PrivacyAsset],",check whether the path through the decision tree documented in
+2,,28,8,E.Info.DT.ACM-2],ends with “PASS”.
+2,,28,9,"E.Info.DT.ACM-2],",examine its justification
+2,,28,13,E.Info.DT.ACM-2],end with “PASS”; and
+2,,28,15,E.Info.DT.ACM-2].,
+2,,28,17,E.Info.DT.ACM-2],ends with “FAIL”; or
+2,,28,19,E.Info.DT.ACM-2].,
+2,,29,4,E.Info.ACM-2.SecurityAsset],and privacy asset documented in
+2,,29,5,E.Info.ACM-2.PrivacyAsset],
+2,,29,6,E.Info.ACM-2.SecurityAsset.ACM],or
+2,,29,7,E.Info.ACM-2.PrivacyAsset.ACM],"belong to [IC.ACM-2.RBAC]), functionally confirm that:"
+2,,29,13,E.Info.ACM-2.SecurityAsset.ACM],or
+2,,29,14,E.Info.ACM-2.PrivacyAsset.ACM],"belong to [IC.ACM-2.DAC], functionally confirm that:"
+2,,29,20,E.Info.ACM-2.SecurityAsset.ACM],or
+2,,29,21,E.Info.ACM-2.PrivacyAsset.ACM],"belong to [IC.ACM-2.MAC], functionally confirm that:"
+2,,29,28,E.Info.ACM-2.SecurityAsset.ACM],
+2,,29,29,E.Info.ACM-2.PrivacyAsset.ACM],"belong to [IC.ACM-2.Generic], functionally confirm that:"
+2,,29,35,E.Info.ACM,-
+2,,29,36,E.Info.ACM-2.PrivacyAsset],the confirmations in the
+2,,30,3,E.Info.ACM,-
+2,,30,4,E.Info.ACM-2.PrivacyAsset],a confirmation in the
+2,,30,36,E.Info.ACM-3.ACM],solely rely on role-based access control and ensure that children’s
+2,,30,39,E.Info.ACM-3.ACM],solely rely on discretionary access control and ensure that children’s access to
+2,,31,4,E.Info.ACM-3.ACM],solely rely on mandatory access control and ensure that children’s access to
+2,,31,7,E.Info.ACM-3.ACM],"do not solely rely on any of the methods described in ACM-3-RBAC,"
+2,,31,11,E.Info.ACM-3.PrivacyAsset],Description of each privacy function where children can access external
+2,,31,13,E.Info.ACM-3.PrivacyAsset.TrustedSources],List of authorized entities providing external
+2,,31,15,E.Info.ACM-3.ACM],Description of each access control mechanism that is required per ACM-1 and that
+2,,31,16,"E.Info.ACM-3.PrivacyAsset],",
+2,,31,20,E.Info.DT.ACM-3],Description of the selected path through the decision tree in Figure 3 for each privacy
+2,,31,21,E.Info.ACM,-
+2,,31,24,E.Info.DT.ACM-3],with
+2,,31,26,E.Info.ACM-3.ACM],and [E.Info.ACM-
+2,,32,6,E.Info.ACM,-
+2,,32,7,E.Info.ACM,-
+2,,32,8,E.Info.DT.ACM-3],ends with
+2,,32,10,"E.Info.DT.ACM-3],",examine its justification
+2,,32,14,E.Info.DT.ACM-3],ends with
+2,,32,16,E.Info.DT.ACM-3],ends with “FAIL”; and
+2,,32,18,E.Info.DT.ACM-3].,
+2,,32,20,E.Info.DT.ACM-3],ends with “FAIL”; or
+2,,32,22,E.Info.DT.ACM-3].,
+2,,33,11,E.Info.ACM-3.PrivacyAsset],by performing the following steps:
+2,,33,16,E.Info.ACM-3.PrivacyAsset],and highlight any mismatch.
+2,,33,19,E.Info.ACM-3.PrivacyAsset].,
+2,,33,21,E.Info.ACM-3.PrivacyAsset].,
+2,,33,31,E.Info.ACM-3.ACM],belong to
+2,,34,3,E.Info.ACM-3.ACM],belong to
+2,,34,9,E.Info.ACM-3.ACM],belong to
+2,,34,18,E.Info.ACM-3.ACM],belong to
+2,,34,27,E.Info.ACM-3.ACM],the confirmations in the implementation category dependent assessment unit are
+2,,34,30,E.Info.ACM-3.ACM],a confirmation in the implementation category dependent assessment unit is not
+2,,35,25,E.Info.ACM-4.ACM],solely rely on role-based access control and ensure that other
+2,,35,29,E.Info.ACM-4.ACM],solely rely on discretionary access control and ensure that other entities’ third-
+2,,35,33,E.Info.ACM-4.ACM],solely rely on mandatory access control and ensure that other entities’ third-
+2,,35,37,E.Info.ACM-4.ACM],"do not solely rely on any of the methods described in ACM-4-RBAC,"
+2,,35,42,E.Info.ACM-4.PrivacyAsset],Description of each children’s privacy function and personal information
+2,,36,3,E.Info.ACM-4.ACM],Description of each access control mechanism that is required per ACM-1 and that
+2,,36,8,E.Info.ACM,-
+2,,36,10,E.Info.ACM-4.PrivacyAsset],that can be accessed by the third
+2,,36,13,E.Info.ACM-4.PrivacyAsset],for each authorised third-party.
+2,,36,14,E.Info.DT.ACM-4],Description of the selected path through the decision tree in Figure 4 for each of the
+2,,36,16,"E.Info.ACM-4.PrivacyAsset],",where access for third-parties other than the children or their parents or
+2,,36,17,E.Info.ACM-4.ACM].,
+2,,36,19,E.Info.DT.ACM-4],with the following properties:
+2,,36,21,E.Info.ACM-4.AuthorisedAccess];,and
+2,,36,22,E.Info.ACM-4.ACM].,
+2,,37,7,E.Info.ACM,-
+2,,37,8,E.Info.ACM,-
+2,,37,9,E.Info.DT.ACM-4],ends with
+2,,37,11,"E.Info.DT.ACM-4],",examine its justification
+2,,37,15,E.Info.DT.ACM-4],ends with
+2,,37,17,E.Info.DT.ACM-4],ends with “FAIL”; and
+2,,37,19,E.Info.DT.ACM-4].,
+2,,38,4,E.Info.DT.ACM-4],ends with “FAIL”; or
+2,,38,6,E.Info.DT.ACM-4].,
+2,,38,18,E.Info.ACM-4.PrivacyAsset],by performing the following steps:
+2,,38,23,E.Info.ACM-4.PrivacyAsset],and highlight any
+2,,38,25,E.Info.ACM-4.PrivacyAsset].,
+2,,38,29,E.Info.ACM-4.PrivacyAsset].,
+2,,38,32,E.Info.ACM-4.PrivacyAsset].,
+2,,39,4,E.Info.ACM-4.ACM],belong to
+2,,39,11,E.Info.ACM-4.ACM],belong to
+2,,39,18,E.Info.ACM-4.ACM],belong to
+2,,39,28,E.Info.ACM-4.ACM],belong to
+2,,39,38,E.Info.ACM-4.ACM],the confirmations in the implementation category dependent assessment unit are
+2,,40,4,E.Info.ACM-4.ACM],a confirmation in the implementation category dependent assessment unit is not
+2,,40,34,E.Info.ACM-5.ACM],solely rely on role-based access control and are configurable by an
+2,,40,38,E.Info.ACM-5.ACM],solely rely on discretionary access control and are configurable by an authorized
+2,,40,41,E.Info.ACM-5.ACM],solely rely on mandatory access control and are configurable by an authorized
+2,,40,44,E.Info.ACM-5.ACM],"do not solely rely on any of the methods described in ACM-5-RBAC,"
+2,,41,4,E.Info.ACM-5.SecurityAsset],Description of each security asset that is accessible by children.
+2,,41,5,E.Info.ACM-5.PrivacyAsset],Description of each privacy asset that is accessible by children.
+2,,41,6,E.Info.ACM-5.ACM],Description of each access control mechanism that is required per ACM-1 and that
+2,,41,7,E.Info.ACM-5.SecurityAsset],and
+2,,41,8,E.Info.ACM-5.PrivacyAsset],"processed by the equipment, including:"
+2,,41,12,E.Info.DT.ACM-5],Description of the selected path through the decision tree in Figure 5 for each security
+2,,41,14,E.Info.ACM-5.ACM].,
+2,,41,16,E.Info.DT.ACM-5],with the following property:
+2,,41,17,E.Info.ACM-5.ACM].,
+2,,42,7,E.Info.ACM-5.SecurityAsset],and [E.Info.ACM-5.PrivacyAsset] and where children’s access is managed
+2,,42,8,E.Info.ACM-5.ACM],check whether the path through the
+2,,42,9,E.Info.DT.ACM-5],ends with “NOT APPLICABLE” or “PASS”.
+2,,42,10,"E.Info.DT.ACM-5],",examine its justification
+2,,42,14,E.Info.DT.ACM-5],ends with
+2,,42,16,E.Info.DT.ACM-5],ends with “FAIL”; and
+2,,42,18,E.Info.DT.ACM-5].,
+2,,42,20,E.Info.DT.ACM-5],ends with “FAIL”; or
+2,,42,22,E.Info.DT.ACM-5].,
+2,,43,11,E.Info.ACM-5.SecurityAsset],and whether there are privacy assets that are accessible by
+2,,43,12,E.Info.ACM-5.PrivacyAsset],by performing the following steps:
+2,,43,16,E.Info.ACM-5.SecurityAsset],and [E.Info.ACM-
+2,,43,18,E.Info.ACM-5.PrivacyAsset],nor in [E.Info.ACM-
+2,,43,22,E.Info.ACM-5.SecurityAsset],and all discovered privacy assets that are
+2,,43,23,E.Info.ACM-5.PrivacyAsset].,
+2,,43,25,E.Info.ACM-5.SecurityAsset],or if discovered privacy assets that are
+2,,43,26,E.Info.ACM-5.PrivacyAsset].,
+2,,43,34,E.Info.ACM-5.ACM],belong to
+2,,44,4,E.Info.ACM-5.ACM],belong to
+2,,44,11,E.Info.ACM-5.ACM],belong to
+2,,44,21,E.Info.ACM-4.ACM],belong to
+2,,44,30,E.Info.ACM-5.ACM],the confirmations in the implementation category dependent assessment unit are
+2,,44,33,E.Info.ACM-5.ACM],a confirmation in the implementation category dependent assessment unit is not
+2,,45,24,E.Info.ACM-6.ACM],solely rely on role-based access control and whether this underlying
+2,,45,28,E.Info.ACM-6.ACM],solely rely on discretionary access control and whether this underlying access
+2,,45,32,E.Info.ACM-6.ACM],solely rely on mandatory access control and whether this underlying access
+2,,45,36,E.Info.ACM-6.ACM],"do not solely rely on any of the methods described in ACM-6-RBAC,"
+2,,45,41,E.Info.ACM-6.PrivacyAsset],"Description of each children’s privacy asset that is accessible by entities,"
+2,,45,43,E.Info.ACM-6.ACM],Description of each access control mechanism that is required per ACM-1 and that
+2,,45,45,"E.Info.ACM-6.PrivacyAsset],",including:
+2,,46,7,E.Info.DT.ACM-6],Description of the selected path through the decision tree in Figure 6 for each
+2,,46,9,E.Info.ACM-6.PrivacyAsset],and where the other entities’ access is managed by access
+2,,46,10,E.Info.ACM-6.ACM].,
+2,,46,12,E.Info.DT.ACM-6],with the following property:
+2,,46,13,E.Info.ACM-6.ACM].,
+2,,47,4,E.Info.ACM-6.PrivacyAsset],and where the other entities’ access is managed
+2,,47,5,"E.Info.ACM-6.ACM],",check whether the path through the
+2,,47,6,E.Info.DT.ACM-6],ends with “NOT APPLICABLE” or “PASS”.
+2,,47,7,"E.Info.DT.ACM-6],",examine its justification
+2,,47,11,E.Info.DT.ACM-6],ends with
+2,,47,13,E.Info.DT.ACM-6],ends with “FAIL”; and
+2,,47,15,E.Info.DT.ACM-6].,
+2,,47,17,E.Info.DT.ACM-6],ends with “FAIL”; or
+2,,47,19,E.Info.DT.ACM-6].,
+2,,47,24,E.Info.ACM-6.PrivacyAsset],"that are accessible by entities, other"
+2,,47,30,E.Info.ACM-6.PrivacyAsset],by
+2,,47,37,E.Info.ACM-6.PrivacyAsset],and highlight any
+2,,47,39,E.Info.ACM-6.PrivacyAsset].,
+2,,48,6,E.Info.ACM-6.PrivacyAsset].,
+2,,48,9,E.Info.ACM-6.PrivacyAsset].,
+2,,48,17,E.Info.ACM-6.ACM],belong to
+2,,48,24,E.Info.ACM-6.ACM],belong to
+2,,48,31,E.Info.ACM-6.ACM],belong to
+2,,49,3,E.Info.ACM-6.ACM],belong to
+2,,49,12,E.Info.ACM-6.ACM],the confirmations in the implementation category dependent assessment unit are
+2,,49,15,E.Info.ACM-6.ACM],a confirmation in the implementation category dependent assessment unit is not
+2,,51,16,E.Info.AUM-1-1.ACM],Description of each access control mechanism required per ACM-1 for managing
+2,,51,21,E.Info.AUM-1-1.ACM.NetworkInterface],Description of the network interfaces for the
+2,,51,23,E.Info.AUM-1-1.ACM.ManagedAccessPrivacyAsset],Description of the managed access to
+2,,51,25,E.Info.AUM-1-1.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+2,,51,28,E.Info.AUM-1,-
+2,,51,36,E.Info.AUM-1-1.ACM.AuthorizedEntities],Description the networks and the
+2,,52,9,E.Info.AUM-1,-
+2,,52,17,E.Info.DT.AUM-1-1],Description of the selected path through the decision tree in Figure 7 for each access
+2,,52,18,E.Info.AUM-1-1.ACM].,
+2,,52,20,E.Info.DT.AUM-1-1],with the following properties:
+2,,52,22,E.Info.AUM-1-1.ACM.IntendedFunctionality];,and
+2,,52,24,E.Info.AUM-1-1.ACM.AuthorizedEntities];,and
+2,,52,25,E.Info.AUM-1-1.ACM].,
+2,,53,6,"E.Info.AUM-1-1.ACM],",check whether the path
+2,,53,7,E.Info.DT.AUM-1-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,53,8,"E.Info.DT.AUM-1-1],",examine its justification
+2,,53,12,E.Info.DT.AUM-1-1],ends with
+2,,53,14,E.Info.DT.AUM-1-1],ends with “FAIL”; and
+2,,53,16,E.Info.DT.AUM-1-1].,
+2,,54,3,E.Info.DT.AUM-1-1],ends with “FAIL”; or
+2,,54,5,E.Info.DT.AUM-1-1].,
+2,,54,13,E.Info.AUM-1-1.ACM].,
+2,,54,21,E.Info.AUM-1-1.ACM].,
+2,,54,28,E.Info.AUM-1-1.ACM].,
+2,,54,34,E.Info.AUM-1-1.ACM].,
+2,,55,6,"E.Info.AUM-1-1.ACM],",each managed access via
+2,,55,7,E.Info.AUM-1-1.ACM.ManagedAccessPrivacyAsset],
+2,,55,8,E.Info.AUM-1,-
+2,,55,13,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+2,,55,15,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+2,,55,24,E.Info.AUM-1-2.ACM],Description of each access control mechanism required per ACM-1 for managing
+2,,55,29,E.Info.AUM-1-2.ACM.UserInterfaces],A description of the user interfaces for the managed
+2,,55,31,E.Info.AUM-1-2.ACM.ManagedAccessPrivacyAsset],Description of the managed access to
+2,,55,33,E.Info.AUM-1-2.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+2,,55,36,E.Info.AUM-1-2.ACM.IntendedEnvironment],Description of
+2,,55,44,E.Info.AUM-1,-
+2,,56,8,E.Info.AUM-1-2.ACM.ReadOnlyFunctionality],
+2,,56,13,E.Info.AUM-1-2.ACM.ReadOnlyLegal],References to all corresponding
+2,,56,16,E.Info.DT.AUM-1-2],Description of the selected path through the decision tree in Figure 8 for each access
+2,,56,17,E.Info.AUM-1-2.ACM].,
+2,,56,18,E.Info.DT.AUM,-
+2,,56,21,E.Info.AUM-1-2.ACM.IntendedEnvironment];,and
+2,,56,23,E.Info.AUM-1-2.ACM.ReadOnlyFunctionality];,and
+2,,56,25,E.Info.AUM-1-2.ACM.ReadOnlyLegal];,and
+2,,56,26,E.Info.AUM-1-2.ACM].,
+2,,57,6,"E.Info.AUM-1-2.ACM],",check whether the path
+2,,57,7,E.Info.DT.AUM-1-2],ends with “NOT APPLICABLE” or “PASS”.
+2,,57,8,"E.Info.DT.AUM-1-2],",examine its justification
+2,,57,12,E.Info.DT.AUM-1-2],ends with
+2,,57,14,E.Info.DT.AUM-1-2],ends with “FAIL”; and
+2,,57,16,E.Info.DT.AUM-1-2].,
+2,,57,18,E.Info.DT.AUM-1-2],ends with “FAIL”; or
+2,,57,20,E.Info.DT.AUM-1-2].,
+2,,58,11,E.Info.AUM-1-2.ACM].,
+2,,58,19,E.Info.AUM-1-2.ACM].,
+2,,58,26,E.Info.AUM-1-2.ACM].,
+2,,58,32,E.Info.AUM-1-2.ACM].,
+2,,59,4,"E.Info.AUM-1-2.ACM],",each managed access via user
+2,,59,5,E.Info.AUM-1-2.ACM.ManagedAccessPrivacyAsset],and each
+2,,59,16,E.Info.AUM-1,-
+2,,59,21,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+2,,59,23,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+2,,61,4,E.Info.AUM-2-1.AuthenticationMechanism],Description of each authentication mechanism required per
+2,,61,6,E.Info.AUM-2-1.AuthenticationMechanism.AuthFactor],Description of the authenticators
+2,,61,8,E.Info.DT.AUM-2-1],Description of the selected path through the decision tree in Figure 9 for each
+2,,61,9,E.Info.AUM-2-1.AuthenticationMechanism].,
+2,,61,11,E.Info.DT.AUM-2-1],with the following property:
+2,,61,22,E.Info.AUM-2,-
+2,,61,34,"E.Info.AUM-2-1.AuthenticationMechanism],",check
+2,,61,35,E.Info.DT.AUM-2-1],ends with “PASS”.
+2,,61,36,"E.Info.DT.AUM-2-1],",examine its justification
+2,,62,5,E.Info.DT.AUM-2-1],end with “PASS”; and
+2,,62,7,E.Info.DT.AUM-2-1].,
+2,,62,9,E.Info.DT.AUM-2-1],ends with “FAIL”; or
+2,,62,11,E.Info.DT.AUM-2-1].,
+2,,62,21,E.Info.AUM-2-1.AuthenticationMechanism.AuthFactor].,
+2,,62,26,"E.Info.AuthenticationMechanism.AUM-2-1],",perform the authentication and
+2,,62,30,E.Info.AUM-2-1.AuthenticationMechanism].,
+2,,62,32,E.Info.AUM-2-1.AuthenticationMechanism].,
+2,,63,7,E.Info.AUM-2-2.AuthenticationMechanism],Description of each authentication
+2,,63,10,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor],Description of the authenticators
+2,,63,12,E.Info.DT.AUM-2-2],Description of the selected path through the decision tree in Figure 10 for each
+2,,63,13,E.Info.AUM-2-2.AuthenticationMechanism].,
+2,,63,15,E.Info.DT.AUM-2-2],with the following property:
+2,,63,16,E.Info.AUM-2,-
+2,,63,17,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor],.
+2,,64,6,"E.Info.AUM-2-2.AuthenticationMechanism],",check
+2,,64,7,E.Info.DT.AUM-2-2],ends with “PASS”.
+2,,64,8,"E.Info.DT.AUM-2-2],",examine its justification
+2,,64,12,E.Info.DT.AUM-2-2],ends with
+2,,64,14,E.Info.DT.AUM-2-2],ends with “FAIL”; and
+2,,64,16,E.Info.DT.AUM-2-2].,
+2,,64,18,E.Info.DT.AUM-2-2],ends with “FAIL”; or
+2,,64,20,E.Info.DT.AUM-2-2].,
+2,,65,12,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor].,
+2,,65,17,"E.Info.AUM-2-2.AuthenticationMechanism],","activate two factor authentication,"
+2,,65,22,E.Info.AUM-2-2.AuthenticationMechanism].,
+2,,65,24,E.Info.AUM-2-2.AuthenticationMechanism].,
+2,,66,30,E.Info.AUM-3.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+2,,66,32,E.Info.AUM-3.AUM.AuthVal],Description how the validation of the authenticator is
+2,,66,34,E.Info.AUM-3.AUM.AuthEnv],Description of the available information about the
+2,,66,36,E.Info.DT.AUM-3],Description of the selected path through the decision tree in Figure 11 for each
+2,,66,37,E.Info.AUM-3.AUM].,
+2,,66,39,E.Info.DT.AUM-3],with the following property:
+2,,66,40,E.Info.AUM-3.AUM.AuthVal],
+2,,66,41,E.Info.AUM-3.AUM.AuthEnv].,
+2,,67,6,E.Info.AUM-3.AUM].,
+2,,67,14,"E.Info.AUM-3.AUM],",check whether the path through
+2,,67,15,E.Info.DT.AUM-3],ends with “PASS”.
+2,,67,16,"E.Info.DT.AUM-3],",examine its justification
+2,,67,20,E.Info.DT.AUM-3],end with “PASS”; and
+2,,67,22,E.Info.DT.AUM-3].,
+2,,67,24,E.Info.DT.AUM-3],ends with “FAIL”; or
+2,,67,26,E.Info.DT.AUM-3].,
+2,,68,14,E.Info.AUM-3.AUM],
+2,,68,16,E.Info.AUM-3.AUM.AuthVal],by
+2,,68,27,E.Info.AUM-3.AUM.AuthVal],by examining whether:
+2,,69,4,E.Info.AUM-3.AUM.AuthVal],by
+2,,69,14,E.Info.AUM-3.AUM],the confirmations in the implementation category dependent assessment unit are
+2,,69,17,E.Info.AUM-3.AUM],a confirmation in the implementation category dependent assessment unit is not
+2,,70,19,E.Info.AUM-4.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+2,,70,21,E.Info.AUM-4.AUM.ConfSecGoals],
+2,,70,24,E.Info.AUM-4.AUM.AuthChange],
+2,,70,30,E.Info.AUM-4.AUM],how the change of the authenticator is performed under
+2,,70,32,E.Info.DT.AUM-4],Description of the selected path through the decision tree in Figure 12 for each
+2,,70,33,E.Info.AUM-4.AUM.AuthChange].,
+2,,70,35,E.Info.DT.AUM-4],with the following properties:
+2,,70,45,E.Info.AUM,-
+2,,70,56,E.Info.AUM,-
+2,,70,61,E.Info.AUM-4.AUM],can be changed.
+2,,71,6,"E.Info.AUM-4.AUM],",check whether the path
+2,,71,7,E.Info.DT.AUM-4],ends with “NOT APPLICABLE” or “PASS”.
+2,,71,8,"E.Info.DT.AUM-4],",examine its justification
+2,,71,12,E.Info.DT.AUM-4],ends with
+2,,71,14,E.Info.DT.AUM-4],ends with “FAIL”; and
+2,,71,16,E.Info.DT.AUM-4].,
+2,,71,18,E.Info.DT.AUM-4],ends with “FAIL”; or
+2,,71,20,E.Info.DT.AUM-4].,
+2,,72,7,E.Info.AUM-4.AUM.AuthChange].,
+2,,72,12,"E.Info.AUM-4.AUM],",functionally confirm the ability to change authenticator
+2,,72,13,E.Info.AUM-4.AUM.AuthChange],by
+2,,72,21,E.Info.AUM-4.AUM.AuthChange].,
+2,,72,23,E.Info.AUM-4.AUM.AuthChange].,
+2,,74,13,E.Info.AUM-5-1.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+2,,74,15,E.Info.AUM-5-1.AUM.PwdProperty],Description for each authentication mechanism’s
+2,,74,22,E.Info.DT.AUM-5-1],Description of the selected path through the decision tree in Figure 13 for each
+2,,74,23,E.Info.AUM-5-1.AUM].,
+2,,74,25,E.Info.DT.AUM-5-1],with the following properties:
+2,,74,27,E.Info.AUM-5-1.AUM.PwdProperty].,
+2,,75,6,"E.Info.AUM-5-1.AUM],",check whether the path
+2,,75,7,E.Info.DT.AUM-5-1],ends with “PASS”.
+2,,75,8,"E.Info.DT.AUM-5-1],",examine its justification
+2,,75,12,E.Info.DT.AUM-5-1],end with “PASS”; and
+2,,75,14,E.Info.DT.AUM-5-1].,
+2,,75,16,E.Info.DT.AUM-5-1],ends with “FAIL”; or
+2,,75,18,E.Info.DT.AUM-5-1].,
+2,,76,9,E.Info.AUM-5-1.AUM.PwdProperty],belongs to [IC.AUM-5-
+2,,76,12,E.Info.AUM-5-1.AUM],
+2,,76,13,E.Info.AUM-5-1.AUM.PwdProperty],
+2,,76,15,E.Info.AUM-5-1.AUM.PwdProperty],by:
+2,,76,17,E.Info.AUM-5-1.AUM.PwdProperty];,and
+2,,76,20,E.Info.AUM-5-1.AUM.PwdProperty],
+2,,76,22,E.Info.AUM-5-1.AUM.PwdProperty],by:
+2,,76,34,E.Info.AUM-5,-
+2,,76,44,E.Info.AUM-5,-
+2,,77,9,E.Info.AUM-5-2.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+2,,77,11,E.Info.AUM-5-2.AUM.PwdProperty],Description for each authentication mechanism’s non-
+2,,77,25,E.Info.DT.AUM-5-2],Description of the selected path through the decision tree in Figure 14 for each
+2,,77,26,E.Info.AUM-5-2.AUM].,
+2,,77,28,E.Info.DT.AUM-5-2],with the following property:
+2,,77,30,E.Info.AUM-5-2.AUM.PwdProperty].,
+2,,78,6,"E.Info.AUM-5-2.AUM],",check whether the path
+2,,78,7,E.Info.DT.AUM-5-2],ends with “PASS”.
+2,,78,8,"E.Info.DT.AUM-5-2],",examine its justification
+2,,78,12,E.Info.DT.AUM-5-2],end with “PASS”; and
+2,,78,14,E.Info.DT.AUM-5-2].,
+2,,78,16,E.Info.DT.AUM-5-2],ends with “FAIL”; or
+2,,78,18,E.Info.DT.AUM-5-2].,
+2,,79,10,E.Info.AUM-5-2.AUM],
+2,,79,11,E.Info.AUM-5-2.AUM.PwdProperty],belongs
+2,,79,13,E.Info.AUM-5-2.AUM.PwdProperty],by:
+2,,79,17,E.Info.AUM-5-2.AUM.PwdProperty],
+2,,79,19,E.Info.AUM-5-2.AUM.PwdProperty],by:
+2,,79,27,E.Info.AUM-5-2.AUM.PwdProperty],
+2,,79,29,E.Info.AUM-5-2.AUM.PwdProperty],by:
+2,,80,4,E.Info.AUM-5-2.AUM.PwdProperty].,
+2,,80,14,E.Info.AUM-5,-
+2,,80,24,E.Info.AUM-5,-
+2,,81,19,E.Info.AUM-6.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+2,,81,21,E.Info.AUM-6.AUM.BFProtection],Description how the resilience against brute force attacks is
+2,,81,23,E.Info.DT.AUM-6],Description of the selected path through the decision tree in Figure 15 for each
+2,,81,24,E.Info.AUM-6.AUM].,
+2,,81,26,E.Info.DT.AUM-6],with the following property:
+2,,81,36,E.Info.AUM,-
+2,,82,6,"E.Info.AUM-6.AUM],",check whether the path through
+2,,82,7,E.Info.DT.AUM-6],ends with “PASS”.
+2,,82,8,"E.Info.DT.AUM-6],",examine its justification
+2,,82,12,E.Info.DT.AUM-6],end with “PASS”; and
+2,,82,14,E.Info.DT.AUM-6].,
+2,,82,16,E.Info.DT.AUM-6],ends with “FAIL”; or
+2,,82,18,E.Info.DT.AUM-6].,
+2,,83,6,E.Info.AUM-6.AUM],
+2,,83,7,E.Info.AUM-6.AUM.BFProtection],belongs to
+2,,83,9,E.Info.AUM-6.AUM.BFProtection],by:
+2,,83,12,E.Info.AUM-6.AUM.BFProtection],belongs to
+2,,83,14,E.Info.AUM-6.AUM.BFProtection],by:
+2,,83,18,E.Info.AUM-6.AUM.BFProtection],
+2,,83,20,E.Info.AUM-6.AUM.BFProtection],by:
+2,,83,22,E.Info.AUM-6.AUM.BFProtection];,and
+2,,83,24,E.Info.AUM-6.AUM.BFProtection],belongs to
+2,,83,26,E.Info.AUM-6.AUM.BFProtection],by:
+2,,83,30,E.Info.AUM-6.AUM],the confirmations in the implementation category dependent assessment unit are
+2,,83,33,E.Info.AUM-6.AUM],a confirmation in the implementation category dependent assessment unit is not
+2,,85,10,E.Info.SUM-1.PartOfSoftw],Description of each part of the software affecting the security assets and/or
+2,,85,12,E.Info.SUM,-
+2,,85,16,E.Info.SUM,-
+2,,85,19,E.Info.SUM,-
+2,,85,26,E.Info.SUM-1.PartOfSoftw.SUM],Description of the
+2,,85,32,E.Info.DT.SUM-1],Description of the selected path through the decision tree in Figure 16  for each part
+2,,85,33,E.Info.SUM-1.PartOfSoftw].,
+2,,85,35,E.Info.DT.SUM-1],with the following properties:
+2,,85,37,E.Info.SUM-1.PartOfSoftw.FuncSaftyImp];,and
+2,,85,39,E.Info.SUM-1.PartOfSoftw.Immutable];,and
+2,,86,4,E.Info.SUM-1.PartOfSoftw.AltMeasures].,
+2,,86,14,"E.Info.SUM-1.PartOfSoftw],",check whether the path through
+2,,86,15,E.Info.DT.SUM-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,86,16,"E.Info.DT.SUM-1],",check that its justification
+2,,86,21,E.Info.DT.SUM-1],ends with
+2,,86,23,E.Info.DT.SUM-1],ends with “FAIL”; and
+2,,86,25,E.Info.DT.SUM-1].,
+2,,87,4,E.Info.DT.SUM-1],ends with “FAIL”; or
+2,,87,6,E.Info.DT.SUM-1].,
+2,,87,14,E.Info.SUM-1.PartOfSoftw.SUM].,
+2,,87,17,"E.Info.SUM-1.PartOfSoftw.SUM],",the manufacturer provides
+2,,87,21,E.Info.SUM-1.PartOfSoftw.SUM],which ends with a PASS
+2,,87,25,E.Info.SUM-1.PartOfSoftw.SUM].,
+2,,87,27,E.Info.SUM-1.PartOfSoftw.SUM].,
+2,,88,41,E.Info.SUM-2.SUM],Description of each update mechanism that can update a part of the software
+2,,88,42,E.Info.SUM-1.PartOfSoftw],including:
+2,,88,43,E.Info.SUM-2.SUM.Sign],
+2,,88,45,E.Info.CRY-1.Assets.Cryptography];,and
+2,,88,46,E.Info.SUM,-
+2,,88,48,E.Info.SCM-1.SCM],with a description of the underlying best practice cryptography as per
+2,,88,49,E.Info.CRY-1.Assets.Cryptography];,and
+2,,89,3,E.Info.SUM,-
+2,,89,4,E.Info.ACM,-
+2,,89,13,E.Info.CRY,-
+2,,89,22,E.Info.SUM,-
+2,,89,25,E.Info.DT.SUM-2],Description of the selected path through the decision tree in Figure 17 for each update
+2,,89,26,E.Info.SUM-2.SUM].,
+2,,89,28,E.Info.DT.SUM-2],with the following properties:
+2,,89,30,E.Info.SUM-2.SUM.Sign];,and
+2,,89,32,E.Info.SUM-2.SUM.SecChan];,and
+2,,89,34,E.Info.SUM-2.SUM.AccContMech];,and
+2,,89,36,E.Info.SUM-2.SUM.Generic].,
+2,,90,6,"E.Info.SUM-2.SUM],",check whether the path through the
+2,,90,8,"E.Info.DT.SUM-2],",check that its justification
+2,,90,9,"E.Info.SUM-2.SUM.Sign],",the
+2,,90,13,E.Info.DT.SUM-2],end with “PASS”; and
+2,,90,15,E.Info.DT.SUM-2].,
+2,,90,17,E.Info.DT.SUM-2],ends with “FAIL”; or
+2,,90,19,E.Info.DT.SUM-2].,
+2,,91,7,E.Info.SUM-2.SUM].,
+2,,91,11,E.Info.SUM-2.SUM],
+2,,92,7,E.Info.SUM-2.SUM],the confirmations in the implementation category dependent assessment unit are
+2,,92,10,E.Info.SUM-2.SUM],a confirmation in the implementation category dependent assessment unit is not
+2,,93,23,E.Info.SUM-3.SUM],"Description of each update mechanism required per SUM-1, including:"
+2,,93,24,E.Info.SUM-3.SUM.Automation],Description of the means to automate the update
+2,,93,26,E.Info.DT.SUM-3],Description of the selected path through the decision tree in Figure 18 for each update
+2,,93,27,E.Info.SUM-3.SUM].,
+2,,93,29,E.Info.DT.SUM-3],with the following properties:
+2,,93,31,E.Info.SUM-3.SUM.Automation].,
+2,,93,35,E.Info.SUM-3.SUM.Automation],as required per SUM-3.
+2,,94,7,E.Info.DT.SUM-3],ends with “PASS” or “FAIL”.
+2,,94,8,"E.Info.DT.SUM-3],",examine its justification
+2,,94,12,E.Info.DT.SUM-3],end with “PASS”; and
+2,,94,14,E.Info.DT.SUM-3].,
+2,,94,16,E.Info.DT.SUM-3],ends with “FAIL”; or
+2,,94,18,E.Info.DT.SUM-3].,
+2,,95,7,E.Info.SUM-3.SUM.Automation].,
+2,,95,12,E.Info.SUM-3.SUM],functionally assess whether the
+2,,95,13,E.Info.SUM-3.SUM.Automation],by:
+2,,95,24,E.Info.SUM-3.SUM].,
+2,,95,26,E.Info.SUM-3.SUM].,
+2,,96,36,E.Info.SSM-1.SecurityAsset],"Description of each security asset persistently stored on the equipment,"
+2,,97,11,E.Info.SSM,-
+2,,97,17,E.Info.SSM,-
+2,,97,19,E.Info.SSM-1.PrivacyAsset],"Description of each privacy asset persistently stored on the equipment,"
+2,,97,30,E.Info.SSM,-
+2,,97,37,E.Info.SSM-1.PrivacyAsset.SSM],Description of the secure storage mechanism.
+2,,97,38,E.Info.DT.SSM-1],Description of the selected path through the decision tree in Figure 19 for each
+2,,97,39,E.Info.SSM-1.SecurityAsset],and [E.Info.SSM-
+2,,97,42,E.Info.DT.SSM-1],with the following properties:
+2,,97,44,E.Info.SSM-1.SecurityAsset.Environment],or
+2,,97,45,E.Info.SSM-1.PrivacyAsset.Environment];,and
+2,,97,55,E.Info.SSM,-
+2,,97,56,E.Info.SSM-1.PrivacyAsset.SSM].,
+2,,98,6,E.Info.SSM-1.SecurityAsset],and [E.Info.SSM-
+2,,98,7,E.Info.DT.SSM-1],ends
+2,,98,9,"E.Info.DT.SSM-1],",examine its justification
+2,,98,13,E.Info.DT.SSM-1],ends with
+2,,98,15,E.Info.DT.SSM-1],ends with “FAIL”; and
+2,,98,17,E.Info.DT.SSM-1].,
+2,,98,19,E.Info.DT.SSM-1],ends with “FAIL”; or
+2,,98,21,E.Info.DT.SSM-1].,
+2,,99,6,E.Info.SSM-1.SecurityAsset],and privacy assets documented in [E.Info.SSM-1.PrivacyAsset] are
+2,,99,12,E.Info.SSM-1.SecurityAsset].,
+2,,99,14,E.Info.SSM-1.PrivacyAsset].,
+2,,99,17,E.Info.SSM-1.SecurityAsset],and all privacy assets persistently stored found are
+2,,99,18,E.Info.SSM-1.PrivacyAsset].,
+2,,99,20,E.Info.SSM-1.SecurityAsset],or a persistently stored privacy asset is found which
+2,,99,21,E.Info.SSM-1.PrivacyAsset].,
+2,,99,30,"E.Info.SSM-1.SecurityAsset],",functionally confirm it is persistently
+2,,99,31,E.Info.SSM-1.SecurityAsset.SSM].,
+2,,99,32,"E.Info.SSM-1.PrivacyAsset],",functionally confirm it is persistently
+2,,99,33,E.Info.SSM-1.PrivacyAsset.SSM].,
+2,,99,37,E.Info.SSM-1.SecurityAsset.SSM];,and
+2,,100,4,E.Info.SSM-1.PrivacyAsset.SSM].,
+2,,100,7,E.Info.SSM-1.SecurityAsset.SSM];,or
+2,,100,9,E.Info.SSM-1.PrivacyAsset.SSM].,
+2,,101,11,E.Info.SSM-2.SSM],"Description of each secure storage mechanism, including"
+2,,101,13,E.Info.SSM,-
+2,,101,20,E.Info.SSM,-
+2,,101,25,E.Info.SSM,-
+2,,101,30,E.Info.SSM,-
+2,,101,35,E.Info.SSM-2.SSM.Generic],
+2,,102,7,E.Info.DT.SSM-2],Description of the selected path through the decision tree in Figure 20 for each secure
+2,,102,8,E.Info.SSM-2.SSM].,
+2,,102,10,E.Info.DT.SSM-2],with the following properties:
+2,,102,12,E.Info.SSM-2.SSM.DigitalSignature];,and
+2,,102,14,E.Info.SSM-2.SSM.AccessControl];,and
+2,,102,16,E.Info.SSM-2.SSM.OTProgrammable];,and
+2,,102,18,E.Info.SSM-2.SSM.HardwareProtection];,and
+2,,102,20,E.Info.SSM-2.SSM.Generic].,
+2,,103,6,E.Info.SSM-2.SSM],check whether the path through the decision
+2,,103,7,E.Info.DT.SSM-2],ends with “PASS”.
+2,,103,8,"E.Info.DT.SSM-2],",examine its justification
+2,,103,12,E.Info.DT.SSM-2],end with “PASS”; and
+2,,103,14,E.Info.DT.SSM-2].,
+2,,103,16,E.Info.DT.SSM-2],ends with “FAIL”; or
+2,,103,18,E.Info.DT.SSM-2].,
+2,,104,10,E.Info.SSM-2.SSM],
+2,,104,13,E.Info.SSM-2.SSM.DigitalSignature];,and
+2,,104,20,E.Info.SSM-2.SSM.AccessControl];,and
+2,,104,24,E.Info.SSM-2.SSM.OTProgrammable];,and
+2,,104,28,E.Info.SSM-2.SSM.HardwareProtection];,and
+2,,104,33,E.Info.SSM-2.SSM.Generic];,and
+2,,105,5,E.Info.SSM-2.SSM],the confirmations in the implementation category dependent assessment units are
+2,,105,8,E.Info.SSM-2.SSM],a confirmation in the implementation category dependent assessment units is not
+2,,106,7,E.Info.SSM-3.SSM],Description of each secure storage mechanism that persistently stores confidential
+2,,106,10,E.Info.SSM-3.SSM.Asset],"List of all confidential personal information, confidential"
+2,,106,12,E.Info.SSM,-
+2,,106,18,E.Info.SSM,-
+2,,106,24,E.Info.SSM,-
+2,,106,30,E.Info.SSM-3.SSM.Generic],
+2,,106,42,E.Info.DT.SSM-3],Description of the selected path through the decision tree in Figure 21 for each secure
+2,,106,43,E.Info.SSM-3.SSM].,
+2,,107,4,E.Info.DT.SSM-3],with the following properties:
+2,,107,6,E.Info.SSM-3.SSM.Encryption];,and
+2,,107,8,E.Info.SSM-3.SSM.AccessControl];,and
+2,,107,10,E.Info.SSM-3.SSM.HardwareProtection];,and
+2,,107,12,E.Info.SSM-3.SSM.Generic].,
+2,,108,3,E.Info.SSM-3.SSM],check whether the path through the decision
+2,,108,4,E.Info.DT.SSM-3],ends with “PASS”.
+2,,108,5,"E.Info.DT.SSM-3],",examine its justification
+2,,108,9,E.Info.DT.SSM-3],end with “PASS”; and
+2,,108,11,E.Info.DT.SSM-3].,
+2,,108,13,E.Info.DT.SSM-3],ends with “FAIL”; or
+2,,108,15,E.Info.DT.SSM-3].,
+2,,108,20,E.Info.SSM-3.SSM.Asset],are complete.
+2,,108,26,E.Info.SSM-3.SSM.Asset].,
+2,,108,30,E.Info.SSM-3.SSM.Asset].,
+2,,108,33,E.Info.SSM,-
+2,,109,12,E.Info.SSM-3.SSM],
+2,,109,15,E.Info.SSM-3.SSM.Encryption];,and
+2,,109,23,E.Info.SSM-3.SSM.AccessControl];,and
+2,,109,28,E.Info.SSM-3.SSM.HardwareProtection];,and
+2,,109,36,E.Info.SSM-3.SSM.Generic];,and
+2,,110,5,E.Info.SSM-3.SSM],the confirmations in the implementation category dependent assessment units are
+2,,110,8,E.Info.SSM-3.SSM],a confirmation in the implementation category dependent assessment units is not
+2,,111,21,E.Info.SCM-1.NetworkInterface],Description of each network interface including:
+2,,111,23,E.Info.SCM-1.NetworkInterface.Radio],Technology
+2,,111,26,E.Info.SCM-1.NetworkInterface.Wired],Electrical
+2,,111,29,E.Info.SCM-1.NetworkInterface.Optical],Optical
+2,,111,32,E.Info.SCM-1.NetworkInterface.Acoustic],Acoustic
+2,,111,36,E.Info.SCM-1.NetworkInterface.Protocol],
+2,,111,48,E.Info.SCM,-
+2,,111,50,"E.Info.SCM-1.NetworkInterface.Wired],",
+2,,111,51,E.Info.SCM,-
+2,,111,52,E.Info.SCM-1.NetworkInterface.Acoustic],and the
+2,,112,6,E.Info.SCM-1.SecurityAsset],Description of each stored security asset that is communicated over
+2,,112,7,E.Info.SCM-1.NetworkInterface],"and for which confidentiality,"
+2,,112,9,E.Info.SCM-1.SecurityAsset.Class],
+2,,112,13,E.Info.SCM-1.SecurityAsset.Com],Description of the use case where the asset is
+2,,112,15,E.Info.SCM-1.NetworkInterface];,and
+2,,112,16,E.Info.SCM-1.SecurityAsset.NetworkInterface],Network interface used for communication
+2,,112,17,E.Info.SCM-1.NetworkInterface]);,and
+2,,112,19,E.Info.SCM-1.SecurityAsset.TrustedEnv],Description of the physical or logical measures in
+2,,112,22,E.Info.SCM,-
+2,,112,25,E.Info.SCM-1.PrivacyAsset],Description of each privacy asset that is communicated over network
+2,,112,26,E.Info.SCM-1.NetworkInterface],"and for which confidentiality, integrity or"
+2,,112,28,E.Info.SCM-1.PrivacyAsset.Class],
+2,,112,32,E.Info.SCM-1.PrivacyAsset.Com],Description of the use case where the asset is
+2,,112,34,E.Info.SCM-1.NetworkInterface];,and
+2,,112,35,E.Info.SCM-1.PrivacyAsset.NetInterface],Network interface used for communication of the
+2,,112,36,E.Info.SCM-1.NetworkInterface]);,and
+2,,112,38,E.Info.SCM-1.PrivacyAsset.TrustedEnv],Description of the physical or logical measures in
+2,,112,41,E.Info.SCM,-
+2,,113,3,E.Info.SCM-1.SCM],Description of each secure communication mechanism that is used to communicate
+2,,113,4,E.Info.SCM-1.SecurityAsset],and privacy assets documented in
+2,,113,5,E.Info.SCM-1.PrivacyAsset],
+2,,113,12,E.Info.SCM,-
+2,,113,14,E.Info.SCM-1.SCM.Protocol],Communication protocols where the mechanism is applied
+2,,113,15,E.Info.SCM-1.NetworkInterface.Protocol]);,and
+2,,113,16,E.Info.SCM-1.SCM.States],Equipment states where the communication of security assets
+2,,113,17,E.Info.SCM-1.SecurityAsset],and privacy assets documented in [E.Info.SCM-
+2,,113,19,E.Info.SCM-1.SCM.SecObjectives],Security objectives considering the intended functionality
+2,,113,22,E.Info.SCM,-
+2,,113,24,E.Info.DT.SCM-1],Description of the selected path through the decision tree in Figure 22 for each of the
+2,,113,25,E.Info.SCM-1.NetworkInterface].,
+2,,113,28,E.Info.SCM-1.SCM.States].,
+2,,113,30,E.Info.DT.SCM-1],with the following properties:
+2,,113,32,E.Info.SCM-1.SecurityAsset.TrustedEnv],and
+2,,113,33,E.Info.SCM-1.PrivacyAsset.TrustedEnv];,and
+2,,113,35,E.Info.SCM-1.SecurityAssets.AddMeasures],and
+2,,113,36,E.Info.SCM-1.PrivacyAssets.AddMeasures].,
+2,,113,41,E.Info.SCM-1.SecurityAsset],or privacy assets documented in [E.Info.SCM-1.PrivacyAsset] when
+2,,114,6,"E.Info.SCM-1.NetworkInterface],",check whether the path
+2,,114,7,E.Info.DT.SCM-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,114,8,"E.Info.DT.SCM-1],",examine its justification
+2,,114,12,E.Info.DT.SCM-1],ends with
+2,,114,14,E.Info.DT.SCM-1],ends with “FAIL”; and
+2,,114,16,E.Info.DT.SCM-1].,
+2,,114,18,E.Info.DT.SCM-1],ends with “FAIL”; or
+2,,114,20,E.Info.DT.SCM-1].,
+2,,115,7,E.Info.SCM-1.SecurityAsset].,
+2,,115,9,E.Info.SCM-1.PrivacyAsset].,
+2,,115,12,E.Info.SCM-1.SecurityAsset],and all privacy assets found are documented in [E.Info.SCM-
+2,,115,15,E.Info.SCM-1.SecurityAsset],or a privacy asset is found which is not
+2,,115,16,E.Info.SCM-1.PrivacyAsset].,
+2,,115,25,E.Info.SCM-1.SecurityAsset],and for each privacy asset
+2,,115,26,"E.Info.SCM-1.PrivacyAsset],","functionally confirm, using up-to-date evaluation methods,"
+2,,115,27,E.Info.SCM-1.SCM].,
+2,,115,30,E.Info.SCM-1.SCM],is not implemented.
+2,,115,32,E.Info.SCM-1.SCM],is not implemented.
+2,,117,33,E.Info.SCM-2.PrivacyAsset]),and security assets  do not solely rely on any of the methods
+2,,117,36,E.Info.SCM-2.SecurityAsset],Description of each stored security asset that is communicated over
+2,,117,37,E.Info.SCM-2.NetworkInterface],and for which integrity or
+2,,117,39,E.Info.SCM-2.SecurityAsset.Com],Description of the use case where the asset is
+2,,117,41,E.Info.SCM-2.NetworkInterface].,
+2,,117,43,E.Info.SCM-2.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+2,,117,44,E.Info.SCM-2.PrivacyAsset],Description of each privacy asset that are communicated over network
+2,,117,45,E.Info.SCM-2.NetworkInterface],and for which integrity or authenticity
+2,,118,3,E.Info.SCM-2.PrivacyAsset.Com],Description of the use case where the asset is
+2,,118,5,E.Info.SCM-2.NetworkInterface].,
+2,,118,7,E.Info.SCM-2.PrivacyAsset],is a subset of [E.Info.SCM-1.PrivacyAsset].
+2,,118,8,E.Info.SCM-2.NetworkInterface],"Description of all network interfaces of the equipment, including"
+2,,118,9,E.Info.SCM-2.NetworkInterface.Protocol],All communication protocols implemented and
+2,,118,12,E.Info.SCM-2.SCM],Description of each secure communication mechanism that is required per SCM-1
+2,,118,13,E.Info.SCM,-
+2,,118,14,"E.Info.SCM-2.SecurityAsset],",including:
+2,,118,15,E.Info.SCM-2.SCM.Capabilities],Description of the security mechanisms and cryptographic
+2,,118,17,E.Info.SCM-2.SecurityAsset],or privacy assets documented in [E.Info.SCM-2.PrivacyAsset]
+2,,118,27,E.Info.SCM,-
+2,,118,29,E.Info.SCM,-
+2,,118,31,E.Info.SCM,-
+2,,118,34,E.Info.SCM-2.NetworkInterface.Protocol];,and
+2,,118,35,E.Info.SCM-2.SCM.PKI-based],
+2,,118,37,E.Info.SCM,-
+2,,118,39,E.Info.SCM,-
+2,,118,50,E.Info.SCM,-
+2,,118,52,E.Info.SCM-2.SCM.Generic],
+2,,118,54,E.Info.SCM-2.NetworkInterface.Protocol];,and
+2,,118,55,E.Info.SCM-2.SCM.ImplDetail],Refer to versioned standards or specifications
+2,,118,58,E.Info.SCM-2.SCM.CCK],The description of  the properties of the confidential cryptographic
+2,,118,60,E.Info.SCM-2.SCM.ThreatProtection],The description on how the mechanism protects
+2,,119,5,E.Info.DT.SCM-2],Description of the selected path through the decision tree in Figure 23 for each secure
+2,,119,6,E.Info.SCM-2.SCM].,
+2,,119,9,E.Info.SCM-2.SCM],
+2,,119,11,E.Info.DT.SCM-2],with the following properties:
+2,,119,12,E.Info.SCM,-
+2,,119,13,"E.Info.SCM-2.PrivacyAsset.Com],",[E.Info.SCM-2.SCM.ThreatProtection]
+2,,119,14,E.Info.SCM-2.SCM.Capabilities];,and
+2,,119,16,"E.Info.SCM-2.SecurityAsset.Com],",[E.Info.SCM-
+2,,119,17,E.Info.SCM-2.SCM.Capabilities].,
+2,,120,3,"E.Info.SCM-2.SCM],",and for each equipment state
+2,,120,4,E.Info.DT.SCM-2],ends
+2,,120,6,"E.Info.DT.SCM-2],",examine its justification
+2,,120,10,E.Info.DT.SCM-2],ends with
+2,,120,12,E.Info.DT.SCM-2],ends with “FAIL”; and
+2,,120,14,E.Info.DT.SCM-2].,
+2,,120,16,E.Info.DT.SCM-2],ends with “FAIL”; or
+2,,120,18,E.Info.DT.SCM-2].,
+2,,120,31,E.Info.SCM-2.SecurityAsset],and privacy asset documented in
+2,,120,32,"E.Info.SCM-2.PrivacyAsset],","functionally confirm, using up-to-date evaluation methods, that integrity"
+2,,120,33,E.Info.SCM,-
+2,,120,37,"E.Info.SCM-2.SCM.ManufSecret],",that:
+2,,121,9,"E.Info.SCM-2.SCM.SecChanExchange],",that:
+2,,121,14,E.Info.SCM,-
+2,,121,21,"E.Info.SCM-2.SCM.ThirdPartyTrust],",that:
+2,,122,5,E.Info.SCM-2.SCM],the confirmations in the implementation category dependent
+2,,122,8,E.Info.SCM-2.SCM],a confirmation in the implementation category dependent
+2,,123,23,E.Info.SCM-3.SecurityAsset],Description of each stored security asset that is communicated over
+2,,123,24,E.Info.SCM-3.NetworkInterface],and for which confidentiality is
+2,,123,26,E.Info.SCM-3.SecurityAsset.Com],Description of the use case where the asset is
+2,,123,28,E.Info.SCM-3.NetworkInterface].,
+2,,123,30,E.Info.SCM-3.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+2,,123,31,E.Info.SCM-3.PrivacyAsset],Description of all privacy assets that are communicated over network
+2,,123,32,E.Info.SCM-3.NetworkInterface],"and for which confidentiality is needed,"
+2,,123,34,E.Info.SCM-3.PrivacyAsset.Com],Description of the use case where the asset is
+2,,123,36,E.Info.SCM-3.NetworkInterface].,
+2,,123,38,E.Info.SCM-3.PrivacyAsset],is a subset of [E.Info.SCM-1.PrivacyAsset].
+2,,123,39,E.Info.SCM-3.NetworkInterface],"Description of all network interfaces of the equipment, including"
+2,,123,40,E.Info.SCM-3.NetworkInterface.Protocol],All communication protocols implemented and
+2,,123,43,E.Info.SCM-3.SCM],Description of each secure communication mechanism that is required per SCM-1
+2,,123,44,E.Info.SCM-3.PrivacyAsset],or privacy
+2,,123,45,"E.Info.SCM-3.PrivacyAsset],",including:
+2,,124,3,E.Info.SCM-3.SCM.Capabilities],Description of the security mechanisms and cryptographic
+2,,124,5,E.Info.SCM-3.SecurityAsset],or privacy assets documented in [E.Info.SCM-3.PrivacyAsset]
+2,,124,15,E.Info.SCM,-
+2,,124,18,E.Info.SCM-3.NetworkInterface.Protocol];,and
+2,,124,27,E.Info.SCM,-
+2,,124,30,E.Info.SCM-3.NetworkInterface.Protocol];,and
+2,,124,31,E.Info.SCM-3.SCM.Generic],
+2,,124,33,E.Info.SCM-3.NetworkInterface.Protocol];,and
+2,,124,34,E.Info.SCM-3.SCM.ImplDetail],Refer to versioned standards or specifications
+2,,124,37,E.Info.SCM-3.SCM.CCK],the properties of the confidential cryptographic keys used for
+2,,124,39,E.Info.SCM-3.SCM.ThreatProtection],How the mechanism at least protects against the
+2,,124,43,E.Info.DT.SCM-3],Description of the selected path through the decision tree in Figure 24 for each secure
+2,,124,44,E.Info.SCM-3.SCM].,
+2,,124,47,E.Info.SCM-3.SCM].,
+2,,124,49,E.Info.DT.SCM-3],with the following properties:
+2,,124,50,E.Info.SCM,-
+2,,124,51,"E.Info.SCM-3.PrivacyAsset.Com],",[E.Info.SCM-3.SCM.ThreatProtection]
+2,,124,52,E.Info.SCM-3.SCM.Capabilities];,and
+2,,124,54,"E.Info.SCM-3.SecurityAsset.Com],",[E.Info.SCM-
+2,,124,55,E.Info.SCM-3.SCM.Capabilities].,
+2,,125,7,E.Info.SCM-3.PrivacyAsset]),and security assets (documented in [E.Info.SCM-3.SecurityAsset]) while
+2,,125,14,"E.Info.SCM-3.SCM],",and for each equipment
+2,,125,15,E.Info.DT.SCM-3],
+2,,125,17,"E.Info.DT.SCM-3],",examine its justification
+2,,125,21,E.Info.DT.SCM-3],ends with
+2,,125,23,E.Info.DT.SCM-3],ends with “FAIL”; and
+2,,125,25,E.Info.DT.SCM-3].,
+2,,126,4,E.Info.DT.SCM-3],ends with “FAIL”; or
+2,,126,6,E.Info.DT.SCM-3].,
+2,,126,19,E.Info.SCM-3.SecurityAsset],
+2,,126,20,"E.Info.SCM-3.PrivacyAsset],",between the equipment and an authorised
+2,,126,22,E.Info.SCM-3.SCM],considering
+2,,126,25,"E.Info.SCM-3.SCM.MessageEnc],",that:
+2,,126,28,E.Info.SCM,-
+2,,126,33,E.Info.SCM,-
+2,,127,5,E.Info.SCM-3.SCM],the confirmations in the implementation category dependent
+2,,127,8,E.Info.SCM-3.SCM],a confirmation in the implementation category dependent
+2,,128,33,E.Info.SCM-4.SecurityAsset],Description of each stored security asset that is communicated over
+2,,128,34,E.Info.SCM-4.NetworkInterface],and for which replay protection is
+2,,128,36,E.Info.SCM-4.SecurityAsset.Com],Description of the use case where the asset is
+2,,128,38,E.Info.SCM-4.NetworkInterface].,
+2,,128,40,E.Info.SCM-4.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+2,,128,41,E.Info.SCM-4.PrivacyAsset],Description of each privacy asset that is communicated over network
+2,,128,42,E.Info.SCM-4.NetworkInterface],"and for which replay protection is needed,"
+2,,128,44,E.Info.SCM-4.PrivacyAsset.Com],Description of the use case where the asset is
+2,,128,46,E.Info.SCM-4.NetworkInterface].,
+2,,129,4,E.Info.SCM-4.PrivacyAsset],is a subset of [E.Info.SCM-1.PrivacyAsset].
+2,,129,5,E.Info.SCM-4.NetworkInterface],"Description of each network interface of the equipment, including:"
+2,,129,6,E.Info.SCM-4.NetworkInterface.Protocol],All communication protocols implemented and
+2,,129,9,E.Info.SCM-4.SCM],Description of each secure communication mechanism that is required per SCM-1
+2,,129,10,E.Info.SCM-4.PrivacyAsset],or security assets
+2,,129,11,"E.Info.SCM-4.SecurityAsset],",including:
+2,,129,12,E.Info.SCM-4.SCM.Capabilities],Description of the security mechanisms and cryptographic
+2,,129,14,E.Info.SCM-4.SecurityAsset],or privacy assets documented in [E.Info.SCM-
+2,,129,16,E.Info.SCM-4.SCM.SeqNumb],
+2,,129,19,E.Info.SCM-4.NetworkInterface.Protocol];,and
+2,,129,28,E.Info.SCM,-
+2,,129,31,E.Info.SCM-4.NetworkInterface.Protocol];,and
+2,,129,32,E.Info.SCM,-
+2,,129,35,E.Info.SCM-4.NetworkInterface.Protocol];,and
+2,,129,36,E.Info.SCM-4.SCM.Generic],
+2,,129,37,E.Info.SCM,-
+2,,129,40,E.Info.SCM-4.SCM.ImplDetail],Reference to versioned standards or specifications
+2,,129,43,E.Info.SCM-4.SCM.Repudiation],Description of how the mechanism at least protects against
+2,,129,45,E.Info.DT.SCM-4],Description of the selected path through the decision tree in Figure 25 for each
+2,,129,46,E.Info.SCM-4.SCM].,
+2,,129,49,E.Info.SCM-4.SCM].,
+2,,129,51,E.Info.DT.SCM-4],with the following properties:
+2,,129,53,"E.Info.SCM-4.SecurityAsset.Com],",[E.Info.SCM-
+2,,129,54,E.Info.SCM-4.SCM.Capabilities],and [E.Info.SCM-4.SCM.Repudiation]; and
+2,,130,4,"E.Info.SCM-4.SecurityAsset.Com],",[E.Info.SCM-
+2,,130,5,E.Info.SCM-4.SCM.Capabilities].,
+2,,130,16,"E.Info.SCM-4.SCM],",and for each equipment state
+2,,130,17,E.Info.DT.SCM-4],ends
+2,,130,19,"E.Info.DT.SCM-4],",examine its justification
+2,,130,23,E.Info.DT.SCM-4],ends with
+2,,130,25,E.Info.DT.SCM-4],ends with “FAIL”; and
+2,,130,27,E.Info.DT.SCM-4].,
+2,,130,29,E.Info.DT.SCM-4],ends with “FAIL”; or
+2,,131,4,E.Info.DT.SCM-4].,
+2,,131,17,E.Info.SCM-4.SecurityAsset],
+2,,131,18,"E.Info.SCM-4.PrivacyAsset],",between the equipment and an authorised
+2,,131,21,E.Info.SCM-4.SCM],"considering the equipment states documented, applying the"
+2,,131,23,E.Info.SCM,-
+2,,131,27,E.Info.SCM,-
+2,,131,32,"E.Info.SCM-4.SCM.OneTimeEncKey],",that:
+2,,131,36,E.Info.SCM,-
+2,,132,5,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+2,,132,9,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+2,,133,21,E.Info.LGM-1.PrivacyAssetEvent],Description of each internal activity that is relevant for  privacy assets
+2,,133,33,E.Info.LGM,-
+2,,133,47,E.Info.LGM,-
+2,,133,49,E.Info.DT.LGM-1],Description of the selected path through the decision tree in Figure 26 for each event
+2,,133,50,E.Info.LGM-1.PrivacyAssetEvent].,
+2,,133,52,E.Info.DT.LGM-1],with the following properties:
+2,,133,54,E.Info.LGM-1.PrivacyAssetEvent.Legal];,and
+2,,133,64,E.Info.LGM,-
+2,,134,6,"E.Info.LGM-1.PrivacyAssetEvent],",check whether the path through the
+2,,134,7,E.Info.DT.LGM-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,134,8,"E.Info.DT.LGM-1],",examine its justification
+2,,134,12,E.Info.DT.LGM-1],ends with
+2,,134,14,E.Info.DT.LGM-1],ends with “FAIL”; and
+2,,134,16,E.Info.DT.LGM-1].,
+2,,134,18,E.Info.DT.LGM-1],ends with “FAIL”; or
+2,,134,20,E.Info.DT.LGM-1].,
+2,,135,10,"E.Info.LGM-1.PrivacyAssetEvent],",functionally confirm whether the
+2,,135,11,E.Info.LGM-1.PrivacyAssetEvent.LGM],by:
+2,,135,16,E.Info.LGM-1.PrivacyAssetEvent.LGM],is not implemented.
+2,,135,18,E.Info.LGM-1.PrivacyAssetEvent.LGM],is not implemented.
+2,,136,4,E.Info.LGM-2.LGM],"Description of each logging mechanism that is required per LGM-1, including:"
+2,,136,7,E.Info.LGM-2.LGM.InternalStorage],The storage location of log data for related
+2,,136,17,E.Info.LGM,-
+2,,136,20,E.Info.DT.LGM-2],Description of the selected path through the decision tree in Figure 27 for each logging
+2,,136,21,E.Info.LGM-2.LGM].,
+2,,136,23,E.Info.DT.LGM-2],with the following properties:
+2,,136,25,E.Info.LGM-2.LGM.ExternalStorage];,and
+2,,136,35,E.Info.LGM,-
+2,,137,5,E.Info.LGM-2.LGM],check whether the path through the
+2,,137,6,E.Info.DT.LGM-2],ends with “NOT APPLICABLE” or “PASS”.
+2,,137,7,"E.Info.DT.LGM-2],",examine its justification
+2,,137,11,E.Info.DT.LGM-2],ends with
+2,,137,13,E.Info.DT.LGM-2],ends with “FAIL”; and
+2,,137,15,E.Info.DT.LGM-2].,
+2,,137,17,E.Info.DT.LGM-2],ends with “FAIL”; or
+2,,137,19,E.Info.DT.LGM-2].,
+2,,138,6,E.Info.LGM-2.LGM].,
+2,,138,16,E.Info.LGM-2.LGM],
+2,,138,18,E.Info.LGM,-
+2,,138,27,E.Info.LGM-2.LGM.InternalStorage].,
+2,,138,29,E.Info.LGM-2.LGM.InternalStorage].,
+2,,139,10,E.Info.LGM-3.Events],"Description of the logged events, where related log data is persistently stored on"
+2,,139,12,E.Info.LGM-3.Quantity],Minimum number of the latest events for which log data can be persistently
+2,,139,14,E.Info.DT.LGM-3],Description of the selected path through the decision tree in Figure 28.
+2,,139,16,E.Info.DT.LGM-3],with the following property:
+2,,139,17,E.Info.LGM-3.Quantity],
+2,,139,27,E.Info.DT.LGM-3],ends with “PASS”.
+2,,139,28,"E.Info.DT.LGM-3],",examine its justification
+2,,140,5,E.Info.DT.LGM-3],end with “PASS”; and
+2,,140,7,E.Info.DT.LGM-3].,
+2,,140,9,E.Info.DT.LGM-3],ends with “FAIL”; or
+2,,140,11,E.Info.DT.LGM-3].,
+2,,140,20,E.Info.LGM,-
+2,,140,25,E.Info.LGM-3.Quantity],by
+2,,140,26,E.Info.LGM-3.Events],to reach the minimum number of
+2,,140,27,E.Info.LGM-3.Quantity];,and
+2,,140,33,E.Info.LGM-3.Quantity].,
+2,,140,35,E.Info.LGM,-
+2,,141,26,E.Info.LGM-4.Events],"Description of the logged events, where related log data is persistently stored on"
+2,,141,28,E.Info.LGM-4.LGM],Description of each logging mechanism that is required per LGM-1 that generates
+2,,141,30,E.Info.LGM-4.LGM.Timestamp],
+2,,141,33,E.Info.LGM,-
+2,,141,36,E.Info.DT.LGM-4],Description of the selected path through the decision tree in Figure 29 for each logging
+2,,141,37,E.Info.LGM-4.LGM].,
+2,,141,39,E.Info.DT.LGM-4],with the following properties:
+2,,141,49,E.Info.LGM,-
+2,,142,12,E.Info.LGM,-
+2,,142,23,"E.Info.LGM-4.LGM],",check whether the path through the
+2,,142,24,E.Info.DT.LGM-4],ends with “PASS”.
+2,,142,25,"E.Info.DT.LGM-4],",examine its justification
+2,,142,29,E.Info.DT.LGM-4],end with “PASS”; and
+2,,142,31,E.Info.DT.LGM-4].,
+2,,142,33,E.Info.DT.LGM-4],ends with “FAIL”; or
+2,,143,4,E.Info.DT.LGM-4].,
+2,,143,13,E.Info.LGM-4.LGM],regarding its timestamps and time-related
+2,,143,19,"E.Info.LGM-4.LGM],",functionally confirm that log data persistently stored on the
+2,,143,20,E.Info.LGM-4.LGM.Timestamp],when real time
+2,,143,23,E.Info.LGM-4.Events];,and
+2,,143,27,"E.Info.LGM-4.LGM],",functionally confirm that log data persistently stored on the
+2,,143,28,E.Info.LGM-4.LGM.Timerelated],when
+2,,143,31,E.Info.LGM-4.Events];,and
+2,,143,36,E.Info.LGM-4.LGM],there is no evidence that:
+2,,144,6,E.Info.LGM-4.LGM],there is evidence that:
+2,,145,38,E.Info.DLM-1.PersonalData],Description of the personal data that can be stored on the equipment.
+2,,145,39,E.Info.DLM-1.SenSecParam],Description of the sensitive security parameters that can be stored on the
+2,,146,3,E.Info.DLM-1.DLM],Description of each deletion mechanism including a description on whether the
+2,,146,9,E.Info.DT.DLM-1],Description of the selected path through the decision tree in Figure 30 for each
+2,,146,10,E.Info.DLM-1.PersonalData].,
+2,,146,12,E.Info.DT.DLM-1],with the following property:
+2,,146,13,E.Info.DLM-1.DLM].,
+2,,146,23,E.Info.DLM-1.PersonalData],and for each sensitive security
+2,,146,24,"E.Info.DLM-1.SenSecParam],",check whether the path through the decision
+2,,146,25,E.Info.DT.DLM-1],ends with “PASS”.
+2,,147,3,"E.Info.DT.DLM-1],",examine its justification
+2,,147,7,E.Info.DT.DLM-1],end with “PASS”; and
+2,,147,9,E.Info.DT.DLM-1].,
+2,,147,11,E.Info.DT.DLM-1],ends with “FAIL”; or
+2,,147,13,E.Info.DT.DLM-1].,
+2,,147,18,E.Info.DLM-1.PersonalData],
+2,,147,25,E.Info.DLM,-
+2,,147,31,E.Info.DLM-1.PersonalData].,
+2,,147,33,E.Info.DLM,-
+2,,147,37,E.Info.DLM-1.PersonalData],and all sensitive security parameters found are documented in [E.Info.DLM-
+2,,147,40,E.Info.DLM-1.PersonalData],or if there is a sensitive security parameter on the
+2,,147,41,E.Info.DLM-1.SenSecParam].,
+2,,148,10,"E.Info.DLM-1.DLM],",functionally confirm that the deletion
+2,,148,14,E.Info.DLM-1.DLM],is not used.
+2,,148,16,E.Info.DLM-1.DLM],is not used.
+2,,149,21,E.Info.UNM-1.PersonalInformation],Description of each personal information that can be stored on the
+2,,149,23,E.Info.UNM-1.PersonalInformation.UseCase],Description of each use case where changes
+2,,149,25,E.Info.UNM-1.PersonalInformation.UseCase.Notification],Description of the user
+2,,149,28,E.Info.UNM-1.PersonalInformation.UseCase.OtherInfo],
+2,,149,33,E.Info.DT.UNM-1],Description of the selected path through the decision tree in Figure 31 for the
+2,,149,34,E.Info.UNM,-
+2,,149,37,E.Info.DT.UNM-1],with the following properties:
+2,,149,44,E.Info.UNM,-
+2,,149,55,E.Info.UNM,-
+2,,150,12,E.Info.UNM-1.PersonalInformation.UseCase],check whether
+2,,150,13,E.Info.DT.UNM-1],ends with “NOT APPLICABLE” or
+2,,150,15,"E.Info.DT.UNM-1],",examine its justification
+2,,150,19,E.Info.DT.UNM-1],ends with
+2,,150,21,E.Info.DT.UNM-1],ends with “FAIL”; and
+2,,150,23,E.Info.DT.UNM-1].,
+2,,151,4,E.Info.DT.UNM-1],ends with “FAIL”; or
+2,,151,6,E.Info.DT.UNM-1].,
+2,,151,11,E.Info.UNM-1.PersonalInformation.UseCase],and the list of personal information that can
+2,,151,12,E.Info.UNM-1.PersonalInformation],is complete.
+2,,151,17,E.Info.UNM-1.PersonalInformation].,
+2,,151,19,E.Info.UNM-1.PersonalInformation.UseCase].,
+2,,151,22,E.Info.UNM-1.PersonalInformation],and all use cases found are documented in [E.Info.UNM-
+2,,151,25,E.Info.UNM-1.PersonalInformation],or if there is a use case found that is not
+2,,151,26,E.Info.UNM-1.PersonalInformation.UseCase].,
+2,,151,36,E.Info.UNM-1.PersonalInformation.UseCase.Notification],for each use case documented in [E.Info.UNM-
+2,,152,5,E.Info.UNM-1.PersonalInformation.UseCase],is not covered by a user notification mechanism
+2,,152,6,E.Info.UNM-1.PersonalInformation.UseCase.Notification].,
+2,,152,8,E.Info.UNM-1.PersonalInformation.UseCase],is not covered by a user notification mechanism
+2,,152,9,E.Info.UNM-1.PersonalInformation.UseCase.Notification].,
+2,,152,37,E.Info.UNM-2.Notifications],Description of each user notification mechanism that is required per UNM-
+2,,152,39,E.Info.UNM-2.Notifications.UseCase],Description of each use case where notifications are
+2,,153,3,E.Info.UNM-2.Notifications.UseCase.Content],Description of the content of the
+2,,153,5,E.Info.DT.UNM-2],Description of the selected path through the decision tree in Figure 32 for each user
+2,,153,6,E.Info.UNM-2.Notifications].,
+2,,153,8,E.Info.DT.UNM-2],with the following property:
+2,,153,18,E.Info.UNM,-
+2,,153,23,E.Info.UNM-2.Notifications.UseCase.Content],as required per UNM-2.
+2,,153,29,"E.Info.UNM-2.Notifications],",check whether the
+2,,153,30,E.Info.DT.UNM-2],ends with “PASS”.
+2,,153,31,"E.Info.DT.UNM-2],",examine its justification
+2,,154,3,E.Info.DT.UNM-2],end with “PASS”; and
+2,,154,5,E.Info.DT.UNM-2].,
+2,,154,7,E.Info.DT.UNM-2],ends with “FAIL”; or
+2,,154,9,E.Info.DT.UNM-2].,
+2,,154,22,E.Info.UNM,-
+2,,154,26,E.Info.UNM-2.Notifications].,
+2,,154,28,E.Info.UNM-2.Notifications].,
+2,,156,12,E.Info.CCK-1.CCK],For each confidential cryptographic key (whether preinstalled or generated by the
+2,,156,18,E.Info.CCK-1.CCK.Deviation],Reference to the corresponding justification and to the
+2,,156,20,E.Info.CCK-1.CCK.SecurityStrength],The security strength and the reference of the lookup tables
+2,,156,25,E.Info.DT.CCK-1],Description of the selected path through the decision tree in Figure 33 for each
+2,,156,26,E.Info.CCK-1.CCK].,
+2,,156,28,E.Info.DT.CCK-1],with the following properties:
+2,,156,30,E.Info.CCK-1.CCK.Deviation];,and
+2,,156,31,E.Info.CCK-1.CCK],and [E.Info.CCK-
+2,,157,6,"E.Info.CCK-1.CCK],",check whether the path
+2,,157,7,E.Info.DT.CCK-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,157,9,"E.Info.DT.CCK-1],",examine its justification
+2,,157,13,E.Info.DT.CCK-1],ends with
+2,,157,15,E.Info.DT.CCK-1],ends with “FAIL”; and
+2,,157,17,E.Info.DT.CCK-1].,
+2,,157,19,E.Info.DT.CCK-1],ends with “FAIL”; or
+2,,157,21,E.Info.DT.CCK-1].,
+2,,158,7,E.Info.CCK-1.CCK].,
+2,,158,9,E.Info.CCK,-
+2,,158,12,E.Info.CCK-1.CCK].,
+2,,158,17,E.Info.CCK-1.CCK],are implemented as documented.
+2,,158,24,E.Info.CCK-1.CCK],functionally assess whether
+2,,158,25,E.Info.CCK-1.CCK],is implemented in accordance with [E.Info.CCK-
+2,,158,29,E.Info.CCK-1.CCK],deviates from their documentation.
+2,,158,31,E.Info.CCK-1.CCK],deviates from the documentation.
+2,,159,43,E.Info.CCK-2.Generation],Description of each generation mechanism for confidential cryptographic
+2,,160,3,E.Info.CCK-2.Generation.CCK],Specification of the confidential cryptographic keys the
+2,,160,8,E.Info.CCK-2.Generation.RNSource],
+2,,160,17,E.Info.CCK-2.Generation.RNG],
+2,,160,28,E.Info.CCK-2.Generation.Implementation],
+2,,160,34,E.Info.CCK,-
+2,,161,7,E.Info.DT.CCK-2],Description of the selected path through the decision tree in Figure 34 for each
+2,,161,8,E.Info.CCK-2.Generation].,
+2,,161,10,E.Info.DT.CCK-2],with the following properties:
+2,,161,12,E.Info.CCK-2.Generation.Deviation];,and
+2,,161,13,E.Info.CCK-2.Generation].,
+2,,161,17,E.Info.CCK-2.Generation],are as required per CCK-2.
+2,,161,24,"E.Info.CCK-2.Generation],",check whether the path through the decision tree documented in
+2,,161,25,E.Info.DT.CCK-2],ends with “NOT APPLICABLE” or “PASS”.
+2,,162,3,"E.Info.DT.CCK-2],",examine its justification
+2,,162,7,E.Info.DT.CCK-2],ends with
+2,,162,9,E.Info.DT.CCK-2],ends with “FAIL”; and
+2,,162,11,E.Info.DT.CCK-2].,
+2,,162,15,E.Info.DT.CCK-2].,
+2,,162,20,E.Info.CCK-2.Generation].,
+2,,162,25,E.Info.CCK-2.Generation],through a consistency check with
+2,,162,26,E.Info.CCK-1.CCK].,
+2,,162,29,E.Info.CCK-2.Generation].,
+2,,162,31,E.Info.CCK-2.Generation].,
+2,,163,40,E.Info.CCK-3.CCK],"Description of each preinstalled confidential cryptographic key on the equipment,"
+2,,163,44,E.Info.CCK-3.CCK.Controlled],Description of:
+2,,164,8,E.Info.CCK-3.CCK.Shared],Description of the equipment’s functionalities that require the
+2,,164,10,E.Info.CCK-3.CCK.Unique],
+2,,164,12,E.Info.DT.CCK-3],Description of the selected path through the decision tree shown in Figure 35 for each
+2,,164,13,E.Info.CCK-3.CCK].,
+2,,164,15,E.Info.DT.CCK-3],with the following properties:
+2,,164,17,E.Info.CCK-3.CCK.Controlled];,and
+2,,164,19,E.Info.CCK-3.CCK.Shared];,and
+2,,164,20,E.Info.CCK-3.CCK.Unique].,
+2,,165,6,"E.Info.CCK-3.CCK],",check whether the path
+2,,165,7,E.Info.DT.CCK-3],ends with “NOT APPLICABLE” or “PASS”.
+2,,165,8,"E.Info.DT.CCK-3],",examine its justification
+2,,165,12,E.Info.DT.CCK-3],ends with
+2,,165,14,E.Info.DT.CCK-3],ends with “FAIL”; and
+2,,165,16,E.Info.DT.CCK-3].,
+2,,165,18,E.Info.DT.CCK-3],ends with “FAIL”; or
+2,,165,20,E.Info.DT.CCK-3].,
+2,,166,11,E.Info.CCK-3.CCK].,
+2,,166,14,E.Info.CCK-3.CCK].,
+2,,166,16,E.Info.CCK-3.CCK].,
+2,,166,25,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK
+2,,167,5,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+2,,167,8,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+2,,168,15,E.Info.GEC-1.SecurityAsset],Description of each security asset of the equipment.
+2,,168,16,E.Info.GEC-1.PrivacyAsset],Description of each privacy asset of the equipment.
+2,,168,17,E.Info.GEC-1.SoftwareDocumentation],"Description of the software of the equipment, including their"
+2,,168,18,E.Info.GEC-1.SecurityAsset],
+2,,168,19,E.Info.GEC-1.PrivacyAsset].,
+2,,168,20,E.Info.GEC-1.HardwareDocumentation],Description of the hardware of the equipment that affect the
+2,,168,21,E.Info.GEC-1.SecurityAsset],and [E.Info.GEC-
+2,,168,23,E.Info.GEC-1.ListOfVulnerabilities],Description of all publicly known exploitable vulnerabilities in the
+2,,168,24,E.Info.GEC,-
+2,,168,25,E.Info.GEC-1.PrivacyAsset].,The document includes also the source of the
+2,,168,29,E.Info.GEC-1.ListOfVulnerabilities.Remediated],The
+2,,168,32,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition],The description of specific conditions
+2,,168,34,E.Info.GEC-1.ListOfVulnerabilities.Mitgated],The
+2,,168,36,E.Info.GEC-1.ListOfVulnerabilities.Accepted],The
+2,,168,38,E.Info.DT.GEC-1],Description of the selected path through the decision tree in Figure 36 for each
+2,,168,39,E.Info.GEC-1.SoftwareDocumentation],and [E.Info.GEC-
+2,,169,4,E.Info.DT.GEC-1],with the following properties:
+2,,169,14,E.Info.GEC,-
+2,,169,17,E.Info.GEC-1.ListOfVulnerabilities],and [E.Info.GEC-
+2,,169,20,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition];,
+2,,169,23,E.Info.GEC-1.ListOfVulnerabilities.Mitgated];,and
+2,,169,33,E.Info.GEC,-
+2,,170,6,E.Info.GEC-1.SoftwareDocumentation],and hardware documented in [E.Info.GEC-
+2,,170,8,E.Info.DT.GEC-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,170,9,"E.Info.DT.GEC-1],",examine its justification
+2,,170,13,E.Info.DT.GEC-1],ends with
+2,,170,15,E.Info.DT.GEC-1],ends with “FAIL”; and
+2,,170,17,E.Info.DT.GEC-1].,
+2,,170,19,E.Info.DT.GEC-1],ends with “FAIL”; or
+2,,170,21,E.Info.DT.GEC-1].,
+2,,171,7,E.Info.GEC-1.ListOfVulnerabilities].,
+2,,171,14,E.Info.GEC,-
+2,,171,17,E.Info.GEC,-
+2,,171,24,E.Info.GEC,-
+2,,171,27,E.Info.GEC,-
+2,,171,33,E.Info.GEC-1.ListOfVulnerabilities],are not able to affect security assets or
+2,,172,4,E.Info.GEC-1.ListOfVulnerabilities],are
+2,,172,5,E.Info.GEC,-
+2,,172,13,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions
+2,,172,14,E.Info.GEC-1.ListOfVulnerabilities].,
+2,,172,17,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions for the exploitability defined
+2,,172,18,E.Info.GEC-1.ListOfVulnerabilities].,
+2,,173,23,E.Info.GEC-2.NetworkInterface.Exposure],Description of each network interface and exposed service
+2,,173,26,E.Info.GEC-2.Setup],Documentation how to setup the
+2,,173,28,E.Info.GEC-2.SecurityAsset],Description of each security asset that is accessible via network interfaces.
+2,,173,29,E.Info.GEC-2.PrivacyAsset],Description of each privacy asset that is accessible via network interfaces.
+2,,173,30,E.Info.DT.GEC-2],Description of the selected path through the decision tree in Figure 37 for each
+2,,173,31,E.Info.GEC,-
+2,,173,34,E.Info.DT.GEC-2]Figure,5 with the following properties:
+2,,173,36,E.Info.GEC-2.NetworkInterface.Exposure];,and
+2,,173,38,E.Info.GEC-2.SecurityAsset],and [E.Info.GEC-
+2,,174,12,E.Info.GEC,-
+2,,174,18,E.Info.GEC-2.NetworkInterface.Exposure],is restricted to the ones
+2,,174,26,E.Info.GEC,-
+2,,174,28,E.Info.DT.GEC-2],ends with “NOT APPLICABLE” or “PASS”.
+2,,174,29,"E.Info.DT.GEC-2],",examine its justification
+2,,174,33,E.Info.DT.GEC-2],ends with
+2,,174,35,E.Info.DT.GEC-2],ends with “FAIL”; and
+2,,175,4,E.Info.DT.GEC-2].,
+2,,175,6,E.Info.DT.GEC-2],ends with “FAIL”; or
+2,,175,8,E.Info.DT.GEC-2].,
+2,,175,21,E.Info.GEC-2.NetworkInterface.Exposure],or
+2,,175,22,E.Info.GEC-2.Setup],or to operate the equipment in basic
+2,,175,29,E.Info.GEC-2.NetworkInterface.Exposure],and is required for
+2,,175,30,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+2,,175,32,E.Info.GEC-2.NetworkInterface.Exposure],or not required
+2,,175,33,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+2,,176,21,E.Info.GEC-3.NetworkInterface.Exposure],Description of each network interface and exposed service
+2,,176,24,E.Info.GEC-3.SecurityAsset],Description of each security asset that is accessible via network interfaces.
+2,,176,25,E.Info.GEC-3.PrivacyAsset],Description of each privacy asset that is accessible via network interfaces.
+2,,176,26,E.Info.DT.GEC-3],Description of the selected path through the decision tree in Figure 38 for each
+2,,176,27,E.Info.GEC,-
+2,,176,30,E.Info.DT.GEC-3],with the following properties:
+2,,176,32,E.Info.GEC-3.SecurityAsset],and [E.Info.GEC-
+2,,176,43,E.Info.GEC,-
+2,,177,13,E.Info.GEC-3.NetworkInterface.Exposure],that is part of the factory default state check whether the
+2,,177,14,E.Info.DT.GEC-3],ends with “NOT APPLICABLE” or “PASS”.
+2,,177,15,"E.Info.DT.GEC-3],",examine its justification
+2,,177,19,E.Info.DT.GEC-3],ends with
+2,,177,21,E.Info.DT.GEC-3],ends with “FAIL”; and
+2,,177,23,E.Info.DT.GEC-3].,
+2,,177,25,E.Info.DT.GEC-3],ends with “FAIL”; or
+2,,177,27,E.Info.DT.GEC-3].,
+2,,178,16,E.Info.GEC-3.NetworkInterface.Exposure].,
+2,,178,19,E.Info.GEC,-
+2,,178,32,E.Info.GEC,-
+2,,179,8,E.Info.GEC-3.NetworkInterface.Exposure],are configurable; and
+2,,179,14,E.Info.GEC-3.NetworkInterface.Exposure],is only possible
+2,,179,21,E.Info.GEC-3.NetworkInterface.Exposure].,
+2,,179,26,E.Info.GEC-3.NetworkInterface.Exposure].,
+2,,180,15,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure],User documentation of each exposed network
+2,,180,17,E.Info.GEC-4.NetworkInterface.Exposure],Description of each exposed network interface and exposed
+2,,180,19,E.Info.DT.GEC-4],Description of the selected path through the decision tree in Figure 39 for each
+2,,180,20,E.Info.GEC,-
+2,,180,23,E.Info.DT.GEC-4],with the following properties:
+2,,180,25,E.Info.GEC-4.NetworkInterface.Exposure];,and
+2,,180,35,E.Info.GEC,-
+2,,181,6,E.Info.GEC,-
+2,,181,8,E.Info.DT.GEC-4],ends with “NOT APPLICABLE” or “PASS”.
+2,,181,9,"E.Info.DT.GEC-4],",examine its justification
+2,,181,13,E.Info.DT.GEC-4],ends with
+2,,181,15,E.Info.DT.GEC-4],ends with “FAIL”; and
+2,,181,17,E.Info.DT.GEC-4].,
+2,,181,19,E.Info.DT.GEC-4],ends with “FAIL”; or
+2,,181,21,E.Info.DT.GEC-4].,
+2,,182,19,E.Info.GEC,-
+2,,182,22,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure].,
+2,,182,38,E.Info.GEC,-
+2,,182,41,E.Info.GEC,-
+2,,183,11,E.Info.GEC-5.PhysicalExternalInterface],Description of each physical external interface including:
+2,,183,12,E.Info.GEC-5.PhysicalExternalInterface.Purpose],The purpose of the interface; and
+2,,183,13,E.Info.SCM-1.PhysicalExternalInterface.Type],Description of the interface type (e.g. USB-C).
+2,,183,14,E.Info.GEC-5.IntFunc],Description of the intended functionality of the equipment.
+2,,183,15,E.Info.DT.GEC-5],Description of the selected path through the decision tree in Figure 40 for each
+2,,183,16,E.Info.GEC-5.PhysicalExternalInterface].,
+2,,183,18,"E.Info.DT.GEC-5],",with the following property:
+2,,183,28,E.Info.GEC,-
+2,,184,6,E.Info.GEC-5.PhysicalExternalInterface],check
+2,,184,7,E.Info.DT.GEC-5],ends with “PASS”.
+2,,184,8,"E.Info.DT.GEC-5],",examine its justification
+2,,184,12,E.Info.DT.GEC-5],end with “PASS”; and
+2,,184,14,E.Info.DT.GEC-5].,
+2,,184,16,E.Info.DT.GEC-5],ends with “FAIL”; or
+2,,184,18,E.Info.DT.GEC-5].,
+2,,184,23,E.Info.GEC,-
+2,,185,5,E.Info.GEC-5.PhysicalExternalInterface],
+2,,185,11,E.Info.GEC-5.PhysicalExternalInterface].,
+2,,185,14,E.Info.GEC-5.PhysicalExternalInterface].,
+2,,185,16,E.Info.GEC-5.PhysicalExternalInterface].,
+2,,187,6,E.Info.GEC-6.ExternalInterface],Description of each external interface including:
+2,,187,7,E.Info.GEC-6.ExternalInterface.Capabilities],"Description of any used APIs, protocols, input"
+2,,187,9,E.Info.GEC-6.ExternalInterface.Validation],Description how the input for instance via
+2,,187,11,E.Info.GEC-6.SecurityAsset],Description of each security asset that is potentially impacted via external
+2,,187,13,E.Info.GEC-6.PrivacyAsset],Description of each privacy asset that is potentially impacted via external
+2,,187,15,E.Info.DT.GEC-6],Description of the selected path through the decision tree in Figure 41 for each of the
+2,,187,16,E.Info.GEC-6.ExternalInterface].,
+2,,187,18,E.Info.DT.GEC-6],with the following properties:
+2,,187,20,E.Info.GEC-6.ExternalInterface],and [E.Info.GEC-
+2,,187,22,E.Info.GEC,-
+2,,187,24,E.Info.GEC-6.ExternalInterface.Validation],
+2,,187,26,E.Info.GEC,-
+2,,188,6,"E.Info.GEC-6.ExternalInterface],",check whether the path
+2,,188,7,E.Info.DT.GEC-6],ends with “PASS” or “NOT APPLICABLE”.
+2,,188,8,"E.Info.DT.GEC-6],",examine its justification
+2,,188,12,E.Info.DT.GEC-6],ends with
+2,,188,14,E.Info.DT.GEC-6],ends with “FAIL”; and
+2,,188,16,E.Info.DT.GEC-6].,
+2,,188,18,E.Info.DT.GEC-6],ends with “FAIL”; or
+2,,188,20,E.Info.DT.GEC-6].,
+2,,189,4,E.Info.GEC,-
+2,,189,7,E.Info.GEC-6.ExternalInterface],as a guidance; and
+2,,189,10,E.Info.GEC-6.ExternalInterface.Capabilities],to trigger the
+2,,189,15,E.Info.GEC-6.ExternalInterface].,
+2,,189,17,E.Info.GEC-6.ExternalInterface].,
+2,,189,32,E.Info.GEC-6.ExternalInterface],as guidance to test the related
+2,,189,35,E.Info.GEC-6.SecurityAsset],and network assets described in
+2,,189,36,E.Info.GEC-6.NetworkAsset],by executing specific attacks related to the input mechanisms
+2,,189,47,E.Info.GEC,-
+2,,190,5,E.Info.GEC,-
+2,,190,6,E.Info.GEC-6.PrivacyAsset].,
+2,,190,8,E.Info.GEC,-
+2,,190,9,E.Info.GEC-6.PrivacyAsset].,
+2,,190,33,E.Info.GEC-7.NonNetworkInterface],Description of
+2,,190,35,E.Info.GEC,-
+2,,190,38,E.Info.DT.GEC-7],Description of the selected path through the decision tree in Figure 42 for each non-
+2,,190,39,E.Info.GEC-7.NonNetworkInterface].,
+2,,191,4,E.Info.DT.GEC-7],with the following properties:
+2,,191,6,E.Info.GEC-7.NonNetworkInterface];,and
+2,,191,16,E.Info.GEC,-
+2,,191,28,E.Info.GEC-7.NonNetworkInterface],check
+2,,191,29,E.Info.DT.GEC-7],ends with “NOT
+2,,191,31,"E.Info.DT.GEC-7],",examine its justification
+2,,191,35,E.Info.DT.GEC-7],ends with
+2,,192,3,E.Info.DT.GEC-7],ends with “FAIL”; and
+2,,192,5,E.Info.DT.GEC-7].,
+2,,192,7,E.Info.DT.GEC-7],ends with “FAIL”; or
+2,,192,9,E.Info.DT.GEC-7].,
+2,,192,19,E.Info.GEC-7.NonNetworkInterface].,
+2,,192,22,E.Info.GEC-7.NonNetworkInterface].,
+2,,192,24,E.Info.GEC-7.NonNetworkInterface].,
+2,,194,17,E.Info.CRY-1.Assets],List of all security assets and privacy assets on the equipment protected by
+2,,194,19,E.Info.CRY-1.Assets.Cryptography],Description of the cryptography used for cryptographic
+2,,194,26,E.Info.CRY-1.Assets.Deviation],Reference to the corresponding justification
+2,,194,38,E.Info.DT.CRY-1],Description of the selected path through the decision tree in Figure 43 for each security
+2,,194,39,E.Info.CRY-1.Assets].,
+2,,194,41,E.Info.DT.CRY-1],with the following properties:
+2,,195,4,E.Info.CRY-1.Assets.Deviation];,and
+2,,195,14,E.Info.CRY,-
+2,,195,26,"E.Info.CRY-1.Assets],",check whether the path
+2,,195,27,E.Info.DT.CRY-1],ends with “NOT APPLICABLE” or “PASS”.
+2,,195,28,"E.Info.DT.CRY-1],",examine its justification
+2,,195,33,E.Info.DT.CRY-1],ends with “PASS”;
+2,,196,4,E.Info.DT.CRY-1],ends with “FAIL”; and
+2,,196,7,E.Info.DT.CRY-1].,
+2,,196,10,E.Info.DT.CRY-1],ends with “FAIL”; or
+2,,196,13,E.Info.DT.CRY-1].,
+2,,196,18,E.Info.CRY-1.Assets.Cryptography],is complete.
+2,,196,23,E.Info.CRY-1.Assets.Cryptography].,
+2,,196,29,E.Info.CRY-1.Assets.Cryptography].,
+2,,196,31,E.Info.CRY-1.Assets.Cryptography].,
+2,,196,36,E.Info.CRY-1.Assets.Cryptography],is implemented as it is documented.
+2,,197,4,E.Info.CRY-1.Assets.Cryptography],check whether
+2,,197,11,E.Info.CRY-1.Assets.Cryptography],is found.
+2,,197,13,E.Info.CRY-1.Assets.Cryptography],is found.
+2,,204,18,E.Info.xxxxx],where
+2,,204,19,E.Info.ACM-1.ACM],is the
+2,,204,21,E.Info.AUM-1-1.ACM.NetworkInterface],includes a description of network
+2,,205,3,E.Info.DT.xxxxxx],and
+3,,16,55,E.Info,evidence.information
+3,,21,20,E.Info.ACM-1.SecurityAsset],"Description of each security asset that is accessible by entities, including:"
+3,,21,21,E.Info.ACM-1.SecurityAsset.Access],possible entities’ accesses to the security asset on the
+3,,21,24,E.Info.ACM-1.SecurityAsset.PublicAccess],Description
+3,,21,29,E.Info.ACM-1.SecurityAsset.Environment],Description of:
+3,,21,34,E.Info.ACM,-
+3,,21,39,E.Info.ACM-1.SecurityAsset.ACM],Description of each access control mechanism that
+3,,22,3,E.Info.ACM-1.FinancialAsset],"Description of each financial asset that is accessible by entities, including:"
+3,,22,4,E.Info.ACM-1.NetworkAsset.Access],possible entities’ accesses to the financial asset on the
+3,,22,11,E.Info.ACM-1.FinancialAsset.PublicAccess],
+3,,22,16,E.Info.ACM-1.FinancialAsset.Environment],Description of:
+3,,22,21,E.Info.ACM,-
+3,,22,26,E.Info.ACM-1.FinancialAsset.ACM],Description of each access control mechanism that
+3,,22,28,E.Info.DT.ACM-1],Description of the selected path through the decision tree in Figure 1 for each security
+3,,22,29,E.Info.ACM-1.SecurityAsset],"and [E.Info.ACM-1.FinancialAsset],"
+3,,22,32,"E.Info.DT.ACM-1],",with the following properties:
+3,,22,34,E.Info.ACM-1.SecurityAsset.PublicAccess],or
+3,,22,35,E.Info.ACM-1.FinancialAsset.PublicAccess];,and
+3,,22,37,E.Info.ACM-1.SecurityAsset.Environment],or
+3,,22,38,E.Info.ACM-1.FinancialAsset.Environment];,and
+3,,22,40,E.Info.ACM-1.SecurityAsset.Legal],or [E.Info.ACM-
+3,,22,51,E.Info.ACM,-
+3,,22,52,E.Info.ACM-1.FinancialAsset.ACM].,
+3,,23,12,E.Info.ACM-1.SecurityAsset],and each financial asset documented
+3,,23,13,"E.Info.ACM-1.FinancialAsset],",check whether the path through the decision tree documented in
+3,,23,14,E.Info.DT.ACM-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,23,15,"E.Info.DT.ACM-1],",examine its justification
+3,,23,19,E.Info.DT.ACM-1],ends with
+3,,23,21,E.Info.DT.ACM-1],ends with “FAIL”; and
+3,,23,23,E.Info.DT.ACM-1].,
+3,,24,3,E.Info.DT.ACM-1],ends with “FAIL”; or
+3,,24,5,E.Info.DT.ACM-1].,
+3,,24,10,E.Info.ACM-1.FinancialAsset],or
+3,,24,11,E.Info.ACM-1.SecurityAsset].,
+3,,24,16,E.Info.ACM-1.SecurityAsset],"and whether there are network assets, that"
+3,,24,17,"E.Info.ACM-1.FinancialAsset],",
+3,,24,22,E.Info.ACM-1.SecurityAsset],and all financial assets found are documented in [E.Info.ACM-
+3,,24,25,E.Info.ACM-1.SecurityAsset],or a financial asset is found which is not documented in [E.Info.ACM-
+3,,24,35,E.Info.ACM-1.SecurityAsset],and each network asset documented
+3,,24,36,E.Info.ACM-1.FinancialAsset],functionally confirm the existence of access control mechanisms
+3,,24,37,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.FinancialAsset.ACM] by accessing the
+3,,25,5,E.Info.ACM-1.FinancialAsset.PublicAccess],
+3,,25,7,E.Info.ACM,-
+3,,25,11,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.FinancialAsset.ACM] is
+3,,25,14,E.Info.ACM-1.SecurityAsset.ACM],or [E.Info.ACM-1.FinancialAsset.ACM is not
+3,,26,31,E.Info.ACM-2.SecurityAsset],Description of each security asset for which ACM-1 requires access control
+3,,26,33,E.Info.ACM-2.SecurityAsset.ACM],Description of the access control mechanisms required
+3,,26,37,E.Info.ACM-2.FinancialAsset],Description of each financial asset for which ACM-1 requires access
+3,,27,3,E.Info.ACM-2.FinancialAsset.ACM],Description of the access control mechanisms required
+3,,27,7,E.Info.DT.ACM-2],Description of the selected path through the decision tree in Figure 2 for each security
+3,,27,8,E.Info.ACM-2.SecurityAsset],and financial asset documented in [E.Info.ACM-
+3,,27,11,"E.Info.DT.ACM-2],",with the following property:
+3,,27,21,E.Info.ACM,-
+3,,27,22,E.Info.ACM-2.SecurityAsset.ACM].,
+3,,27,36,E.Info.ACM-2.SecurityAsset],and each financial asset documented
+3,,27,37,"E.Info.ACM-2.FinancialAsset],",check whether the path through the decision tree documented in
+3,,27,38,E.Info.DT.ACM-2],ends with “PASS”.
+3,,27,39,"E.Info.DT.ACM-2],",examine its justification
+3,,28,5,E.Info.DT.ACM-2],end with “PASS”; and
+3,,28,7,E.Info.DT.ACM-2].,
+3,,28,9,E.Info.DT.ACM-2],ends with “FAIL”; or
+3,,28,11,E.Info.DT.ACM-2].,
+3,,28,22,E.Info.ACM-2.SecurityAsset],and financial asset documented in
+3,,28,23,E.Info.ACM-2.FinancialAsset],
+3,,28,24,E.Info.ACM-2.SecurityAsset.ACM],or
+3,,28,25,E.Info.ACM-2.FinancialAsset.ACM],"belong to  [IC.ACM-2.RBAC], functionally confirm that:"
+3,,28,31,E.Info.ACM-2.SecurityAsset.ACM],or
+3,,28,32,E.Info.ACM-2.FinancialAsset.ACM],"belong to [IC.ACM-2.DAC], functionally confirm that:"
+3,,29,4,E.Info.ACM-2.SecurityAsset.ACM],or
+3,,29,5,E.Info.ACM-2.FinancialAsset.ACM],"belong to [IC.ACM-2.MAC], functionally confirm that:"
+3,,29,12,E.Info.ACM-2.SecurityAsset.ACM],
+3,,29,13,E.Info.ACM-2.FinancialAsset.ACM],"belong to [IC.ACM-2.Generic], functionally confirm that:"
+3,,29,19,E.Info.ACM,-
+3,,29,20,E.Info.ACM-2.FinancialAsset],the confirmations in
+3,,29,22,E.Info.ACM,-
+3,,29,23,E.Info.ACM-2.FinancialAsset],a confirmation in the
+3,,31,13,E.Info.AUM-1-1.ACM],Description of each access control mechanism required per ACM-1 for managing
+3,,31,18,E.Info.AUM-1-1.ACM.NetworkInterface],Description of the network interfaces for the
+3,,31,20,E.Info.AUM-1-1.ACM.ManagedAccessFinancialAsset],Description of the managed access to
+3,,31,22,E.Info.AUM-1-1.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+3,,31,24,E.Info.AUM-1-1.ACM.AuthenticationMechanism],
+3,,31,30,E.Info.DT.AUM-1-1],Description of the selected path through the decision tree in Figure 3 for each access
+3,,31,31,E.Info.AUM-1-1.ACM].,
+3,,31,33,E.Info.DT.AUM-1-1],with the following property:
+3,,31,34,E.Info.AUM-1-1.ACM].,
+3,,32,6,"E.Info.AUM-1-1.ACM],",check whether the path
+3,,32,7,E.Info.DT.AUM-1-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,32,8,"E.Info.DT.AUM-1-1],",examine its justification
+3,,32,12,E.Info.DT.AUM-1-1],ends with “PASS”; and
+3,,32,14,E.Info.DT.AUM-1-1].,
+3,,32,16,E.Info.DT.AUM-1-1],ends with “FAIL”; or
+3,,32,18,E.Info.DT.AUM-1-1].,
+3,,33,10,E.Info.AUM-1-1.ACM].,
+3,,33,18,E.Info.AUM-1-1.ACM].,
+3,,33,25,E.Info.AUM-1-1.ACM].,
+3,,33,31,E.Info.AUM-1-1.ACM].,
+3,,33,40,"E.Info.AUM-1-1.ACM],",each managed access via
+3,,33,48,E.Info.AUM-1,-
+3,,34,4,"E.Info.AUM-1-1.ACM.ManagedAccessSecurityAsset],",access the corresponding assets and
+3,,34,8,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+3,,34,10,E.Info.AUM-1-1.ACM.AuthenticationMechanism],is not implemented.
+3,,34,19,E.Info.AUM-1-2.ACM],Description of each access control mechanism required per ACM-1 for managing
+3,,34,24,E.Info.AUM-1-2.ACM.UserInterfaces],A description of the user interfaces for the managed
+3,,34,26,E.Info.AUM-1-2.ACM.ManagedAccessFinancialAsset],Description of the managed access to
+3,,34,28,E.Info.AUM-1-2.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+3,,34,30,E.Info.AUM-1-2.ACM.AuthenticationMechanism],
+3,,34,36,E.Info.DT.AUM-1-2],Description of the selected path through the decision tree in Figure 4 for each access
+3,,34,37,E.Info.AUM-1-2.ACM].,
+3,,34,38,E.Info.DTAUM,-
+3,,34,40,E.Info.AUM-1-2.ACM].,
+3,,35,12,"E.Info.AUM-1-2.ACM],",check whether the path
+3,,35,13,E.Info.DT.AUM-1-2],ends with “NOT APPLICABLE” or “PASS”.
+3,,35,14,"E.Info.DT.AUM-1-2],",examine its justification
+3,,35,18,E.Info.DT.AUM-1-2],end with “PASS”; and
+3,,35,20,E.Info.DT.AUM-1-2].,
+3,,36,4,E.Info.DT.AUM-1-2],ends with “FAIL”; or
+3,,36,6,E.Info.DT.AUM-1-2].,
+3,,36,15,E.Info.AUM-1-2.ACM].,
+3,,36,23,E.Info.AUM-1-2.ACM].,
+3,,36,30,E.Info.AUM-1-2.ACM].,
+3,,36,36,E.Info.AUM-1-2.ACM].,
+3,,37,6,"E.Info.AUM-1-2.ACM],",each managed access via user
+3,,37,7,E.Info.AUM-1-2.ACM.ManagedAccessFinancialAsset],and
+3,,37,8,E.Info.AUM-1,-
+3,,37,13,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+3,,37,15,E.Info.AUM-1-2.ACM.AuthenticationMechanism],is not implemented.
+3,,37,24,E.Info.AUM-1-3.ACM],Description of each access control mechanism required per ACM-1 for managing
+3,,37,29,E.Info.AUM-1-3.ACM.MachineInterfaces],A description of the machine interfaces for the
+3,,37,31,E.Info.AUM-1-3.ACM.ManagedAccessFinancialAsset],Description of the managed access to
+3,,37,33,E.Info.AUM-1-3.ACM.ManagedAccessSecurityAsset],Description of the managed access to
+3,,37,35,E.Info.AUM-1-3.ACM.AuthenticationMechanism],
+3,,37,41,E.Info.DT.AUM-1-3],Description of the selected path through the decision tree in Figure 5  for each
+3,,37,42,E.Info.AUM-1-3.ACM].,
+3,,37,43,E.Info.DT.AUM,-
+3,,38,3,E.Info.AUM-1-3.ACM].,
+3,,38,13,"E.Info.AUM-1-3.ACM],",check whether the path
+3,,38,14,E.Info.DT.AUM-1-3],ends with “NOT APPLICABLE” or “PASS”.
+3,,38,15,"E.Info.DT.AUM-1-3],",examine its justification
+3,,38,19,E.Info.DT.AUM-1-3],end with “PASS”; and
+3,,39,4,E.Info.DT.AUM-1-3].,
+3,,39,6,E.Info.DT.AUM-1-3],ends with “FAIL”; or
+3,,39,8,E.Info.DT.AUM-1-3].,
+3,,39,17,E.Info.AUM-1-2.ACM].,
+3,,39,25,E.Info.AUM-1-3.ACM].,
+3,,39,32,E.Info.AUM-1-3.ACM].,
+3,,39,38,E.Info.AUM-1-3.ACM].,
+3,,40,10,E.Info.AUM-1-3.ACM],and each managed access via
+3,,40,18,E.Info.AUM-1,-
+3,,40,20,"E.Info.AUM-1-3.ACM.ManagedAccessSecurityAsset],",access the corresponding assets and
+3,,40,24,E.Info.AUM-1-3.ACM.AuthenticationMechanism],is not implemented.
+3,,40,26,E.Info.AUM-1-3.ACM.AuthenticationMechanism],is not implemented.
+3,,42,10,E.Info.AUM-2-1.AuthenticationMechanism],Description of each authentication mechanism required per
+3,,42,12,E.Info.AUM-2-1.AuthenticationMechanism.AuthFactor],Description of the authenticators
+3,,42,14,E.Info.DT.AUM-2-1],Description of the selected path through the decision tree in Figure 6 for each
+3,,42,15,E.Info.AUM-2-1.AuthenticationMechanism].,
+3,,42,18,E.Info.AUM-2,-
+3,,43,6,"E.Info.AUM-2-1.AuthenticationMechanism],",check
+3,,43,7,E.Info.DT.AUM-2-1],ends with “PASS”.
+3,,43,8,"E.Info.DT.AUM-2-1],",examine its justification
+3,,43,12,E.Info.DT.AUM-2-1],end with “PASS”; and
+3,,43,14,E.Info.DT.AUM-2-1].,
+3,,43,16,E.Info.DT.AUM-2-1],ends with “FAIL”; or
+3,,43,18,E.Info.DT.AUM-2-1].,
+3,,44,14,E.Info.AUM-2,-
+3,,44,20,"E.Info.AUM-2-1.AuthenticationMechanism],",
+3,,44,25,E.Info.AUM-2-1.AuthenticationMechanism].,
+3,,44,27,E.Info.AUM-2-1.AuthenticationMechanism].,
+3,,44,36,E.Info.AUM-2-2.AuthenticationMechanism],Description of each authentication mechanism required per
+3,,44,40,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor],Description of each authenticator
+3,,44,42,E.Info.DT.AUM-2-2],Description of the selected path through the decision tree in Figure 7 for each
+3,,44,43,E.Info.AUM-2-2.AuthenticationMechanism].,
+3,,44,45,E.Info.DT.AUM-2-2],with the following property:
+3,,44,46,E.Info.AUM-2,-
+3,,44,47,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor].,
+3,,45,13,"E.Info.AUM-2-2.AuthenticationMechanism],",check
+3,,45,14,E.Info.DT.AUM-2-2],ends with “PASS”.
+3,,45,15,"E.Info.DT.AUM-2-2],",examine its justification
+3,,45,19,E.Info.DT.AUM-2-2],end with “PASS”; and
+3,,45,21,E.Info.DT.AUM-2-2].,
+3,,45,23,E.Info.DT.AUM-2-2],ends with “FAIL”; or
+3,,46,4,E.Info.DT.AUM-2-2].,
+3,,46,14,E.Info.AUM-2-2.AuthenticationMechanism.AuthFactor].,
+3,,46,19,"E.Info.AUM-2-2.AuthenticationMechanism],",perform the authentication and
+3,,46,23,E.Info.AUM-2-2.AuthenticationMechanism].,
+3,,46,25,E.Info.AUM-2-2.AuthenticationMechanism].,
+3,,47,34,E.Info.AUM-3.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+3,,47,36,E.Info.AUM-3.AUM.AuthVal],Description how the validation of the authenticator is
+3,,47,38,E.Info.AUM-3.AUM.AuthEnv],Description of the available information about the
+3,,47,40,E.Info.DT.AUM-3],Description of the selected path through the decision tree in Figure 8 for each
+3,,47,41,E.Info.AUM-3.AUM].,
+3,,47,43,E.Info.DT.AUM-3],with the following property:
+3,,47,44,E.Info.AUM-3.AUM.AuthVal],
+3,,47,45,E.Info.AUM-3.AUM.AuthEnv].,
+3,,48,6,E.Info.AUM-3.AUM].,
+3,,48,14,"E.Info.AUM-3.AUM],",check whether the path through
+3,,48,15,E.Info.DT.AUM-3],ends with “PASS”.
+3,,48,16,"E.Info.DT.AUM-3],",examine its justification
+3,,48,20,E.Info.DT.AUM-3],end with “PASS”; and
+3,,48,22,E.Info.DT.AUM-3].,
+3,,48,24,E.Info.DT.AUM-3],ends with “FAIL”; or
+3,,48,26,E.Info.DT.AUM-3].,
+3,,49,15,E.Info.AUM-3.AUM],
+3,,49,17,E.Info.AUM-3.AUM.AuthVal],by
+3,,49,28,E.Info.AUM-3.AUM.AuthVal],by examining whether:
+3,,50,6,E.Info.AUM-3.AUM.AuthVal],by
+3,,50,16,E.Info.AUM-3.AUM],the confirmations in the implementation category dependent assessment unit are
+3,,50,19,E.Info.AUM-3.AUM],a confirmation in the implementation category dependent assessment unit is not
+3,,51,21,E.Info.AUM-4.AUM],Description of each authentication mechanism required by AUM-1-1 (network
+3,,51,23,E.Info.AUM-4.AUM.ConfSecGoals],
+3,,51,26,E.Info.AUM-4.AUM.AuthChange],
+3,,51,32,E.Info.AUM-4.AUM],how the change of the authenticator is performed under
+3,,51,34,E.Info.DT.AUM-4],Description of the selected path through the decision tree in Figure 9 for each
+3,,51,35,E.Info.AUM-4.AUM.AuthChange].,
+3,,51,37,E.Info.DT.AUM-4],with the following properties:
+3,,51,47,E.Info.AUM,-
+3,,51,58,E.Info.AUM,-
+3,,51,63,E.Info.AUM-4.AUM],can be changed.
+3,,52,8,"E.Info.AUM-4.AUM],",check whether the path
+3,,52,9,E.Info.DT.AUM-4],ends with “NOT APPLICABLE” or “PASS”.
+3,,52,10,"E.Info.DT.AUM-4],",examine its justification
+3,,52,14,E.Info.DT.AUM-4],ends with
+3,,52,16,E.Info.DT.AUM-4],ends with “FAIL”; and
+3,,52,18,E.Info.DT.AUM-4].,
+3,,52,20,E.Info.DT.AUM-4],ends with “FAIL”; or
+3,,52,22,E.Info.DT.AUM-4].,
+3,,53,11,E.Info.AUM,-
+3,,53,17,"E.Info.AUM-4.AUM],",functionally confirm the
+3,,53,18,E.Info.AUM-4.AUM.AuthChange],by
+3,,53,26,E.Info.AUM-4.AUM.AuthChange].,
+3,,53,28,E.Info.AUM-4.AUM.AuthChange].,
+3,,55,13,E.Info.AUM-5-1.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+3,,55,16,E.Info.AUM-5-1.AUM.PwdProperty],Description for each authentication mechanism’s
+3,,55,23,E.Info.DT.AUM-5-1],Description of the selected the path through the decision tree in Figure 10 for each
+3,,55,24,E.Info.AUM-5-1.AUM].,
+3,,55,26,E.Info.DT.AUM-5-1],with the following properties:
+3,,55,28,E.Info.AUM-5-1.AUM.PwdProperty].,
+3,,56,6,"E.Info.AUM-5-1.AUM],",check whether the path
+3,,56,7,E.Info.DT.AUM-5-1],ends with “PASS”.
+3,,56,8,"E.Info.DT.AUM-5-1],",examine its justification
+3,,56,12,E.Info.DT.AUM-5-1],end with “PASS”; and
+3,,56,14,E.Info.DT.AUM-5-1].,
+3,,56,16,E.Info.DT.AUM-5-1],ends with “FAIL”; or
+3,,56,18,E.Info.DT.AUM-5-1].,
+3,,57,10,E.Info.AUM-5-1.AUM],
+3,,57,11,E.Info.AUM-5-1.AUM.PwdProperty],
+3,,57,13,E.Info.AUM-5-1.AUM.PwdProperty],by:
+3,,57,15,E.Info.AUM-5-1.AUM.PwdProperty];,and
+3,,57,18,E.Info.AUM-5-1.AUM.PwdProperty],
+3,,57,20,E.Info.AUM-5-1.AUM.PwdProperty],by:
+3,,57,32,E.Info.AUM-5,-
+3,,57,42,E.Info.AUM-5,-
+3,,58,7,E.Info.AUM-5-2.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+3,,58,10,E.Info.AUM-5-2.AUM.PwdProperty],Description for each authentication mechanism’s non-
+3,,58,24,E.Info.DT.AUM-5-2],Description of the selected the path through the decision tree in Figure 11 for each
+3,,58,25,E.Info.AUM-5-2.AUM].,
+3,,58,27,E.Info.DT.AUM-5-2],with the following property:
+3,,58,29,E.Info.AUM-5-2.AUM.PwdProperty].,
+3,,59,6,"E.Info.AUM-5-2.AUM],",check whether the path
+3,,59,7,E.Info.DT.AUM-5-2],ends with “PASS”.
+3,,59,8,"E.Info.DT.AUM-5-2],",examine its justification
+3,,59,12,E.Info.DT.AUM-5-2],end with “PASS”; and
+3,,59,14,E.Info.DT.AUM-5-2].,
+3,,59,16,E.Info.DT.AUM-5-2],ends with “FAIL”; or
+3,,59,18,E.Info.DT.AUM-5-2].,
+3,,60,11,E.Info.AUM-5-2.AUM],
+3,,60,12,E.Info.AUM-5-2.AUM.PwdProperty],belongs
+3,,60,14,E.Info.AUM-5-2.AUM.PwdProperty],by:
+3,,60,18,E.Info.AUM-5-2.AUM.PwdProperty],
+3,,60,20,E.Info.AUM-5-2.AUM.PwdProperty],by:
+3,,60,28,E.Info.AUM-5-2.AUM.PwdProperty],
+3,,60,30,E.Info.AUM-5-2.AUM.PwdProperty],by:
+3,,61,6,E.Info.AUM-5-2.AUM.PwdProperty].,
+3,,61,16,E.Info.AUM-5,-
+3,,61,26,E.Info.AUM-5,-
+3,,62,23,E.Info.AUM-6.AUM],Description of each authentication mechanism required per AUM-1-1 (network
+3,,62,25,E.Info.AUM-6.AUM.BFProtection],Description how the resilience against brute force attacks
+3,,62,27,E.Info.DT.AUM-6],Description of the selected path through the decision tree in Figure 12 for each
+3,,62,28,E.Info.AUM-6.AUM].,
+3,,62,30,E.Info.DT.AUM-6],with the following property:
+3,,62,40,E.Info.AUM,-
+3,,63,6,"E.Info.AUM-6.AUM],",check whether the path through
+3,,63,7,E.Info.DT.AUM-6],ends with “PASS”.
+3,,63,8,"E.Info.DT.AUM-6],",examine its justification
+3,,63,12,E.Info.DT.AUM-6],end with “PASS”; and
+3,,63,14,E.Info.DT.AUM-6].,
+3,,63,16,E.Info.DT.AUM-6],ends with “FAIL”; or
+3,,63,18,E.Info.DT.AUM-6].,
+3,,64,6,E.Info.AUM-6.AUM],
+3,,64,7,E.Info.AUM-6.AUM.BFProtection],belongs to
+3,,64,9,E.Info.AUM-6.AUM.BFProtection],by:
+3,,64,12,E.Info.AUM-6.AUM.BFProtection],belongs to
+3,,64,14,E.Info.AUM-6.AUM.BFProtection],by:
+3,,64,18,E.Info.AUM-6.AUM.BFProtection],
+3,,64,20,E.Info.AUM-6.AUM.BFProtection],by:
+3,,64,22,E.Info.AUM-6.AUM.BFProtection];,and
+3,,64,24,E.Info.AUM-6.AUM.BFProtection],belongs to
+3,,64,26,E.Info.AUM-6.AUM.BFProtection],by:
+3,,64,30,E.Info.AUM-6.AUM],the confirmations in the implementation category dependent assessment unit are
+3,,64,33,E.Info.AUM-6.AUM],a confirmation in the implementation category dependent assessment unit is not
+3,,66,10,E.Info.SUM-1.PartOfSoftw],Description of each part of the equipment’s software affecting the security
+3,,66,12,E.Info.SUM,-
+3,,66,16,E.Info.SUM,-
+3,,66,19,E.Info.SUM,-
+3,,66,26,E.Info.SUM-1.PartOfSoftw.SUM],Description of the
+3,,66,32,E.Info.DT.SUM-1],Description of the selected path through the decision tree in Figure 13 for each part
+3,,66,33,E.Info.SUM-1.PartOfSoftw].,
+3,,66,35,E.Info.DT.SUM-1],with the following properties:
+3,,66,37,E.Info.SUM-1.PartOfSoftw.FuncSaftyImp];,and
+3,,66,39,E.Info.SUM-1.PartOfSoftw.Immutable];,and
+3,,67,4,E.Info.SUM-1.PartOfSoftw.AltMeasures].,
+3,,67,14,"E.Info.SUM-1.PartOfSoftw],",check whether the path through
+3,,67,15,E.Info.DT.SUM-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,67,16,"E.Info.DT.SUM-1],",check that its justification
+3,,67,21,E.Info.DT.SUM-1],ends with
+3,,67,23,E.Info.DT.SUM-1],ends with “FAIL”; and
+3,,67,25,E.Info.DT.SUM-1].,
+3,,68,4,E.Info.DT.SUM-1],ends with “FAIL”; or
+3,,68,6,E.Info.DT.SUM-1].,
+3,,68,14,E.Info.SUM-1.PartOfSoftw.SUM].,
+3,,68,17,"E.Info.SUM-1.PartOfSoftw.SUM],",the manufacturer provides
+3,,68,21,E.Info.SUM-1.PartOfSoftw.SUM],which ends with a PASS
+3,,68,25,E.Info.SUM-1.PartOfSoftw.SUM].,
+3,,68,27,E.Info.SUM-1.PartOfSoftw.SUM].,
+3,,69,41,E.Info.SUM-2.SUM],Description of each update mechanism that can update a part of the software
+3,,69,42,E.Info.SUM-1.PartOfSoftw],including:
+3,,69,43,E.Info.SUM-2.SUM.Sign],
+3,,69,45,E.Info.CRY-1.Assets.Cryptography];,and
+3,,69,46,E.Info.SUM,-
+3,,69,48,E.Info.SCM-1.SCM],with a description of the underlying best practice cryptography as per
+3,,69,49,E.Info.CRY-1.Assets.Cryptography];,and
+3,,70,3,E.Info.SUM,-
+3,,70,4,E.Info.ACM,-
+3,,70,13,E.Info.CRY,-
+3,,70,22,E.Info.SUM,-
+3,,70,25,E.Info.DT.SUM-2],Description of the selected path through the decision tree in Figure 14 for each update
+3,,70,26,E.Info.SUM-2.SUM].,
+3,,70,28,E.Info.DT.SUM-2],with the following properties:
+3,,70,30,E.Info.SUM-2.SUM.Sign];,and
+3,,70,32,E.Info.SUM-2.SUM.SecChan];,and
+3,,70,34,E.Info.SUM-2.SUM.AccContMech];,and
+3,,70,36,E.Info.SUM-2.SUM.Generic].,
+3,,71,3,"E.Info.SUM-2.SUM],",check whether the path through the
+3,,71,5,"E.Info.DT.SUM-2],",check that its justification
+3,,71,6,"E.Info.SUM-2.SUM],",the methods to
+3,,71,10,E.Info.DT.SUM-2],end with “PASS”; and
+3,,71,12,E.Info.DT.SUM-2].,
+3,,71,14,E.Info.DT.SUM-2],ends with “FAIL”; or
+3,,71,16,E.Info.DT.SUM-2].,
+3,,71,26,E.Info.SUM-2.SUM.Sign].,
+3,,71,30,E.Info.SUM-2.SUM],
+3,,72,27,E.Info.SUM-2.SUM],the confirmations in the implementation category dependent assessment unit are
+3,,72,30,E.Info.SUM-2.SUM],a confirmation in the implementation category dependent assessment unit is not
+3,,74,6,E.Info.SUM-3.SUM],"Description of each update mechanism required per SUM-1, including:"
+3,,74,7,E.Info.SUM-3.SUM.Automation],Description of the means to automate the update
+3,,74,9,E.Info.DT.SUM-3],Description of the selected path through the decision tree in Figure 15 for each update
+3,,74,10,E.Info.SUM-3.SUM].,
+3,,74,12,E.Info.DT.SUM-3],with the following properties:
+3,,74,14,E.Info.SUM-3.SUM.Automation].,
+3,,74,18,E.Info.SUM-3.SUM.Automation],as required per SUM-3.
+3,,75,4,E.Info.DT.SUM-3],ends with “PASS” or “FAIL”.
+3,,75,5,"E.Info.DT.SUM-3],",examine its justification
+3,,75,9,E.Info.DT.SUM-3],end with “PASS”; and
+3,,75,11,E.Info.DT.SUM-3].,
+3,,75,13,E.Info.DT.SUM-3],ends with “FAIL”; or
+3,,75,15,E.Info.DT.SUM-3].,
+3,,75,25,E.Info.SUM-3.SUM.Automation].,
+3,,75,30,E.Info.SUM-3.SUM],functionally assess whether the
+3,,75,31,E.Info.SUM-3.SUM.Automation],by:
+3,,76,9,E.Info.SUM-3.SUM].,
+3,,76,11,E.Info.SUM-3.SUM].,
+3,,77,19,E.Info.SSM-1.SecurityAsset],"Description of each security asset persistently stored on the equipment,"
+3,,77,31,E.Info.SSM,-
+3,,77,37,E.Info.SSM,-
+3,,77,39,E.Info.SSM-1.FinancialAsset],"Description of each financial asset persistently stored on the equipment,"
+3,,77,51,E.Info.SSM,-
+3,,78,4,E.Info.SSM-1.FinancialAsset.SSM],Description of the secure storage mechanism.
+3,,78,5,E.Info.DT.SSM-1],Description of the selected path through the decision tree in Figure 16 for each
+3,,78,6,E.Info.SSM-1.SecurityAsset],and [E.Info.SSM-
+3,,78,9,E.Info.DT.SSM-1],with the following properties:
+3,,78,11,E.Info.SSM-1.SecurityAsset.Environment],or
+3,,78,12,E.Info.SSM-1.FinancialAsset.Environment];,and
+3,,78,22,E.Info.SSM,-
+3,,78,23,E.Info.SSM-1.FinancialAsset.SSM].,
+3,,79,3,E.Info.SSM-1.SecurityAsset],and financial asset documented in
+3,,79,4,"E.Info.SSM-1.FinancialAsset],",check whether the path through the decision tree documented in
+3,,79,5,E.Info.DT.SSM-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,79,6,"E.Info.DT.SSM-1],",examine its justification
+3,,79,10,E.Info.DT.SSM-1],ends with
+3,,79,12,E.Info.DT.SSM-1],ends with “FAIL”; and
+3,,79,14,E.Info.DT.SSM-1].,
+3,,79,16,E.Info.DT.SSM-1],ends with “FAIL”; or
+3,,79,18,E.Info.DT.SSM-1].,
+3,,79,23,E.Info.SSM-1.SecurityAsset],and financial assets documented in [E.Info.SSM-1.FinancialAsset] are
+3,,79,29,E.Info.SSM-1.SecurityAsset].,
+3,,79,31,E.Info.SSM-1.FinancialAsset].,
+3,,79,34,E.Info.SSM-1.SecurityAsset],and all financial assets persistently stored found are
+3,,79,35,E.Info.SSM-1.FinancialAsset].,
+3,,79,37,E.Info.SSM-1.SecurityAsset],or a persistently stored financial asset is found which
+3,,79,38,E.Info.SSM-1.FinancialAsset].,
+3,,80,11,"E.Info.SSM-1.SecurityAsset],",functionally confirm it is persistently
+3,,80,12,E.Info.SSM-1.SecurityAsset.SSM].,
+3,,80,13,"E.Info.SSM-1.FinancialAsset],",functionally confirm it is
+3,,80,23,E.Info.SSM,-
+3,,80,28,E.Info.SSM-1.SecurityAsset.SSM];,and
+3,,80,30,E.Info.SSM-1.FinancialAsset.SSM].,
+3,,80,33,E.Info.SSM-1.SecurityAsset.SSM];,or
+3,,80,35,E.Info.SSM-1.FinancialAsset.SSM].,
+3,,81,29,E.Info.SSM-2.SSM],"Description of each secure storage mechanism, including:"
+3,,81,30,E.Info.SSM-2.SSM.Asset],List of all security assets and financial assets it stores persistently; and
+3,,81,39,E.Info.SSM,-
+3,,81,54,E.Info.SSM,-
+3,,82,5,E.Info.SSM,-
+3,,82,10,E.Info.SSM,-
+3,,82,15,E.Info.SSM-2.SSM.Generic],
+3,,82,26,E.Info.DT.SSM-2],Description of the selected path through the decision tree in Figure 17 for each secure
+3,,82,27,E.Info.SSM-2.SSM].,
+3,,82,29,E.Info.DT.SSM-2],with the following properties:
+3,,82,31,E.Info.SSM-2.SSM.DigitalSignature];,and
+3,,82,33,E.Info.SSM-2.SSM.AccessControl];,and
+3,,82,35,E.Info.SSM-2.SSM.OTProgrammable];,and
+3,,82,37,E.Info.SSM-2.SSM.HardwareProtection];,and
+3,,82,39,E.Info.SSM-2.SSM.Generic].,
+3,,83,12,E.Info.SSM-2.SSM],check whether the path through the decision
+3,,83,13,E.Info.DT.SSM-2],ends with “PASS”.
+3,,83,14,"E.Info.DT.SSM-2],",examine its justification
+3,,83,18,E.Info.DT.SSM-2],end with “PASS”; and
+3,,83,20,E.Info.DT.SSM-2].,
+3,,83,22,E.Info.DT.SSM-2],ends with “FAIL”; or
+3,,83,24,E.Info.DT.SSM-2].,
+3,,84,14,E.Info.SSM-2.SSM],
+3,,84,17,E.Info.SSM-2.SSM.DigitalSignature];,and
+3,,84,24,E.Info.SSM-2.SSM.AccessControl];,and
+3,,84,28,E.Info.SSM-2.SSM.OTProgrammable];,and
+3,,84,32,E.Info.SSM-2.SSM.HardwareProtection];,and
+3,,85,5,E.Info.SSM-2.SSM.Generic];,and
+3,,85,10,E.Info.SSM-2.SSM],the confirmations in the implementation category dependent assessment units are
+3,,85,13,E.Info.SSM-2.SSM],a confirmation in the implementation category dependent assessment units is not
+3,,86,13,E.Info.SSM-3.SSM],Description of each secure storage mechanism that persistently stores confidential
+3,,86,15,E.Info.SSM-3.SSM.Asset],"List of all confidential financial data, confidential financial function"
+3,,86,17,E.Info.SSM-3.SSM.Encryption],
+3,,86,31,E.Info.SSM,-
+3,,86,37,E.Info.SSM,-
+3,,86,43,E.Info.SSM-3.SSM.Generic],
+3,,87,7,E.Info.DT.SSM-3],Description of the selected path through the decision tree in Figure 18 for each secure
+3,,87,8,E.Info.SSM-3.SSM].,
+3,,87,10,E.Info.DT.SSM-3],with the following properties:
+3,,87,12,E.Info.SSM-3.SSM.Encryption];,and
+3,,87,14,E.Info.SSM-3.SSM.AccessControl];,and
+3,,87,16,E.Info.SSM-3.SSM.HardwareProtection];,and
+3,,87,18,E.Info.SSM-3.SSM.Generic].,
+3,,88,6,E.Info.SSM-3.SSM],check whether the path through the decision
+3,,88,7,E.Info.DT.SSM-3],ends with “PASS”.
+3,,88,8,"E.Info.DT.SSM-3],",examine its justification
+3,,88,12,E.Info.DT.SSM-3],end with “PASS”; and
+3,,88,14,E.Info.DT.SSM-3].,
+3,,88,16,E.Info.DT.SSM-3],ends with “FAIL”; or
+3,,88,18,E.Info.DT.SSM-3].,
+3,,89,6,E.Info.SSM-3.SSM.Asset],are complete.
+3,,89,11,E.Info.SSM-3.SSM.Asset].,
+3,,89,13,E.Info.SSM-3.SSM.Asset].,
+3,,89,17,E.Info.SSM-3.SSM.Asset].,
+3,,89,20,E.Info.SSM-3.SSM.Asset].,
+3,,89,30,E.Info.SSM-3.SSM],
+3,,89,33,E.Info.SSM-3.SSM.Encryption];,and
+3,,90,7,E.Info.SSM-3.SSM.AccessControl];,and
+3,,90,12,E.Info.SSM-3.SSM.HardwareProtection];,and
+3,,90,20,E.Info.SSM-3.SSM.Generic];,and
+3,,90,25,E.Info.SSM-3.SSM],the confirmations in the implementation category dependent assessment units are
+3,,90,28,E.Info.SSM-3.SSM],a confirmation in the implementation category dependent assessment units is not
+3,,91,22,E.Info.SCM-1.NetworkInterface],Description of each network interface including:
+3,,91,24,E.Info.SCM-1.NetworkInterface.Radio],Technology
+3,,91,27,E.Info.SCM-1.NetworkInterface.Wired],Electrical
+3,,91,30,E.Info.SCM-1.NetworkInterface.Optical],Optical
+3,,91,33,E.Info.SCM-1.NetworkInterface.Acoustic],Acoustic
+3,,91,37,E.Info.SCM-1.NetworkInterface.Protocol],
+3,,91,49,E.Info.SCM,-
+3,,91,51,"E.Info.SCM-1.NetworkInterface.Wired],",
+3,,91,52,E.Info.SCM,-
+3,,91,53,E.Info.SCM-1.NetworkInterface.Acoustic],and the
+3,,92,6,E.Info.SCM-1.SecurityAsset],Description of each stored security asset that is communicated over
+3,,92,7,E.Info.SCM-1.NetworkInterface],"and for which confidentiality,"
+3,,92,9,E.Info.SCM-1.SecurityAsset.Class],
+3,,92,13,E.Info.SCM-1.SecurityAsset.Com],Description of the use case where the asset is
+3,,92,15,E.Info.SCM-1.NetworkInterface];,and
+3,,92,16,E.Info.SCM-1.SecurityAsset.NetworkInterface],Network interface used for communication
+3,,92,17,E.Info.SCM-1.NetworkInterface].,
+3,,92,18,E.Info.SCM-1.FinancialAsset],Description of each financial assets that is communicated over network
+3,,92,19,E.Info.SCM-1.NetworkInterface],"and for which confidentiality, integrity or"
+3,,92,21,E.Info.SCM-1.FinancialAsset.Class],
+3,,92,24,E.Info.SCM-1.FinancialAsset.Com],Description of the use case where the asset is
+3,,92,26,E.Info.SCM-1.NetworkInterface];,and
+3,,92,27,E.Info.SCM-1.FinancialAsset.NetworkInterface],Network interface used for communication
+3,,92,28,E.Info.SCM-1.NetworkInterface]),
+3,,92,29,E.Info.SCM-1.SCM],Description of each secure communication mechanism that is used to communicate
+3,,92,30,E.Info.SCM-1.SecurityAsset],and financial assets documented in
+3,,92,31,E.Info.SCM-1.FinancialAsset],
+3,,92,38,E.Info.SCM,-
+3,,92,40,E.Info.SCM-1.SCM.Protocol],The communication protocols where the mechanism is applied
+3,,92,41,E.Info.SCM-1.NetworkInterface.Protocol]);,and
+3,,92,42,E.Info.SCM-1.SCM.States],the equipment states where the communication of security assets
+3,,92,43,E.Info.SCM-1.SecurityAsset],and financial assets documented in [E.Info.SCM-
+3,,92,45,E.Info.SCM-1.SCM.SecObjectives],The security objectives considering the intended
+3,,92,48,E.Info.SCM,-
+3,,93,3,E.Info.DT.SCM-1],Description of the selected path through the decision tree in Figure 19 for each of the
+3,,93,7,E.Info.SCM-1.SCM.States].,
+3,,93,9,E.Info.DT.SCM-1].,
+3,,93,14,E.Info.SCM-1.SecurityAsset],or financial assets documented in [E.Info.SCM-1.FinancialAsset] when
+3,,93,21,"E.Info.SCM-1.NetworkInterface],",check whether the path
+3,,93,22,E.Info.DT.SCM-1],ends with “PASS”.
+3,,93,23,"E.Info.DT.SCM-1],",examine its justification
+3,,93,27,E.Info.DT.SCM-1],ends with
+3,,93,29,E.Info.DT.SCM-1],ends with “FAIL”; and
+3,,94,4,E.Info.DT.SCM-1].,
+3,,94,6,E.Info.DT.SCM-1],ends with “FAIL”; or
+3,,94,8,E.Info.DT.SCM-1].,
+3,,94,17,E.Info.SCM-1.SecurityAsset].,
+3,,94,19,E.Info.SCM-1.FinancialAsset].,
+3,,94,22,E.Info.SCM-1.SecurityAsset],and all financial assets found are documented in [E.Info.SCM-
+3,,94,25,E.Info.SCM-1.SecurityAsset],or a financial asset is found which is not documented in [E.Info.SCM-
+3,,94,35,E.Info.SCM-1.SecurityAsset],and for each financial asset
+3,,94,36,"E.Info.SCM-1.FinancialAsset],","functionally confirm, using up-to-date evaluation methods,"
+3,,94,37,E.Info.SCM-1.SCM].,
+3,,95,5,E.Info.SCM-1.SCM],is not implemented.
+3,,95,7,E.Info.SCM-1.SCM],is not implemented.
+3,,96,38,E.Info.SCM-2.SecurityAsset],Description of each stored security asset that is communicated over
+3,,96,39,E.Info.SCM-2.NetworkInterface],and for which integrity or
+3,,96,41,E.Info.SCM-2.SecurityAsset.Com],Description of the use case where the asset is
+3,,96,43,E.Info.SCM-2.NetworkInterface].,
+3,,96,45,E.Info.SCM-2.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+3,,97,3,E.Info.SCM-2.FinancialAsset],Description of each financial asset that is communicated over network
+3,,97,4,E.Info.SCM-2.NetworkInterface],and for which integrity or authenticity
+3,,97,6,E.Info.SCM-2.FinancialAsset.Com],Description of the use case where the asset is
+3,,97,8,E.Info.SCM-2.NetworkInterface].,
+3,,97,10,E.Info.SCM-2.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+3,,97,11,E.Info.SCM-2.NetworkInterface],"Description of all network interfaces of the equipment, including:"
+3,,97,12,E.Info.SCM-2.NetworkInterface.Protocol],All communication protocols implemented and
+3,,97,15,E.Info.SCM-2.SCM],Description of each secure communication mechanism that is required per SCM-1
+3,,97,17,E.Info.SCM-2.FinancialAsset],"or security assets documented in [E.Info.SCM-2.SecurityAsset], including:"
+3,,97,18,E.Info.SCM-2.SCM.Capabilities],Description of the security mechanisms and cryptographic
+3,,97,20,E.Info.SCM-2.SecurityAsset],or financial assets documented in [E.Info.SCM-2.FinancialAsset]
+3,,97,30,E.Info.SCM,-
+3,,97,32,E.Info.SCM,-
+3,,97,34,E.Info.SCM,-
+3,,97,37,E.Info.SCM-2.NetworkInterface.Protocol];,and
+3,,97,38,E.Info.SCM-2.SCM.PKI-based],
+3,,97,40,E.Info.SCM,-
+3,,97,42,E.Info.SCM,-
+3,,97,45,E.Info.SCM,-
+3,,97,47,E.Info.SCM-2.SCM.Generic],
+3,,97,49,E.Info.SCM-2.NetworkInterface.Protocol];,and
+3,,97,50,E.Info.SCM-2.SCM.ImplDetail],Refer to versioned standards or specifications
+3,,98,3,E.Info.SCM-2.SCM.CCK],The description of the properties of the confidential cryptographic
+3,,98,5,E.Info.SCM-2.SCM.ThreatProtection],The description on how the mechanism protects
+3,,98,9,E.Info.DT.SCM-2],Description of the selected path through the decision tree in Figure 20 for each secure
+3,,98,10,E.Info.SCM-2.SCM].,
+3,,98,13,E.Info.SCM-2.SCM],
+3,,98,15,E.Info.DT.SCM-2],with the following property:
+3,,98,16,E.Info.SCM,-
+3,,98,17,"E.Info.SCM-2.FinancialAsset.Com],",[E.Info.SCM-2.SCM.ThreatProtection]
+3,,98,18,E.Info.SCM-2.SCM.Capabilities].,
+3,,99,3,"E.Info.SCM-2.SCM],",and for each equipment state
+3,,99,4,E.Info.DT.SCM-2],ends
+3,,99,6,"E.Info.DT.SCM-2],",examine its justification
+3,,99,10,E.Info.DT.SCM-2],end with “PASS”; and
+3,,99,12,E.Info.DT.SCM-2].,
+3,,99,14,E.Info.DT.SCM-2],ends with “FAIL”; or
+3,,99,16,E.Info.DT.SCM-2].,
+3,,99,29,E.Info.SCM-2.SecurityAsset],and financial asset documented in
+3,,99,30,"E.Info.SCM-2.FinancialAsset],","functionally confirm, using up-to-date evaluation methods, that integrity"
+3,,99,31,E.Info.SCM,-
+3,,99,35,"E.Info.SCM-2.SCM.ManufSecret],",that:
+3,,100,6,"E.Info.SCM-2.SCM.SecChanExchange],",that:
+3,,100,11,E.Info.SCM,-
+3,,100,18,E.Info.SCM-2.SCM.ThirdPartyTrust],", that:"
+3,,100,23,E.Info.SCM,-
+3,,100,32,E.Info.SCM-2.SCM],the confirmations in the implementation category dependent
+3,,101,4,E.Info.SCM-2.SCM],a confirmation in the implementation category dependent
+3,,102,12,E.Info.SCM-3.SecurityAsset],Description of each stored security asset that is communicated over
+3,,102,13,E.Info.SCM-3.NetworkInterface],and for which confidentiality is
+3,,102,15,E.Info.SCM-3.SecurityAsset.Com],Description of the use case where the asset is
+3,,102,17,E.Info.SCM-3.NetworkInterface].,
+3,,102,19,E.Info.SCM-3.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+3,,102,20,E.Info.SCM-3.FinancialAsset],Description of each financial assets that is communicated over network
+3,,102,21,E.Info.SCM-3.NetworkInterface],"and for which confidentiality is needed,"
+3,,102,23,E.Info.SCM-3.FinancialAsset.Com],Description of the use case where the asset is
+3,,102,25,E.Info.SCM-3.NetworkInterface].,
+3,,102,27,E.Info.SCM-3.FinancialAsset],is a subset of [E.Info.SCM-1.FinancialAsset].
+3,,102,28,E.Info.SCM-3.NetworkInterface],"Description of all network interfaces of the equipment, including"
+3,,102,29,E.Info.SCM-3.NetworkInterface.Protocol],All communication protocols implemented and
+3,,102,32,E.Info.SCM-3.SCM],Description of each secure communication mechanism that is required per SCM-1
+3,,102,33,E.Info.SCM-3.FinancialAsset],or security
+3,,102,34,"E.Info.SCM-3.SecurityAsset],",including:
+3,,102,35,E.Info.SCM-3.SCM.Capabilities],Description of the security mechanisms and cryptographic
+3,,102,37,E.Info.SCM-3.SecurityAsset],or financial assets documented in [E.Info.SCM-3.FinancialAsset]
+3,,102,47,E.Info.SCM,-
+3,,102,50,E.Info.SCM-3.NetworkInterface.Protocol];,and
+3,,102,59,E.Info.SCM,-
+3,,102,62,E.Info.SCM-3.NetworkInterface.Protocol];,and
+3,,103,3,E.Info.SCM-3.SCM.Generic],
+3,,103,5,E.Info.SCM-3.NetworkInterface.Protocol];,and
+3,,103,6,E.Info.SCM-3.SCM.ImplDetail],Refer to versioned standards or specifications
+3,,103,9,E.Info.SCM-3.SCM.CCK],The properties of the confidential cryptographic keys used for
+3,,103,11,E.Info.SCM-3.SCM.ThreatProtection],How the mechanism at least protects against the
+3,,103,15,E.Info.DT.SCM-3],Description of the selected path through the decision tree in Figure 21 for each secure
+3,,103,16,E.Info.SCM-3.SCM].,
+3,,103,18,E.Info.SCM-3.SCM].,
+3,,103,20,E.Info.DT.SCM-3],with the following property:
+3,,103,21,E.Info.SCM,-
+3,,103,22,"E.Info.SCM-3.FinancialAsset.Com],",[E.Info.SCM-3.SCM.ThreatProtection]
+3,,103,23,E.Info.SCM-3.SCM.Capabilities].,
+3,,103,28,E.Info.SCM-3.FinancialAsset]),and security assets (documented in [E.Info.SCM-3.SecurityAsset]) while
+3,,104,6,"E.Info.SCM-3.SCM],",and for each equipment
+3,,104,7,E.Info.DT.SCM-3],
+3,,104,9,"E.Info.DT.SCM-3],",examine its justification
+3,,104,13,E.Info.DT.SCM-3],end with “PASS”; and
+3,,104,15,E.Info.DT.SCM-3].,
+3,,104,17,E.Info.DT.SCM-3],ends with “FAIL”; or
+3,,104,19,E.Info.DT.SCM-3].,
+3,,105,10,E.Info.SCM-3.SecurityAsset],
+3,,105,11,"E.Info.SCM-3.FinancialAsset],",between the equipment and an
+3,,105,13,E.Info.SCM-3.SCM],
+3,,105,16,"E.Info.SCM-3.SCM.MessageEnc],",that:
+3,,105,19,E.Info.SCM,-
+3,,105,24,E.Info.SCM,-
+3,,105,30,E.Info.SCM-3.SCM],the confirmations in the implementation category dependent
+3,,105,33,E.Info.SCM-3.SCM],a confirmation in the implementation category dependent
+3,,107,24,E.Info.SCM-4.SecurityAsset],Description of each stored security asset that is communicated over
+3,,107,25,E.Info.SCM-4.NetworkInterface],and for which replay protection is
+3,,107,27,E.Info.SCM-4.SecurityAsset.Com],Description of the use case where the asset is
+3,,107,29,E.Info.SCM-4.NetworkInterface].,
+3,,107,31,E.Info.SCM-4.SecurityAsset],is a subset of [E.Info.SCM-1.SecurityAsset].
+3,,107,32,E.Info.SCM-4.FinancialAsset],Description of each financial asset that is communicated over network
+3,,107,33,E.Info.SCM-4.NetworkInterface],"and for which replay protection is needed,"
+3,,107,35,E.Info.SCM-4.FinancialAsset.Com],Description of the use case where the asset is
+3,,107,37,E.Info.SCM-4.NetworkInterface].,
+3,,107,39,E.Info.SCM-4.FinancialAsset],is a subset of [E.Info.SCM-1.FinancialAsset].
+3,,107,40,E.Info.SCM-4.NetworkInterface],"Description of each network interface of the equipment, including:"
+3,,107,41,E.Info.SCM-4.NetworkInterface.Protocol],All communication protocols implemented and
+3,,107,45,E.Info.SCM-4.SCM],Description of each secure communication mechanism that is required per SCM-1
+3,,107,46,E.Info.SCM-4.FinancialAsset],or security assets
+3,,107,47,"E.Info.SCM-4.SecurityAsset],",including:
+3,,108,3,E.Info.SCM-4.SCM.Capabilities],Description of the security mechanisms and cryptographic
+3,,108,5,E.Info.SCM-4.SecurityAsset],or financial assets documented in [E.Info.SCM-
+3,,108,7,E.Info.SCM-4.SCM.SeqNumb],
+3,,108,10,E.Info.SCM-4.NetworkInterface.Protocol];,and
+3,,108,19,E.Info.SCM,-
+3,,108,22,E.Info.SCM-4.NetworkInterface.Protocol];,and
+3,,108,23,E.Info.SCM,-
+3,,108,26,E.Info.SCM-4.NetworkInterface.Protocol],; and
+3,,108,27,E.Info.SCM-4.SCM.Generic],
+3,,108,28,E.Info.SCM,-
+3,,108,31,E.Info.SCM-4.SCM.ImplDetail],Reference to versioned standards or specifications
+3,,108,34,E.Info.SCM-4.SCM.Repudiation],Description of how the mechanism at least protects against
+3,,108,36,E.Info.DT.SCM-4],Description of the selected path through the decision tree in Figure 22 for each
+3,,108,37,E.Info.SCM-4.SCM].,
+3,,108,40,E.Info.SCM-4.SCM].,
+3,,108,42,E.Info.DT.SCM-4],with the following properties:
+3,,108,44,"E.Info.SCM-4.SecurityAsset.Com],",[E.Info.SCM-
+3,,108,45,E.Info.SCM-4.SCM.Capabilities],and [E.Info.SCM-4.SCM.Repudiation].
+3,,109,8,"E.Info.SCM-4.SCM],",and for each equipment state
+3,,109,9,E.Info.DT.SCM-4],ends
+3,,109,11,"E.Info.DT.SCM-4],",examine its justification
+3,,109,15,E.Info.DT.SCM-4],ends with
+3,,109,17,E.Info.DT.SCM-4],ends with “FAIL”; and
+3,,109,19,E.Info.DT.SCM-4].,
+3,,109,21,E.Info.DT.SCM-4],ends with “FAIL”; or
+3,,109,23,E.Info.DT.SCM-4].,
+3,,110,14,E.Info.SCM-4.SecurityAsset],
+3,,110,15,"E.Info.SCM-4.FinancialAsset],",between the equipment and an
+3,,110,18,E.Info.SCM-4.SCM],"considering the equipment states documented, applying"
+3,,110,20,E.Info.SCM,-
+3,,110,24,E.Info.SCM,-
+3,,110,29,"E.Info.SCM-4.SCM.OneTimeEncKey],",that:
+3,,110,33,E.Info.SCM,-
+3,,110,39,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+3,,111,6,E.Info.SCM-4.SCM],with the corresponding methods to ensure replay protection for the
+3,,112,21,E.Info.LGM-1.FinancialAssetEvent],Description of each internal activity that is relevant for financial
+3,,112,33,E.Info.LGM,-
+3,,112,47,E.Info.LGM,-
+3,,112,49,E.Info.DT.LGM-1],Description of the selected path through the decision tree in Figure 23 for each event
+3,,112,50,E.Info.LGM-1.FinancialAssetEvent].,
+3,,112,52,E.Info.DT.LGM-1],with the following properties:
+3,,112,54,E.Info.LGM-1.FinancialAssetEvent.Legal];,and
+3,,112,64,E.Info.LGM,-
+3,,113,6,"E.Info.LGM-1.FinancialAssetEvent],",check whether the path through the
+3,,113,7,E.Info.DT.LGM-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,113,8,"E.Info.DT.LGM-1],",examine its justification
+3,,113,12,E.Info.DT.LGM-1],ends with
+3,,113,14,E.Info.DT.LGM-1],ends with “FAIL”; and
+3,,113,16,E.Info.DT.LGM-1].,
+3,,113,18,E.Info.DT.LGM-1],ends with “FAIL”; or
+3,,113,20,E.Info.DT.LGM-1].,
+3,,114,10,"E.Info.LGM-1.FinancialAssetEvent],",functionally confirm whether the
+3,,114,11,E.Info.LGM-1.FinancialAssetEvent.LGM],by:
+3,,114,16,E.Info.LGM-1.FinancialAssetEvent],is not implemented.
+3,,114,18,E.Info.LGM-1.FinancialAssetEvent],is not implemented.
+3,,115,4,E.Info.LGM-2.LGM],"Description of each logging mechanism that is required per LGM-1, including:"
+3,,115,7,E.Info.LGM-2.LGM.InternalStorage],The storage location of log data for related
+3,,115,17,E.Info.LGM,-
+3,,115,20,E.Info.DT.LGM-2],Description of the selected path through the decision tree in Figure 24 for each logging
+3,,115,21,E.Info.LGM-2.LGM].,
+3,,115,23,E.Info.DT.LGM-2],with the following properties:
+3,,115,25,E.Info.LGM-2.LGM.ExternalStorage];,and
+3,,115,35,E.Info.LGM,-
+3,,116,6,E.Info.LGM-2.LGM],check whether the path through the
+3,,116,7,E.Info.DT.LGM-2],ends with “NOT APPLICABLE” or “PASS”.
+3,,116,8,"E.Info.DT.LGM-2],",examine its justification
+3,,116,12,E.Info.DT.LGM-2],ends with
+3,,116,14,E.Info.DT.LGM-2],ends with “FAIL”; and
+3,,116,16,E.Info.DT.LGM-2].,
+3,,116,18,E.Info.DT.LGM-2],ends with “FAIL”; or
+3,,116,20,E.Info.DT.LGM-2].,
+3,,117,6,E.Info.LGM-2.LGM].,
+3,,117,16,E.Info.LGM-2.LGM],
+3,,117,18,E.Info.LGM,-
+3,,117,27,E.Info.LGM-2.LGM.InternalStorage].,
+3,,117,29,E.Info.LGM-2.LGM.InternalStorage].,
+3,,118,10,E.Info.LGM-3.Events],"Description of the logged events, where related log data is persistently stored on"
+3,,118,12,E.Info.LGM-3.Quantity],Minimum number of the latest events for which log data can be persistently
+3,,118,14,E.Info.DT.LGM-3],Description of the selected path through the decision tree in Figure 25.
+3,,118,16,E.Info.DT.LGM-3],with the following properties:
+3,,118,17,E.Info.LGM-3.Quantity].,
+3,,118,27,E.Info.DT.LGM-3],ends with “PASS”.
+3,,118,28,"E.Info.DT.LGM-3],",examine its justification
+3,,119,5,E.Info.DT.LGM-3],end with “PASS”; and
+3,,119,7,E.Info.DT.LGM-3].,
+3,,119,9,E.Info.DT.LGM-3],ends with “FAIL”; or
+3,,119,11,E.Info.DT.LGM-3].,
+3,,119,20,E.Info.LGM,-
+3,,119,25,E.Info.LGM-3.Quantity],by
+3,,119,26,E.Info.LGM-3.Events],to reach the minimum number of
+3,,119,27,E.Info.LGM-3.Quantity];,and
+3,,119,33,E.Info.LGM-3.Quantity].,
+3,,119,35,E.Info.LGM,-
+3,,120,26,E.Info.LGM-4.Events],"Description of the logged events, where related log data is persistently stored on"
+3,,120,28,E.Info.LGM-4.LGM],Description of each logging mechanism that is required per LGM-1 that generates
+3,,120,30,E.Info.LGM-4.LGM.Timestamp],
+3,,120,33,E.Info.LGM,-
+3,,120,36,E.Info.DT.LGM-4],Description of the selected path through the decision tree in Figure 26 for each logging
+3,,120,37,E.Info.LGM-4.LGM].,
+3,,120,39,E.Info.DT.LGM-4],with the following properties:
+3,,120,49,E.Info.LGM,-
+3,,121,12,E.Info.LGM,-
+3,,121,23,"E.Info.LGM-4.LGM],",check whether the path through the
+3,,121,24,E.Info.DT.LGM-4],ends with “PASS”.
+3,,121,25,"E.Info.DT.LGM-4],",examine its justification
+3,,121,29,E.Info.DT.LGM-4],end with “PASS”; and
+3,,121,31,E.Info.DT.LGM-4].,
+3,,122,4,E.Info.DT.LGM-4],ends with “FAIL”; or
+3,,122,6,E.Info.DT.LGM-4].,
+3,,122,15,E.Info.LGM-4.LGM],regarding its timestamps and time-related
+3,,122,21,"E.Info.LGM-4.LGM],",functionally confirm that log data persistently stored on the
+3,,122,22,E.Info.LGM-4.LGM.Timestamp],when real time
+3,,122,25,E.Info.LGM-4.Events];,and
+3,,122,29,"E.Info.LGM-4.LGM],",functionally confirm that log data persistently stored on the
+3,,122,30,E.Info.LGM-4.LGM.Timerelated],when
+3,,122,33,E.Info.LGM-4.Events];,and
+3,,123,5,E.Info.LGM-4.LGM],there is no evidence that:
+3,,123,11,E.Info.LGM-4.LGM],there is evidence that:
+3,,124,40,E.Info.CCK-1.CCK],For each confidential cryptographic key (whether preinstalled or generated by the
+3,,125,5,E.Info.CCK-1.CCK.Deviation],Reference to the corresponding justification and to the
+3,,125,7,E.Info.CCK-1.CCK.SecurityStrength],The security strength and the reference of the lookup tables
+3,,125,12,E.Info.DT.CCK-1],Description of the selected path through the decision tree in Figure 27 for each
+3,,125,13,E.Info.CCK-1.CCK].,
+3,,125,15,E.Info.DT.CCK-1],with the following properties:
+3,,125,17,E.Info.CCK-1.CCK.Deviation];,and
+3,,125,18,E.Info.CCK-1.CCK],and [E.Info.CCK-
+3,,126,3,"E.Info.CCK-1.CCK],",check whether the path
+3,,126,4,E.Info.DT.CCK-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,126,5,"E.Info.DT.CCK-1],",examine its justification
+3,,126,9,E.Info.DT.CCK-1],ends with
+3,,126,11,E.Info.DT.CCK-1],ends with “FAIL”; and
+3,,126,13,E.Info.DT.CCK-1].,
+3,,126,15,E.Info.DT.CCK-1],ends with “FAIL”; or
+3,,126,17,E.Info.DT.CCK-1].,
+3,,126,27,E.Info.CCK-1.CCK].,
+3,,126,29,E.Info.CCK,-
+3,,126,32,E.Info.CCK-1.CCK].,
+3,,127,6,E.Info.CCK-1.CCK],are implemented as documented.
+3,,127,13,E.Info.CCK-1.CCK],functionally assess whether
+3,,127,14,E.Info.CCK-1.CCK],is implemented in accordance with [E.Info.CCK-
+3,,127,18,E.Info.CCK-1.CCK],deviates from their documentation.
+3,,127,20,E.Info.CCK-1.CCK],deviates from the documentation.
+3,,128,28,E.Info.CCK-2.Generation],Description of each generation mechanism for confidential cryptographic
+3,,128,30,E.Info.CCK-2.Generation.CCK],Specification of the confidential cryptographic keys the
+3,,128,35,E.Info.CCK-2.Generation.RNSource],
+3,,129,5,E.Info.CCK-2.Generation.RNG],
+3,,129,16,E.Info.CCK-2.Generation.Implementation],
+3,,129,22,E.Info.CCK,-
+3,,129,30,E.Info.DT.CCK-2],Description of the selected path through the decision tree in Figure 28 for each
+3,,129,31,E.Info.CCK-2.Generation].,
+3,,129,33,E.Info.DT.CCK-2],with the following properties:
+3,,129,35,E.Info.CCK-2.Generation.Deviation];,and
+3,,129,36,E.Info.CCK-2.Generation].,
+3,,129,40,E.Info.CCK-2.Generation],are as required per CCK-2.
+3,,130,9,"E.Info.CCK-2.Generation],",check whether the path through the decision tree documented in
+3,,130,10,E.Info.DT.CCK-2],ends with “NOT APPLICABLE” or “PASS”.
+3,,130,11,"E.Info.DT.CCK-2],",examine its justification
+3,,130,15,E.Info.DT.CCK-2],ends with
+3,,130,17,E.Info.DT.CCK-2],ends with “FAIL”; and
+3,,130,19,E.Info.DT.CCK-2].,
+3,,130,23,E.Info.DT.CCK-2].,
+3,,131,7,E.Info.CCK-2.Generation].,
+3,,131,12,E.Info.CCK-2.Generation],through a consistency check with
+3,,131,13,E.Info.CCK-1.CCK].,
+3,,131,16,E.Info.CCK-2.Generation].,
+3,,131,18,E.Info.CCK-2.Generation].,
+3,,132,23,E.Info.CCK-3.CCK],"Description of each preinstalled confidential cryptographic key on the equipment,"
+3,,132,27,E.Info.CCK-3.CCK.Controlled],Description of:
+3,,132,33,E.Info.CCK-3.CCK.Shared],Description of the equipment’s functionalities that require the
+3,,132,35,E.Info.CCK-3.CCK.Unique],
+3,,132,37,E.Info.DT.CCK-3],Description of the selected path through the decision tree shown in Figure 29 for each
+3,,132,38,E.Info.CCK-3.CCK].,
+3,,132,40,E.Info.DT.CCK-3],with the following properties:
+3,,132,42,E.Info.CCK-3.CCK.Controlled];,and
+3,,133,4,E.Info.CCK-3.CCK.Shared];,and
+3,,133,5,E.Info.CCK-3.CCK.Unique].,
+3,,133,15,"E.Info.CCK-3.CCK],",check whether the path through the decision tree
+3,,133,16,E.Info.DT.CCK-3],ends with “NOT APPLICABLE” or “PASS”.
+3,,133,17,"E.Info.DT.CCK-3],",examine its justification
+3,,133,21,E.Info.DT.CCK-3],ends with
+3,,133,23,E.Info.DT.CCK-3],ends with “FAIL”; and
+3,,133,25,E.Info.DT.CCK-3].,
+3,,133,27,E.Info.DT.CCK-3],ends with “FAIL”; or
+3,,133,29,E.Info.DT.CCK-3].,
+3,,134,11,E.Info.CCK-3.CCK].,
+3,,134,14,E.Info.CCK-3.CCK].,
+3,,134,16,E.Info.CCK-3.CCK].,
+3,,134,25,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK
+3,,135,5,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+3,,135,8,"E.Info.CCK-3.CCK],",where [E.Info.CCK-3.CCK.Unique] indicates that the CCK is claimed to be practically
+3,,136,16,E.Info.GEC-1.SecurityAsset],Description of each security asset of the equipment.
+3,,136,17,E.Info.GEC-1.FinancialAsset],Description of each financial asset of the equipment.
+3,,136,18,E.Info.GEC-1.SoftwareDocumentation],"Description of the software of the equipment, including their"
+3,,136,19,E.Info.GEC,-
+3,,136,20,E.Info.GEC-1.FinancialAsset].,
+3,,136,21,E.Info.GEC-1.HardwareDocumentation],Description of the hardware of the equipment that affect the
+3,,136,22,E.Info.GEC-1.SecurityAsset],and [E.Info.GEC-
+3,,136,24,E.Info.GEC-1.ListOfVulnerabilities],Description of all publicly known exploitable vulnerabilities in the
+3,,136,25,E.Info.GEC,-
+3,,136,26,E.Info.GEC-1.FinancialAsset].,The document includes also the source of the
+3,,136,30,E.Info.GEC-1.ListOfVulnerabilities.Remediated],The
+3,,136,33,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition],The description of specific conditions
+3,,136,35,E.Info.GEC-1.ListOfVulnerabilities.Mitgated],The
+3,,136,37,E.Info.GEC-1.ListOfVulnerabilities.Accepted],The
+3,,136,39,E.Info.DT.GEC-1],Description of the selected path through the decision tree in Figure 30 for each
+3,,136,40,E.Info.GEC-1.SoftwareDocumentation],and [E.Info.GEC-
+3,,137,4,E.Info.DT.GEC-1],with the following properties:
+3,,137,14,E.Info.GEC,-
+3,,137,17,E.Info.GEC-1.ListOfVulnerabilities],and [E.Info.GEC-
+3,,137,20,E.Info.GEC-1.ListOfVulnerabilities.SpecificCondition];,
+3,,137,22,E.Info.GEC-1.ListOfVulnerabilities.Mitgated];,and
+3,,137,32,E.Info.GEC,-
+3,,137,45,E.Info.GEC-1.SoftwareDocumentation],and hardware documented in [E.Info.GEC-
+3,,137,47,E.Info.DT.GEC-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,138,3,"E.Info.DT.GEC-1],",examine its justification
+3,,138,7,E.Info.DT.GEC-1],ends with
+3,,138,9,E.Info.DT.GEC-1],ends with “FAIL”; and
+3,,138,11,E.Info.DT.GEC-1].,
+3,,138,13,E.Info.DT.GEC-1],ends with “FAIL”; or
+3,,138,15,E.Info.DT.GEC-1].,
+3,,138,21,E.Info.GEC-1.ListOfVulnerabilities].,
+3,,138,28,E.Info.GEC,-
+3,,138,31,E.Info.GEC,-
+3,,138,38,E.Info.GEC,-
+3,,139,4,E.Info.GEC,-
+3,,139,10,E.Info.GEC-1.ListOfVulnerabilities],are not able to affect security assets or
+3,,139,17,E.Info.GEC-1.ListOfVulnerabilities],are
+3,,139,18,E.Info.GEC,-
+3,,139,26,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions
+3,,139,27,E.Info.GEC-1.ListOfVulnerabilities].,
+3,,139,30,E.Info.GEC-1.ListOfVulnerabilities],considering also the specific conditions for the exploitability defined
+3,,139,31,E.Info.GEC-1.ListOfVulnerabilities].,
+3,,141,4,E.Info.GEC-2.NetworkInterface.Exposure],Description of each network interface and exposed service
+3,,141,7,E.Info.GEC-2.Setup],Documentation how to setup the
+3,,141,9,E.Info.GEC-2.SecurityAsset],Documentation of each security asset that is accessible via network
+3,,141,11,E.Info.GEC-2.FinancialAsset],Documentation of each financial asset that is accessible via network
+3,,141,13,E.Info.DT.GEC-2],Description of the selected path through the decision tree in Figure 31 for each
+3,,141,14,E.Info.GEC,-
+3,,141,17,E.Info.DT.GEC-2],with the following properties:
+3,,141,19,E.Info.GEC-2.NetworkInterface.Exposure];,and
+3,,141,21,E.Info.GEC-2.SecurityAsset],and [E.Info.GEC-
+3,,141,32,E.Info.GEC,-
+3,,141,38,E.Info.GEC-2.NetworkInterface.Exposure],is restricted to the ones
+3,,142,6,E.Info.GEC,-
+3,,142,8,E.Info.DT.GEC-2],ends with “NOT APPLICABLE” or “PASS”.
+3,,142,9,"E.Info.DT.GEC-2],",examine its justification
+3,,142,13,E.Info.DT.GEC-2],ends with
+3,,142,15,E.Info.DT.GEC-2],ends with “FAIL”; and
+3,,142,17,E.Info.DT.GEC-2].,
+3,,142,19,E.Info.DT.GEC-2],ends with “FAIL”; or
+3,,142,21,E.Info.DT.GEC-2].,
+3,,143,14,E.Info.GEC-2.NetworkInterface.Exposure],or
+3,,143,15,E.Info.GEC-2.Setup],or to operate the equipment in basic
+3,,143,22,E.Info.GEC-2.NetworkInterface.Exposure],and are required
+3,,143,23,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+3,,143,25,E.Info.GEC-2.NetworkInterface.Exposure],or not required
+3,,143,26,E.Info.GEC-2.Setup],or for basic operation of the equipment.
+3,,144,12,E.Info.GEC-3.NetworkInterface.Exposure],Description of each network interface and exposed service
+3,,144,15,E.Info.GEC-3.SecurityAsset],Documentation of each security asset that is accessible via network
+3,,144,17,E.Info.GEC-3.FinancialAsset],Documentation of each financial asset that is accessible via network
+3,,144,19,E.Info.DT.GEC-3],Description of the selected path through the decision tree in Figure 32 for each
+3,,144,20,E.Info.GEC,-
+3,,144,23,E.Info.DT.GEC-3],with the following properties:
+3,,144,25,E.Info.GEC-3.SecurityAsset],and [E.Info.GEC-
+3,,144,36,E.Info.GEC,-
+3,,145,7,E.Info.GEC-3.NetworkInterface.Exposure],that is part of the factory default state check whether the
+3,,145,8,E.Info.DT.GEC-3],ends with “NOT APPLICABLE” or “PASS”.
+3,,145,9,"E.Info.DT.GEC-3],",examine its justification
+3,,145,13,E.Info.DT.GEC-3],ends with
+3,,145,15,E.Info.DT.GEC-3],ends with “FAIL”; and
+3,,145,17,E.Info.DT.GEC-3].,
+3,,145,19,E.Info.DT.GEC-3],ends with “FAIL”; or
+3,,145,21,E.Info.DT.GEC-3].,
+3,,146,11,E.Info.GEC-3.NetworkInterface.Exposure].,
+3,,146,14,E.Info.GEC,-
+3,,146,27,E.Info.GEC,-
+3,,146,44,E.Info.GEC-3.NetworkInterface.Exposure],are configurable; and
+3,,147,3,E.Info.GEC-3.NetworkInterface.Exposure],is only possible
+3,,147,10,E.Info.GEC-3.NetworkInterface.Exposure].,
+3,,147,15,E.Info.GEC-3.NetworkInterface.Exposure].,
+3,,148,4,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure],User documentation of each exposed network
+3,,148,6,E.Info.GEC-4.NetworkInterface.Exposure],Description of each exposed network interface and exposed
+3,,148,8,E.Info.DT.GEC-4],Description of the selected path through the decision tree in Figure 33 for each
+3,,148,9,E.Info.GEC,-
+3,,148,12,E.Info.DT.GEC-4],with the following properties:
+3,,148,14,E.Info.GEC-4.NetworkInterface.Exposure];,and
+3,,148,24,E.Info.GEC,-
+3,,148,36,E.Info.GEC,-
+3,,148,38,E.Info.DT.GEC-4],ends with “NOT APPLICABLE” or “PASS”.
+3,,149,3,"E.Info.DT.GEC-4],",examine its justification
+3,,149,7,E.Info.DT.GEC-4],ends with
+3,,149,9,E.Info.DT.GEC-4],ends with “FAIL”; and
+3,,149,11,E.Info.DT.GEC-4].,
+3,,149,13,E.Info.DT.GEC-4],ends with “FAIL”; or
+3,,149,15,E.Info.DT.GEC-4].,
+3,,149,38,E.Info.GEC,-
+3,,149,41,E.Info.GEC-4.UserDoc.NetworkInterface.Exposure].,
+3,,150,15,E.Info.GEC,-
+3,,150,18,E.Info.GEC,-
+3,,150,48,E.Info.GEC-5.PhysicalExternalInterface],"Description of each physical external interface, including:"
+3,,150,49,E.Info.GEC-5.PhysicalExternalInterface.Purpose],The purpose of the interface; and
+3,,150,50,E.Info.GEC-5.PhysicalExternalInterface.Type],Description of the interface type (e.g. USB-C).
+3,,151,3,E.Info.GEC-5.IntFunc],Description of the intended functionality of the equipment.
+3,,151,4,E.Info.DT.GEC-5],Description of the selected path through the decision tree in Figure 34 for each
+3,,151,5,E.Info.GEC-5.PhysicalExternalInterface].,
+3,,151,7,"E.Info.DT.GEC-5],",with the following property:
+3,,151,18,E.Info.GEC,-
+3,,151,30,E.Info.GEC-5.PhysicalExternalInterface],check
+3,,151,31,E.Info.DT.GEC-5],ends with “PASS”.
+3,,151,32,"E.Info.DT.GEC-5],",examine its justification
+3,,151,36,E.Info.DT.GEC-5],end with “PASS”; and
+3,,151,38,E.Info.DT.GEC-5].,
+3,,152,4,E.Info.DT.GEC-5],ends with “FAIL”; or
+3,,152,6,E.Info.DT.GEC-5].,
+3,,152,11,E.Info.GEC,-
+3,,152,17,E.Info.GEC-5.PhysicalExternalInterface],
+3,,152,23,E.Info.GEC-5.PhysicalExternalInterface].,
+3,,152,26,E.Info.GEC-5.PhysicalExternalInterface].,
+3,,152,28,E.Info.GEC-5.PhysicalExternalInterface].,
+3,,154,18,E.Info.GEC-6.ExternalInterface],Description of each external interface including:
+3,,154,19,E.Info.GEC-6.ExternalInterface.Capabilities],"Description of any used APIs, protocols, input"
+3,,154,21,E.Info.GEC-6.ExternalInterface.Validation],Description how the input for instance via
+3,,154,23,E.Info.GEC-6.SecurityAsset],Description of each security asset that is potentially impacted via external
+3,,154,25,E.Info.GEC-6.FinancialAsset],Description of each financial asset that is potentially impacted via external
+3,,154,27,E.Info.DT.GEC-6],Description of the selected path through the decision tree in Figure 35 for each of the
+3,,154,28,E.Info.GEC-6.ExternalInterface].,
+3,,154,30,E.Info.DT.GEC-6],with the following properties:
+3,,154,32,E.Info.GEC-6.ExternalInterface],and [E.Info.GEC-
+3,,154,34,E.Info.GEC,-
+3,,154,36,E.Info.GEC-6.ExternalInterface.Validation],
+3,,154,38,E.Info.GEC,-
+3,,155,14,"E.Info.GEC-6.ExternalInterface],",check whether the path
+3,,155,15,E.Info.DT.GEC-6],ends with “PASS” or “NOT APPLICABLE”.
+3,,155,16,"E.Info.DT.GEC-6],",examine its justification
+3,,155,20,E.Info.DT.GEC-6],ends with “PASS”;
+3,,155,22,E.Info.DT.GEC-6],ends with “FAIL”; and
+3,,155,24,E.Info.DT.GEC-6].,
+3,,156,4,E.Info.DT.GEC-6],ends with “FAIL”; or
+3,,156,6,E.Info.DT.GEC-6].,
+3,,156,19,E.Info.GEC,-
+3,,156,22,E.Info.GEC-6.ExternalInterface],as a guidance; and
+3,,156,25,E.Info.GEC-6.ExternalInterface.Capabilities],to trigger the
+3,,156,30,E.Info.GEC-6.ExternalInterface].,
+3,,156,32,E.Info.GEC-6.ExternalInterface].,
+3,,157,12,E.Info.GEC-6.ExternalInterface],as guidance to test the related
+3,,157,15,E.Info.GEC-6.SecurityAsset],and network assets described in
+3,,157,16,E.Info.GEC-6.NetworkAsset],by executing specific attacks related to the input mechanisms
+3,,157,27,E.Info.GEC,-
+3,,157,32,E.Info.GEC,-
+3,,157,33,E.Info.GEC-6.FinancialAsset].,
+3,,157,35,E.Info.GEC,-
+3,,157,36,E.Info.GEC-6.FinancialAsset].,
+3,,158,27,E.Info.GEC-8.PartOfSoftw],List of each part of the equipment’s software processing financial assets or
+3,,158,29,E.Info.GEC-8.BootProcess],Description of each boot process that cryptographically verifies the integrity
+3,,158,30,E.Info.GEC-8.PartOfSoftw],including:.
+3,,158,31,E.Info.GEC-8.BootProcess.TrustAnchor],Provide details for the root of trust and chain of
+3,,158,34,E.Info.GEC-8.BootProcess.SecMech],Provide details of the security mechanisms which are
+3,,158,36,E.Info.GEC-8.BootProcess.Modes],Provide algorithm or protocol modes which are used as
+3,,158,38,E.Info.DT.GEC-8],Description of the selected path through the decision tree in Figure 36 for each part of
+3,,158,39,E.Info.GEC-8.PartOfSoftw].,
+3,,158,40,E.Info.DT.GEC-8],with
+3,,158,42,E.Info.GEC-8.PartOfSoftw].,
+3,,159,3,E.Info.GEC-8.BootProcess].,
+3,,159,7,E.Info.GEC-8.BootProcess],and whether for
+3,,159,15,E.Info.DT.GEC-8],ends with “PASS”.
+3,,159,16,"E.Info.DT.GEC-8],",examine its justification
+3,,159,20,E.Info.DT.GEC-8],end with “PASS”; and
+3,,159,22,E.Info.DT.GEC-8].,
+3,,159,24,E.Info.DT.GEC-8],ends with “FAIL”; or
+3,,159,26,E.Info.DT.GEC-8].,
+3,,160,7,E.Info.GEC-8.BootProcess],are complete.
+3,,160,11,E.Info.GEC-8.PartOfSoftw],functionally assess if there is a
+3,,160,12,E.Info.GEC-8.BootProcess].,
+3,,160,15,E.Info.GEC-8.PartOfSoftw],a boot integrity process is not documented in
+3,,160,16,E.Info.GEC-8.BootProcess].,
+3,,160,18,E.Info.GEC-8.PartOfSoftw],is not protected by a boot integrity process documented in
+3,,160,19,E.Info.GEC-8.BootProcess].,
+3,,160,28,E.Info.GEC-8.BootProcess],used to protect the integrity
+3,,160,30,E.Info.GEC-8.BootProcess],for the boot process are consistent
+3,,161,5,E.Info.GEC-8.BootProcess],and if there is no evidence that one of the
+3,,161,8,E.Info.GEC-8.BootProcess],or if there is evidence that one of the
+3,,163,4,E.Info.CRY-1.Assets],List of all security assets and financial assets on the equipment protected by
+3,,163,6,E.Info.CRY-1.Assets.Cryptography],Description of the cryptography used for cryptographic
+3,,163,13,E.Info.CRY-1.Assets.Deviation],Reference to the corresponding justification
+3,,163,25,E.Info.DT.CRY-1],Description of the selected path through the decision tree in Figure 37 for each security
+3,,163,26,E.Info.CRY-1.Assets].,
+3,,163,28,E.Info.DT.CRY-1],with the following properties:
+3,,163,30,E.Info.CRY-1.Assets.Deviation];,and
+3,,163,31,E.Info.CRY-1.Assets.Cryptography].,
+3,,164,6,"E.Info.CRY-1.Assets],",check whether the path
+3,,164,7,E.Info.DT.CRY-1],ends with “NOT APPLICABLE” or “PASS”.
+3,,164,8,"E.Info.DT.CRY-1],",examine its justifications
+3,,164,13,E.Info.DT.CRY-1],ends with “PASS”;
+3,,164,16,E.Info.DT.CRY-1],ends with “FAIL”; and
+3,,164,19,E.Info.DT.CRY-1].,
+3,,164,22,E.Info.DT.CRY-1],ends with “FAIL”; or
+3,,164,25,E.Info.DT.CRY-1].,
+3,,165,6,E.Info.CRY-1.Assets.Cryptography],is complete.
+3,,165,11,E.Info.CRY-1.Assets.Cryptography].,
+3,,165,17,E.Info.CRY-1.Assets.Cryptography].,
+3,,165,19,E.Info.CRY-1.Assets.Cryptography].,
+3,,165,24,E.Info.CRY-1.Assets.Cryptography],is implemented as it is documented.
+3,,165,28,E.Info.CRY-1.Assets.Cryptography],check whether
+3,,165,35,E.Info.CRY-1.Assets.Cryptography],is found.
+3,,165,37,E.Info.CRY-1.Assets.Cryptography],is found.
+3,,172,12,E.Info.xxxxx],where
+3,,172,13,E.Info.ACM-1.ACM],is the
+3,,172,15,E.Info.AUM-1-1.ACM.NetworkInterface],includes a description of network
+3,,172,25,E.Info.DT.xxxxxx],and
